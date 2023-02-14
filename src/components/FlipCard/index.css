@@ -22,3 +22,44 @@
   .flip-card-back {
     transform: rotateY(180deg);
   }
+
+  #post1_img {
+    width:100%;
+    height:100%;
+    background-image: url('../../assets/images/banner1.png');
+    background-size: cover;
+    background-position: center;
+    clear:both;
+    position:absolute;
+  }
+ 
+  #post2_img {
+    width:100%;
+    height:100%;
+    background-image: url('../../assets/images/banner2.png');
+    background-size: cover;
+    background-position: center;
+    clear:both;
+    position:absolute;
+  }
+ 
+  #post3_img {
+    width:100%;
+    height:100%;
+    background-image: url('../../assets/images/banner3.png');
+    background-size: cover;
+    background-position: center;
+    clear:both;
+    position:absolute;
+  }
+ 
+  #post4_img {
+    width:100%;
+    height:100%;
+    background-image: url('../../assets/images/banner4.png');
+    background-size: cover;
+    background-position: center;
+    clear:both;
+    position:absolute;
+  }
+ 

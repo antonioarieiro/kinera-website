@@ -25,17 +25,17 @@ const Participation = () => {
             <div className="my-20 mx-10 flex flex-col gap-10">
                 <div className="w-full flex md:flex-row flex-col-reverse items-center">
                     <DropItem
-                        question="Creators"
-                        answer={<p><strong>CREATORS</strong> select films and videos from curated lists and use them to create television channels. Such channels may be complemented with interviews and other sorts of live feed events.</p>}
-                    />
-                    <img src={img01} alt="img01" className="w-[360px]" />
-                </div>
-                <div className="w-full flex md:flex-row-reverse flex-col-reverse items-center">
-                    <DropItem
                         question="Curators"
                         answer={<p><strong>CURATORS</strong> are organized within a social network. They act on many levels, from gathering films and videos found on the internet or decentralized environments, to creating competitions with them. They may also vote for the best channels.</p>}
                     />
                     <img src={img02} alt="img02" className="w-[360px]" />
+                </div>
+                <div className="w-full flex md:flex-row-reverse flex-col-reverse items-center">
+                    <DropItem
+                        question="Creators"
+                        answer={<p><strong>CREATORS</strong> select films and videos from curated lists and use them to create television channels. Such channels may be complemented with interviews and other sorts of live feed events.</p>}
+                    />
+                    <img src={img01} alt="img01" className="w-[360px]" />
                 </div>
 
                 <div className="w-full flex md:flex-row flex-col-reverse items-center">

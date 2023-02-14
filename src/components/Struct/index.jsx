@@ -30,28 +30,32 @@ const Struct = () => {
 
             <div className="w-full flex md:flex-row flex-col flex-nowrap justify-center gap-5 px-5 mt-20">
                 <FlipCard
+                    id='post1_img'
                     title="Rankings"
                     imgUrl={asset01}
                     icon={<FaTrophy className="text-6xl my-[50px]" />}
-                    backDesc="Is both a staking mechanism and a collection of curated lists. Stakers may earn rewards by assigning tokens to their favorite ranking lists for a set period of time"
+                    backDesc="Ranking is both a staking mechanism and a collection of curated lists. Stakers may earn rewards by assigning tokens to their favorite ranking lists for a set period of time"
                 />
                 <FlipCard
+                    id='post2_img'
                     title="Constellations"
                     imgUrl={asset02}
-                    icon={<AiOutlineStar className="text-6xl my-[50px]" />}
-                    backDesc="Is the second layer for curation inside Kinergy. In this competition arena, curators may vote on their best personal choices, in direct competition with other users. This is where curators test their cinema tastes, hidden gems take the spotlight and conviction intersects with the community's truth"
+                    icon={<AiOutlineStar className="text-6xl my-[30px]" />}
+                    backDesc="Constellation is the second layer for curation inside Kinergy. In this competition arena, curators may vote on their best personal choices, in direct competition with other users. This is where curators test their cinema tastes, hidden gems take the spotlight and conviction intersects with the community's truth"
                 />
                 <FlipCard
+                    id='post3_img'
                     title="TVChain SEE"
                     imgUrl={asset03}
                     icon={<FiMonitor className="text-6xl my-[50px]" />}
-                    backDesc="Is a protocol for human and automated film channel creation, with a wide range of content originating from Constellations. These channels may include a subscription fee to ensure copyright respect, or be free to access by everyone"
+                    backDesc="TVChain SEE is a protocol for human and automated film channel creation, with a wide range of content originating from Constellations. These channels may include a subscription fee to ensure copyright respect, or be free to access by everyone"
                 />
                 <FlipCard
+                    id='post4_img'
                     title="Kine Makers"
                     imgUrl={asset04}
                     icon={<BsPlusLg className="text-6xl my-[50px]" />}
-                    backDesc="Is a crowdfunding platform for moving pictures, where patrons buy tokens that represent film rights and are rewarded each time their films generate revenue"
+                    backDesc="Kine Makers is a crowdfunding platform for moving pictures, where patrons buy tokens that represent film rights and are rewarded each time their films generate revenue"
                 />
             </div>
         </div>
