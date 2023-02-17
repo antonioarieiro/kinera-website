@@ -18,6 +18,8 @@ import Welcome from "./components/Welcome";
 import Roadmap from "./components/Rodmap";
 import Subscribe from "./components/Subscribe";
 
+
+
 const App = () => {
 
     const [openModal, setOpenModal] = React.useState(false)
