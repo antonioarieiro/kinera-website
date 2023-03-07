@@ -17,6 +17,7 @@ import Team from "./components/Team";
 import Welcome from "./components/Welcome";
 import Roadmap from "./components/Rodmap";
 import Subscribe from "./components/Subscribe";
+import Social from "./components/Social/index.jsx";
 
 
 
@@ -46,10 +47,12 @@ const App = () => {
                 openModal && <Subscribe openModal={openModal} setOpenModal={setOpenModal}/>
             }
             </div>
-            
+            <Social />
             <Footer />
         </div>
     )
 }
 
 export default App;
+
+

@@ -1,25 +1,48 @@
 import { useState } from 'react';
 import {
     TextField, FormControl, FormLabel, RadioGroup as MuiRadioGroup,
-    Radio, Select, MenuItem, InputLabel, TextareaAutosize
+    Radio, Select, MenuItem, InputLabel, TextareaAutosize, FormControlLabel
 } from '@mui/material';
+import axios from 'axios';
 
 import fundo07 from '../../assets/images/fundo07.png';
 
 const Subscribe = (props) => {
-    const { setOpenModal, openModal } = props;
-    const [description, setDescription] = useState('');
-    const [title, setTitle] = useState('');
-    const [image, setImage] = useState('');
+    const {setOpenModal, openModal } = props;
+    const [wantToBeYouTuber, setWantToBeYouTuber] = useState(false);
+    const [alreadyYouTuber, setAlreadyYouTuber] = useState(false);
+    const [pickVideos, setPickVideos] = useState(false);
+    const [createTelevision, setCreateTelevision] = useState(false);
+    const [participate, setParticipate] = useState(false);
+    const [receiveInformation, setReceiveInformation] = useState(false);
+    const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
 
-    // { name, email, password, gender }: FormValues
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
         setOpenModal(false);
-        alert('Subscribed')
-    }
+        const data = {
+            email: email,
+            name: name,
+            wantToBeYouTuber: wantToBeYouTuber,
+            alreadyYouTuber: alreadyYouTuber,
+            pickVideos: pickVideos,
+            createTelevision: createTelevision,
+            participate: participate,
+            receiveInformation: receiveInformation,
+        };
+
+        try {
+            const response = await axios.post('/api/subscribe', data);
+            console.log(response.data);
+            alert('Subscribed');
+        } catch (error) {
+            console.error(error);
+            alert('An error occurred while submitting the form');
+        }
+    };
 
     return (
-        <div className="w-full h-[60vh] bg-white" style={{
+        <div className="w-full h-auto bg-white" style={{
             backgroundImage: `url(${fundo07})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -30,14 +53,17 @@ const Subscribe = (props) => {
             marginTop: '0% auto auto',
             width: '83%',
         }}>
-            <div className="w-full h-full bg-[#9d3d9d43] flex items-end py-32 md:px-20 sm:px-10 px-5">
-                <div className='flex flex-col gap-10 sm:w-1/2 w-full'>
+            <div className="w-full h-auto bg-[#9d3d9d43] flex items-end py-32 md:px-20 sm:px-10 px-5">
+                <div className='flex flex-col gap-10 sm:w-1/1 w-full'>
 
+        
                 <TextField
-                        name="email"
-                        label="e-mail"  
+                        name="name"
+                        label="Name"  
                         className="my-2 text-white"
                         variant="standard"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                         sx={{
                             input: { color: "white", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px' },
                             label: { color: "white", fontSize: "1.2rem", fontWeight: 800, paddingLeft: '15px' },
@@ -46,10 +72,73 @@ const Subscribe = (props) => {
                                 boxShadow: "0 0 10px rgba(255,255,255,0.3)",
                             },
                         }}
-                        value={image}
-                        onChange={(e) => setImage(e.target.value)}
-                    />
+                />
 
+                <TextField
+                        name="email"
+                        label="e-mail"  
+                        className="my-2 text-white"
+                        variant="standard"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        sx={{
+                            input: { color: "white", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px' },
+                            label: { color: "white", fontSize: "1.2rem", fontWeight: 800, paddingLeft: '15px' },
+                            "& .MuiInputBase-root": {
+                                border: "2px solid white",
+                                boxShadow: "0 0 10px rgba(255,255,255,0.3)",
+                            },
+                        }}
+                />
+
+                    <FormControl component="fieldset">
+                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I want to be a YouTuber, a video or a cinema professional.</FormLabel>
+                        <MuiRadioGroup row aria-label="wantToBeYouTuber" name="wantToBeYouTuber" value={wantToBeYouTuber.toString()} onChange={(e) => setWantToBeYouTuber(e.target.value === 'true')}>
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                        </MuiRadioGroup>
+                    </FormControl>
+
+                    <FormControl component="fieldset">
+                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I'm already a YouTuber, a video or cinema professional.</FormLabel>
+                        <MuiRadioGroup row aria-label="alreadyYouTuber" name="alreadyYouTuber" value={alreadyYouTuber.toString()} onChange={(e) => setAlreadyYouTuber(e.target.value === 'true')}>
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                        </MuiRadioGroup>
+                    </FormControl>
+
+                    <FormControl component="fieldset">
+                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I want to pick videos from youtube or TikTok and organize competitions with them.</FormLabel>
+                        <MuiRadioGroup row aria-label="pickVideos" name="pickVideos" value={pickVideos.toString()} onChange={(e) => setPickVideos(e.target.value === 'true')}>
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                        </MuiRadioGroup>
+                    </FormControl>
+
+                    <FormControl component="fieldset">
+                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I want to create television channels from lists with the best videos.</FormLabel>
+                        <MuiRadioGroup row aria-label="createTelevision" name="createTelevision" value={createTelevision.toString()} onChange={(e) => setCreateTelevision(e.target.value === 'true')}>
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                        </MuiRadioGroup>
+                    </FormControl>
+
+                    <FormControl component="fieldset">
+                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I want to participate in the funding rounds of this project.</FormLabel>
+                        <MuiRadioGroup row aria-label="participate" name="participate" value={participate.toString()} onChange={(e) => setParticipate(e.target.value === 'true')}>
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                        </MuiRadioGroup>
+                    </FormControl>
+
+                    <FormControl component="fieldset">
+                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I want to receive information about the project.</FormLabel>
+                        <MuiRadioGroup row aria-label="receiveInformation" name="receiveInformation" value={receiveInformation.toString()} onChange={(e) => setReceiveInformation(e.target.value === 'true')}>
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                        </MuiRadioGroup>
+                    </FormControl>
+                
                     <div className='w-full flex justify-between'>
                         <button
                             className='px-2 py-1 w-2/5 bg-white hover:bg-gray-100 hover:scale-105 duration-500 text-[#FF0A78] font-bold rounded-md'
@@ -65,7 +154,7 @@ const Subscribe = (props) => {
                             Cancel
                         </button>
                     </div>
-                </div>
+                </div>      
             </div>
         </div>
     );
