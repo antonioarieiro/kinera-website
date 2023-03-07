@@ -1,69 +1,69 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const nodemailer = require('nodemailer');
-const smtpTransport = require('nodemailer-smtp-transport');
+  const express = require('express');
+  const mongoose = require('mongoose');
+  const nodemailer = require('nodemailer');
+  const smtpTransport = require('nodemailer-smtp-transport');
 
-const app = express();
-app.use(express.json());
+  const app = express();
+  app.use(express.json());
 
-// Conexão com o banco de dados MongoDB
-mongoose.connect('mongodb+srv://kinenewsletter:dRRJg4vw3GHT99PV-jxdoe1b-shard-00-02.yxygkgz.mongodb.net/formulario?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})  
-  .then(() => console.log('Conectado ao MongoDB'))
-  .catch((err) => console.log('Erro ao conectar ao MongoDB', err));
+  // Conexão com o banco de dados MongoDB
+  mongoose.connect('mongodb+srv://kinenewsletter:dRRJg4vw3GHT99PV-jxdoe1b-shard-00-02.yxygkgz.mongodb.net/formulario?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })  
+    .then(() => console.log('Conectado ao MongoDB'))
+    .catch((err) => console.log('Erro ao conectar ao MongoDB', err));
 
-// Configurações do servidor de e-mail
-const transporter = nodemailer.createTransport(smtpTransport({
-  host: 'smtp.seudominio.com',
-  port: 587,
-  auth: {
-    user: 'seuemail@seudominio.com',
-    pass: 'suasenha',
-  },
-  tls: {
-    rejectUnauthorized: false,
-  },
-}));
+  // Configurações do servidor de e-mail
+  const transporter = nodemailer.createTransport(smtpTransport({
+    host: 'smtp.seudominio.com',
+    port: 587,
+    auth: {
+      user: 'seuemail@seudominio.com',
+      pass: 'suasenha',
+    },
+    tls: {
+      rejectUnauthorized: false,
+    },
+  }));
 
-// Criação do modelo do documento do formulário
-const formularioSchema = new mongoose.Schema({
-  email: { type: String, required: true },
-  name: { type: String, required: true },
-  wantToBeYouTuber: Boolean,
-  alreadyYouTuber: Boolean,
-  pickVideos: Boolean,
-  createTelevision: Boolean,
-  participate: Boolean,
-  receiveInformation: Boolean,
-});
+  // Criação do modelo do documento do formulário
+  const formularioSchema = new mongoose.Schema({
+    email: { type: String, required: true },
+    name: { type: String, required: true },
+    wantToBeYouTuber: Boolean,
+    alreadyYouTuber: Boolean,
+    pickVideos: Boolean,
+    createTelevision: Boolean,
+    participate: Boolean,
+    receiveInformation: Boolean,
+  });
 
-const Formulario = mongoose.model('Formulario', formularioSchema);
+  const Formulario = mongoose.model('Formulario', formularioSchema);
 
-// Rota para receber as informações do formulário
-app.post('/api/subscribe', async (req, res) => {
-  const formulario = new Formulario(req.body);
-  try {
-    await formulario.save();
-    // Envio de e-mail de confirmação
-    await transporter.sendMail({
-      from: 'seuemail@seudominio.com',
-      to: formulario.email,
-      subject: 'Confirmação de inscrição',
-      html: 'Sua inscrição foi confirmada.',
-    });
-    res.send(formulario);
-  } catch (err) {
-    res.status(500).send(err);
-  }
-});
+  // Rota para receber as informações do formulário
+  app.post('/api/subscribe', async (req, res) => {
+    const formulario = new Formulario(req.body);
+    try {
+      await formulario.save();
+      // Envio de e-mail de confirmação
+      await transporter.sendMail({
+        from: 'seuemail@seudominio.com',
+        to: formulario.email,
+        subject: 'Confirmação de inscrição',
+        html: 'Sua inscrição foi confirmada.',
+      });
+      res.send(formulario);
+    } catch (err) {
+      res.status(500).send(err);
+    }
+  });
 
-// Inicialização do servidor
-const port = process.env.PORT || 5000;
-app.listen(port, () => {
-  console.log(`Servidor iniciado na porta ${port}`);
-});
+  // Inicialização do servidor
+  const port = process.env.PORT || 5000;
+  app.listen(port, () => {
+    console.log(`Servidor iniciado na porta ${port}`);
+  });
 
 
 /* 
