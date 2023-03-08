@@ -1,6 +1,6 @@
 import React,{ useEffect } from "react";
 import Aos from "aos";
-import './server';
+
 
 import 'aos/dist/aos.css';
 

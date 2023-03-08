@@ -22,7 +22,7 @@ const Social = () => {
                 <h1 className="sm:text-[60px] p-20 text-3xl font-semibold text-center">KINERGY SOCIAL</h1>
 
                 <div className="w-full flex justify-center flex-wrap gap-10">
-                    <a href='https://discord.com' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
+                    <a href='https://discord.gg/VxhMApAGMn' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
                         <BsDiscord color='#CC3366' />
                         <span>Discord</span>
                     </a>

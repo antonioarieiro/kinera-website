@@ -3,6 +3,7 @@ import {
     TextField, FormControl, FormLabel, RadioGroup as MuiRadioGroup,
     Radio, Select, MenuItem, InputLabel, TextareaAutosize, FormControlLabel
 } from '@mui/material';
+import countries from 'countries-list';
 import axios from 'axios';
 
 import fundo07 from '../../assets/images/fundo07.png';
@@ -17,8 +18,26 @@ const Subscribe = (props) => {
     const [receiveInformation, setReceiveInformation] = useState(false);
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
+    const [nationality, setNationality] = useState('');
+
+    const countryOptions = Object.keys(countries.countries).map((code) => (
+        <MenuItem key={code} value={code}>
+          {countries.countries[code].name}
+        </MenuItem>
+      ));
+
+    const validateEmail = (email) => {
+        // regex pattern for email validation
+        const re = /\S+@\S+\.\S+/;
+        return re.test(email);
+      };
 
     const handleSubmit = async () => {
+        // validate email before submitting the form
+        if (!validateEmail(email)) {
+            alert('Please enter a valid email address.');
+        return;
+        }
         setOpenModal(false);
         const data = {
             email: email,
@@ -32,13 +51,13 @@ const Subscribe = (props) => {
         };
 
         try {
-            const response = await axios.post('/api/subscribe', data);
+            const response = await axios.post('http://localhost:3001/api/subscribe', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
             console.log(response.data);
             alert('Subscribed');
         } catch (error) {
             console.error(error);
             alert('An error occurred while submitting the form');
-        }
+        }clearImmediate
     };
 
     return (
@@ -90,6 +109,45 @@ const Subscribe = (props) => {
                             },
                         }}
                 />
+
+                    <FormControl>
+                    <InputLabel id="nationality-label">Nationality</InputLabel>
+                    <Select
+                        labelId="nationality-label"
+                        id="nationality"
+                        value={nationality}
+                        onChange={(e) => setNationality(e.target.value)}
+                        label="Nationality"
+                        sx={{ 
+                            width: '100%',  
+                            '& .MuiInputLabel-root': { 
+                                color: 'white', 
+                            }, 
+                            '& .MuiSelect-select': { 
+                                color: 'white', 
+                                fontSize: '1.2rem', 
+                                fontWeight: 500, 
+                                paddingLeft: '15px', 
+                                border: '2px solid white', 
+                                boxShadow: '0 0 10px rgba(255,255,255,0.3)',
+                                borderRadius: '5px',
+                                '&:focus': { 
+                                    backgroundColor: 'transparent',
+                                    borderRadius: '5px',
+                                    borderColor: '#ffffff !important'
+                                } 
+                            }, 
+                            '& .MuiOutlinedInput-notchedOutline': { 
+                                border: '2px solid white' 
+                            },
+                            "& .MuiSvgIcon-root": {
+                                color: "white",},
+                            
+                        }}
+                    >
+                        {countryOptions}
+                    </Select>
+                    </FormControl>
 
                     <FormControl component="fieldset">
                         <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem'  }}>I want to be a YouTuber, a video or a cinema professional.</FormLabel>
