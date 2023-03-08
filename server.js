@@ -32,6 +32,7 @@ const port = 3001
     createTelevision: Boolean,
     participate: Boolean,
     receiveInformation: Boolean,
+    nationality: String,
   });
 
   const Formulario = mongoose.model('Formulario', formularioSchema);

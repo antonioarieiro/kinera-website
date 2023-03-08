@@ -48,6 +48,7 @@ const Subscribe = (props) => {
             createTelevision: createTelevision,
             participate: participate,
             receiveInformation: receiveInformation,
+            nationality: nationality,
         };
 
         try {
