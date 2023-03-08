@@ -52,7 +52,7 @@ const Subscribe = (props) => {
         };
 
         try {
-            const response = await axios.post('/api/subscribe', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
+            const response = await axios.post('https://scintillating-cascaron-8f47da.netlify.app/api/subscribe', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
             console.log(response.data);
             alert('Subscribed');
         } catch (error) {
