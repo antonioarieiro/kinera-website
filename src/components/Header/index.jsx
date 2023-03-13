@@ -17,7 +17,7 @@ const Header = () => {
                 />
             </div>
             <ul className="lg:flex hidden gap-x-8">
-                <li className="text-base hover:text-[#DDD]"><a href="/#home">Home</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#home">Home</a></li>
                 <li className="group relative">
                     <div className="flex items-center gap-2">
                         <a href="/#about" className="text-white group-hover:text-[#FF0A78] text-base">Kinergy Platform</a>
@@ -33,14 +33,16 @@ const Header = () => {
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#kine">Kine Token</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#struct">Kinergy Structure</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#participation">Types of Participation</a></li>
-                            <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#roadmap">Roadmap</a></li>
+                            <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#">Lightpaper</a></li>
                         </ul>
                     </nav>
                 </li>
-                <li className="text-base hover:text-[#DDD]"><a href="/#foundation">Kine Foundation</a></li>
-                <li className="text-base hover:text-[#DDD]"><a href="/#funding">Funding</a></li>
-                <li className="text-base hover:text-[#DDD]"><a href="/#community">Community</a></li>
-                <li className="text-base hover:text-[#DDD]"><a href="/">Blog</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#foundation">Kine Foundation</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#community">Community</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#funding">Funding</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#newsletter">Newsletter</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#blog">Blog</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#social">Social Links</a></li>
             </ul>
 
             <ul className={`w-full flex-col justify-center items-center gap-x-8 pt-10 ${showDropDownMenu ? 'flex' : 'hidden'}`}>
@@ -57,13 +59,15 @@ const Header = () => {
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#kine">Kine Token</a></li>
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#struct">Kinergy Structure</a></li>
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#participation">Types of Participation</a></li>
-                        <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/">Roadmap</a></li>
+                        <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/">Social</a></li>
                     </ul>
                 </li>
                 <li className="text-base hover:text-[#DDD]"><a href="/#foundation">Kine Foundation</a></li>
-                <li className="text-base hover:text-[#DDD]"><a href="/#funding">Funding</a></li>
                 <li className="text-base hover:text-[#DDD]"><a href="/#community">Community</a></li>
+                <li className="text-base hover:text-[#DDD]"><a href="/#funding">Funding</a></li>
+                <li className="text-base hover:text-[#DDD]"><a href="/#newsletter">Newsletter</a></li>
                 <li className="text-base hover:text-[#DDD]"><a href="/">Blog</a></li>
+                <li className="text-base hover:text-[#DDD]"><a href="/#social">Social Links</a></li>
             </ul>
         </header>
     );

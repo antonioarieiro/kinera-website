@@ -82,25 +82,25 @@ const Community = () => {
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
                         question="1. The community is the key to making all this possible"
-                        answer="Kinergy was devised as a tool to classify public videos from the most widely-used platforms, to be a protocol for the creation of television channels and to raise money for both small and large scale film productions. Its architecture is designed to reward participants' actions such as: creating video contests, curating content or new television channels, or simply watching videos and betting on their personal favorites. The community is the key to making all this possible."
+                        answer="Kinergy is a decentralized platform that aims to revolutionize the film industry. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund film productions of all sizes.The platform is designed to incentivize participation through rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favorite videos. The strength of Kinergy lies in its community-driven approach, where every participant plays a crucial role in its success."
                         onClick={() => { setShowAnswer1(!showAnswer1) }}
                         showAnswer={showAnswer1}
                     />
                     <DropInfo
                         question="2. Decentralization is fundamental"
-                        answer="Every action taken inside Kinergy promotes both user and platform growth. We believe that everyone can contribute to the understanding of the bigger picture the world asks us to make sense of. This implies creating solutions that enable synergies between social and technological communities. Therefore, we are building a platform that envisions open decentralized networks as the future of human coordination."
+                        answer="Every action taken on the platform contributes to its growth and the growth of its users. Our goal is to bring together social and technological communities to create solutions that make sense of the complex world we live in. That's why we're building a platform that leverages the power of decentralized networks to drive human coordination into the future."
                         onClick={() => { setShowAnswer2(!showAnswer2) }}
                         showAnswer={showAnswer2}
                     />
                     <DropInfo
                         question="3. Kine Foundation's first founding act"
-                        answer="We want to use blockchain technology to give media content a platform for the creation of meaningful interoperability, to enhance collective actions that create new social value, align online communities and build on top of this infrastructure. To make this possible, many forms of community funding are included in the protocol and in Kine Foundation's first founding act - open competitions that generate token airdrops for the participants."
+                        answer="We want to use blockchain technology to give media content a platform for the creation of a meaningful interoperability, to enhance collective actions that create new social value, align online communities and build on top of this infrastructure. To facilitate this, we have included various forms of offers to the community, including token airdrops."
                         onClick={() => { setShowAnswer3(!showAnswer3) }}
                         showAnswer={showAnswer3}
                     />
                     <DropInfo
                         question="4. Register as a curator and be creative"
-                        answer="To ensure a sufficient number of curators at the platform's launch, we are creating a series of contests that reward participants with tokens. This is done as a means of jump-starting the network through meaningful content, enabling a dynamic for the construction of television channels. Subscribe to our newsletter in case you are interested in receiving information."
+                        answer="To ensure a robust and diverse community of curators and to jumpstart the platform, we will be launching a series of incentivized contests to reward with tokens participants who submit meaningful and high-quality content. This initiative encourages the creation of constellations aligned with the platform goals. If you're interested in participating, you can register here to be updated on future contests leading to airdrops."
                         onClick={() => { setShowAnswer4(!showAnswer4) }}
                         showAnswer={showAnswer4}
                     />
@@ -155,17 +155,15 @@ const Community = () => {
             >
                 <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING AND SEED FUNDING</h1>
 
-                <h2 className="font-semibold text-center text-[28px] mt-5 mb-10 text-[#FF0A78]">What has been done. how can we do it</h2>
-
                 <h2 className="font-semibold text-center text-[28px] mt-20" data-aos="zoom-in">Blockchain technology disrupts and overcomes many problems inherent to startup financing.</h2>
                 
                 <div className="w-full flex flex-col gap-10 mt-20" data-aos="zoom-in">
-                    <p className="text-center text-[19px] font-extralight">The wide adoption of crypto is mainly due to Ethereum’s financing model and Bitcoin’s permissionless mining access since its inception. Until 2015, there was no venture capital or angel investments helping projects to grow. Today, single investors are being left out of funding opportunities, making this ecosystem more centralized.</p>
-                    <p className="text-center text-[19px] font-extralight">Until 2020 protocols and financial applications dominated the landscape. When NFTs entered the space capturing everybody's imagination, blockchain technology matured beyond its financial roots, and tokens started to have a practical utility in people's lives.</p>
-                    <p className="text-center text-[19px] font-extralight">Our proposal is to use the Kine token to curate content in the Kinergy platform. We believe that curation tokens will emerge in the next few years and have the same capacity to capture people's imagination that NFTs had. </p>
-                    <p className="text-center text-[19px] font-extralight">When we talk about curation, to maintain voting systems exemption from users that have an initial advantage of having more voting power, participants’ contributions in the different funding opportunities must be capped. This makes curation tokens' first goal the creation of a community of interested users and will be dedicating a substantial amount of creativity to this task.</p>
-                    <p className="text-center text-[19px] font-extralight">Seed funders will have a small advantage in the token price but not in the number of tokens received. This practice is designed to multiply community members and this will strengthen and add credibility to the information curated in the Kinergy platform.</p>
-                    <p className="text-center text-[19px] font-extralight">Be the first to be informed about the funding opportunities by subscribing to our newletter.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">The wide adoption of crypto is mainly due to Ethereum’s financing model and Bitcoin’s permissionless mining access since its inception. Until 2015, there was no venture capital or angel investments helping projects to grow. Today, single investors are being left out of funding opportunities, making this ecosystem more centralized.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Until 2020 protocols and financial applications dominated the landscape. When NFTs entered the space capturing everybody's imagination, blockchain technology matured beyond its financial roots, and tokens started to have a practical utility in people's lives.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Our proposal is to use the Kine token to curate content in the Kinergy platform. We believe that curation tokens will emerge in the next few years and have the same capacity to capture people's imagination that NFTs had. </p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">When we talk about curation, to maintain voting systems exemption from users that have an initial advantage of having more voting power, participants’ contributions in the different funding opportunities must be capped. This makes curation tokens' first goal the creation of a community of interested users and will be dedicating a substantial amount of creativity to this task.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Seed funders will have a small advantage in the token price but not in the number of tokens received. This practice is designed to multiply community members and this will strengthen and add credibility to the information curated in the Kinergy platform.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">If you want to participate and get information about the funding process subscribe our newsletter HERE.</p>
                 </div>
             </div>
         </div>

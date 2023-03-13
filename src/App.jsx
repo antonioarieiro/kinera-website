@@ -1,5 +1,6 @@
-import { useEffect } from "react";
+import React,{ useEffect } from "react";
 import Aos from "aos";
+
 
 import 'aos/dist/aos.css';
 
@@ -16,8 +17,15 @@ import Struct from "./components/Struct";
 import Team from "./components/Team";
 import Welcome from "./components/Welcome";
 import Roadmap from "./components/Rodmap";
+import Subscribe from "./components/Subscribe";
+import Social from "./components/Social/index.jsx";
+import Blog from "./components/Blog";
+
+
 
 const App = () => {
+
+    const [openModal, setOpenModal] = React.useState(false)
 
     useEffect(() => {
         Aos.init({
@@ -35,7 +43,14 @@ const App = () => {
             <Participation />
             <Foundation />
             <Community />
-            <Newsletter />
+            <div className="relative w-full flex items-center justify-center">
+            <Newsletter openModal={openModal} setOpenModal={setOpenModal}/>
+            {
+                openModal && <Subscribe openModal={openModal} setOpenModal={setOpenModal}/>
+            }
+            </div>
+            <Blog />
+            <Social />
             <Footer />
         </div>
     )
