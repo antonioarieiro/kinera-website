@@ -53,9 +53,9 @@ const Welcome = () => {
 
                 <div className="w-full flex justify-center">
                     <a className="px-10 py-3 rounded-3xl flex items-center gap-4 bg-white text-black font-bold" href="/#about">
-                        <AiOutlineCaretDown className="text-red-600 text-xl" />
+                        <AiOutlineCaretDown className="text-pink-600 text-xl" />
                         <p>Know more</p>
-                        <AiOutlineCaretDown className="text-red-600 text-xl" />
+                        <AiOutlineCaretDown className="text-pink-600 text-xl" />
                     </a>
                 </div>
             </div>

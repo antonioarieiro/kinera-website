@@ -18,7 +18,7 @@ const Participation = () => {
                 TYPES OF PARTICIPATION
             </h1>
 
-            <p className="text-[19px] text-center font-bold mt-20" data-aos="zoom-in">
+            <p className="text-[28px] text-center font-bold mt-20" data-aos="zoom-in">
                 The network's main roles are curators and creators, and everyone can become either.
             </p>
 

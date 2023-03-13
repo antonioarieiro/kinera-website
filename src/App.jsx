@@ -49,13 +49,11 @@ const App = () => {
                 openModal && <Subscribe openModal={openModal} setOpenModal={setOpenModal}/>
             }
             </div>
-            <Social />
             <Blog />
+            <Social />
             <Footer />
         </div>
     )
 }
 
 export default App;
-
-

@@ -197,7 +197,7 @@ const Subscribe = (props) => {
                             <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
                         </MuiRadioGroup>
                     </FormControl>
-                
+                    <br></br>
                     <div className='w-full flex justify-between'>
                         <button
                             className='px-2 py-1 w-2/5 bg-white hover:bg-gray-100 hover:scale-105 duration-500 text-[#FF0A78] font-bold rounded-md'
@@ -212,6 +212,15 @@ const Subscribe = (props) => {
                         >
                             Cancel
                         </button>
+                        <div style={{
+                            backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            zIndex: -5,
+                        }} />
                     </div>
                 </div>      
             </div>

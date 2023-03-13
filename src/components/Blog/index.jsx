@@ -20,30 +20,27 @@ const Blog = () => {
   };
 
   return (
-    <>
-      <div
-        className="w-full bg-fixed bg-center py-16"
-        style={{
-          backgroundImage: `url(${Fundo04})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="h-[40vh] w-full flex flex-col items-center justify-center gap-20">
-          <h1 className="text-[40px] font-bold text-white">READ OUR BLOG</h1>
-        </div>
-      </div>
-      <div className="container mx-auto py-10">
+    <div
+      id="blog"
+      className="w-full bg-fixed bg-center py-16 flex flex-col items-center"
+      style={{
+        backgroundImage: `url(${Fundo04})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] mt-10">READ OUR BLOG</h1>
+      <div className="container mx-auto py-10 flex flex-col items-center">
         {selectedPost ? (
-          <div>
-            <button onClick={() => setSelectedPost(null)}>Back to posts</button>
+          <div className="w-full">
+            <button className="text-pink-500 mb-4" onClick={() => setSelectedPost(null)}>Back to posts</button>
+            <br className="w-full mb-4"/>
             <h2>{selectedPost.title}</h2>
             <p dangerouslySetInnerHTML={{ __html: selectedPost.content }} />
           </div>
         ) : (
-          <div>
-            <h2 className="text-3xl font-bold mb-4 text-center">Select a post to read</h2>
+          <div className="w-full">
             <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {posts.map(post => (
                 <li
@@ -59,8 +56,8 @@ const Blog = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
-export default Blog;  
+export default Blog;
