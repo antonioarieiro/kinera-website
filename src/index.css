@@ -147,7 +147,7 @@ button { cursor: pointer; }
   opacity: 0.2;
 }
 
-#social::before {
+#social {
   content: "";
   position: absolute;
   top: 0;
