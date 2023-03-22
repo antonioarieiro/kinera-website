@@ -20,7 +20,7 @@ const Header = () => {
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#home">Home</a></li>
                 <li className="group relative">
                     <div className="flex items-center gap-2">
-                        <a href="/#about" className="text-white group-hover:text-[#FF0A78] text-base">Kinergy Platform</a>
+                        <a href="/#about" className="text-white group-hover:text-[#FF0A78] text-base">Kinergy</a>
                         <IoIosArrowDown className="group-hover:text-white text-[#FF0A78]" />
                     </div>
 
@@ -37,19 +37,19 @@ const Header = () => {
                         </ul>
                     </nav>
                 </li>
-                <li className="text-base hover:text-[#FF0A78]"><a href="/#foundation">Kine Foundation</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#foundation">Foundation</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#community">Community</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#funding">Funding</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#newsletter">Newsletter</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#blog">Blog</a></li>
-                <li className="text-base hover:text-[#FF0A78]"><a href="/#social">Social Links</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="/#social">Social</a></li>
             </ul>
 
             <ul className={`w-full flex-col justify-center items-center gap-x-8 pt-10 ${showDropDownMenu ? 'flex' : 'hidden'}`}>
                 <li className="text-base hover:text-[#DDD]"><a href="/#home">Home</a></li>
                 <li className="group">
                     <div className="flex items-center gap-2">
-                        <span className="text-white group-hover:text-[#FF0A78] text-base">Kinergy Platform</span>
+                        <span className="text-white group-hover:text-[#FF0A78] text-base">Kinergy</span>
                         <IoIosArrowDown className="group-hover:text-white text-[#FF0A78]" />
                     </div>
 
@@ -62,12 +62,12 @@ const Header = () => {
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/">Social</a></li>
                     </ul>
                 </li>
-                <li className="text-base hover:text-[#DDD]"><a href="/#foundation">Kine Foundation</a></li>
+                <li className="text-base hover:text-[#DDD]"><a href="/#foundation">Foundation</a></li>
                 <li className="text-base hover:text-[#DDD]"><a href="/#community">Community</a></li>
                 <li className="text-base hover:text-[#DDD]"><a href="/#funding">Funding</a></li>
                 <li className="text-base hover:text-[#DDD]"><a href="/#newsletter">Newsletter</a></li>
                 <li className="text-base hover:text-[#DDD]"><a href="/">Blog</a></li>
-                <li className="text-base hover:text-[#DDD]"><a href="/#social">Social Links</a></li>
+                <li className="text-base hover:text-[#DDD]"><a href="/#social">Social</a></li>
             </ul>
         </header>
     );
