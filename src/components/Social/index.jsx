@@ -18,7 +18,7 @@ const Social = () => {
                 
             }}
         >
-            <div className="min-h-[40vh] flex flex-col items-center md:px-20 px-2 gap-y-40">
+            <div className="min-h-[30vh] flex flex-col items-center md:px-20 px-2 gap-y-20">
                 <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] mt-10">KINERGY SOCIAL</h1>
 
                 <div className="w-full flex justify-center flex-wrap gap-10">
