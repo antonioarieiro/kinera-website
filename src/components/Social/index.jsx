@@ -30,6 +30,10 @@ const Social = () => {
                         <BsYoutube color='#CC3366' />
                         <span>Youtube</span>
                     </a>
+                    <a href='https://medium.com/@kine.newsletter' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
+                        <BsMedium color='#CC3366' />
+                        <span>Medium</span>
+                    </a>
                     <a href='https://linkedin' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
                         <BsLinkedin color='#CC3366' />
                         <span>Linkedin</span>
@@ -37,10 +41,6 @@ const Social = () => {
                     <a href='https://gmail.com' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
                         <IoMail color='#CC3366' />
                         <span>Mail</span>
-                    </a>
-                    <a href='https://medium.com/@kine.newsletter' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
-                        <BsMedium color='#CC3366' />
-                        <span>Medium</span>
                     </a>
                 </div>
             </div>

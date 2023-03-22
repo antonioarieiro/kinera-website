@@ -15,6 +15,45 @@ const Blog = () => {
     fetchData();
   }, []);
 
+  useEffect(() => {
+    const eventSource = new EventSource('https://api.medium.com/v1/timeline/@Kine.Newsletter');
+    
+    eventSource.onmessage = event => {
+      const data = JSON.parse(event.data);
+      
+      if (data.payload && data.payload.referenceType === 'Post') {
+        const postId = data.payload.references.Post[data.payload.postId].uniqueSlug;
+        const postIndex = posts.findIndex(post => post.guid === postId);
+        
+        if (postIndex !== -1) {
+          const updatedPosts = [...posts];
+          updatedPosts.splice(postIndex, 1);
+          setPosts(updatedPosts);
+        } else {
+          const fetchData = async () => {
+            const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@Kine.Newsletter');
+            const data = await response.json();
+            setPosts(data.items);
+          };
+    
+          fetchData();
+        }
+      } else if (data.payload && data.payload.referenceType === 'User' && data.payload.user.isWriter === true) {
+        const fetchData = async () => {
+          const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@Kine.Newsletter');
+          const data = await response.json();
+          setPosts(data.items);
+        };
+  
+        fetchData();
+      }
+    };
+    
+    return () => {
+      eventSource.close();
+    };
+  }, [posts]);
+
   const handlePostSelect = post => {
     setSelectedPost(post);
   };
