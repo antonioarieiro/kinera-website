@@ -163,7 +163,7 @@ const Community = () => {
                     <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Our proposal is to use the Kine token to curate content in the Kinergy platform. We believe that curation tokens will emerge in the next few years and have the same capacity to capture people's imagination that NFTs had. </p>
                     <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">When we talk about curation, to maintain voting systems exemption from users that have an initial advantage of having more voting power, participants’ contributions in the different funding opportunities must be capped. This makes curation tokens' first goal the creation of a community of interested users and will be dedicating a substantial amount of creativity to this task.</p>
                     <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Seed funders will have a small advantage in the token price but not in the number of tokens received. This practice is designed to multiply community members and this will strengthen and add credibility to the information curated in the Kinergy platform.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">If you want to participate and get information about the funding process subscribe our newsletter HERE.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">If you want to participate and get information about the funding process subscribe our newsletter below.</p>
                 </div>
             </div>
         </div>

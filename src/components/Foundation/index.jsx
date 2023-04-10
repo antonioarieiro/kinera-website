@@ -12,9 +12,9 @@ const Foundation = () => {
         >
             <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-white">KINE FOUNDATION</h1>
             
-            <div className="w-full flex md:flex-row flex-col mt-40 md:px-20 px-10">
-                <div className="md:w-1/2 w-full md:px-20 px-2">
-                    <img src={asset05} alt="asset05" className="animate-bounce" />
+            <div className="w-full flex md:flex-row flex-col mt-40 md:px-20 px-10 mt-16 justify-center">
+                <div className="md:w-1/2 w-full md:px-20 px-2 flex justify-center items-center">
+                    <img src={asset05} alt="asset05" className="mx-auto my-auto animate-bounce" style={{ width: '60%' }} />
                 </div>
                 <div className="md:w-1/2 w-full" data-aos="fade-left">
                     <p className="text-[24px] md:text-left text-center my-10">The <strong>Kine Foundation</strong> is a non-profit organization that is in the process of establishment. Its mission is to transform the traditional approaches to film curation, exhibition, production, and audience engagement by embracing a new paradigm.</p>
