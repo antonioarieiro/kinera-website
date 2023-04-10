@@ -38,13 +38,16 @@ const formularioSchema = new mongoose.Schema({
 
 const Formulario = mongoose.model('Formulario', formularioSchema);
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 const transporter = nodemailer.createTransport({
   host: 'mail.kine.network',
   port: 465,
   secure: true,
   auth: {
-    user: 'no-reply@kinergy.network',
-    pass: 'pZXwriALkZVMzkBy',
+    user: process.env.USER,
+    pass: process.env.PASS,
   },
 });
 
