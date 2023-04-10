@@ -13,12 +13,13 @@ app.use(function(req, res, next) {
   next();
 });
 
-const dbConfig = 'mongodb+srv://kinenewsletter:dRRJg4vw3GHT99PV@cluster0.yxygkgz.mongodb.net/formulario?retryWrites=true&w=majority';
+const dbConfig = 'mongodb://kinergy:kinergy@localhost:27017/newsletter';
 
 // Conexão com o banco de dados MongoDB
 mongoose.connect(dbConfig, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  authSource: 'admin'
 })
   .then(() => console.log('Conectado ao MongoDB'))
   .catch((err) => console.log('Erro ao conectar ao MongoDB', err));
