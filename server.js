@@ -13,12 +13,13 @@ app.use(function(req, res, next) {
   next();
 });
 
-const dbConfig = 'mongodb+srv://kinenewsletter:dRRJg4vw3GHT99PV@cluster0.yxygkgz.mongodb.net/formulario?retryWrites=true&w=majority';
+const dbConfig = 'mongodb://kinergy:kinergy@localhost:27017/newsletter';
 
 // Conexão com o banco de dados MongoDB
 mongoose.connect(dbConfig, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  authSource: 'admin'
 })
   .then(() => console.log('Conectado ao MongoDB'))
   .catch((err) => console.log('Erro ao conectar ao MongoDB', err));
@@ -37,13 +38,16 @@ const formularioSchema = new mongoose.Schema({
 
 const Formulario = mongoose.model('Formulario', formularioSchema);
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 const transporter = nodemailer.createTransport({
   host: 'mail.kine.network',
   port: 465,
   secure: true,
   auth: {
-    user: 'no-reply@kinergy.network',
-    pass: 'pZXwriALkZVMzkBy',
+    user: process.env.USER,
+    pass: process.env.PASS,
   },
 });
 
