@@ -10,11 +10,12 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: kinergy
     ports:
       - "27017:27017"
-  
-  app:
+
+  kine-website:
     build: .
+    restart: always
     ports:
-      - "30342:30342"
       - "3001:3001"
+      - "30342:30342"
     depends_on:
       - mongodb
