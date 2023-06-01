@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"npm run dev -- --port 30342\" \"nodemon server.js\"",
     "dev": "vite --port=30342",
-    "build": "vite build",
+    "build": "concurrently \"vite build\" \"nodemon server.js\"",
     "preview": "vite preview --port=30342"
   },
   "dependencies": {
