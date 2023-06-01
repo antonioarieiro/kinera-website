@@ -38,8 +38,8 @@ const formularioSchema = new mongoose.Schema({
 
 const Formulario = mongoose.model('Formulario', formularioSchema);
 
-const dotenv = require('dotenv');
-dotenv.config();
+//const dotenv = require('dotenv');
+//dotenv.config();
 
 const transporter = nodemailer.createTransport({
   host: 'mail.kine.network',
@@ -77,5 +77,5 @@ app.post('/api/subscribe', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example Node app running at the address: http://localhost/:$%7Bport%7D`)
+  console.log(`Example Node app running at the address: http://localhost:${port}`)
 });
