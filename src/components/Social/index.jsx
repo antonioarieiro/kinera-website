@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { BsDiscord, BsYoutube, BsLinkedin, BsMedium } from 'react-icons/bs'
 import { IoMail } from 'react-icons/io5'
 
-import FundoSocial from '../../assets/images/FundoSocial.png'
+import Fundo04 from "../../assets/images/fundoblog.png";
 
 const Social = () => {
     return (
@@ -11,7 +11,7 @@ const Social = () => {
             id='social'
             className="w-full bg-fixed bg-center py-16"
             style={{
-                backgroundImage: `url(${FundoSocial})`,
+                backgroundImage: `url(${Fundo04})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -22,24 +22,24 @@ const Social = () => {
                 <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] mt-10">SOCIAL</h1>
 
                 <div className="w-full flex justify-center flex-wrap gap-10">
-                    <a href='https://discord.gg/VxhMApAGMn' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
-                        <BsDiscord color='#CC3366' />
+                    <a href='https://discord.gg/VxhMApAGMn' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <BsDiscord color='#333333' />
                         <span>Discord</span>
                     </a>
-                    <a href='https://youtube.com' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
-                        <BsYoutube color='#CC3366' />
+                    <a href='https://youtube.com' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <BsYoutube color='#333333' />
                         <span>Youtube</span>
                     </a>
-                    <a href='https://medium.com/@kine.newsletter' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
-                        <BsMedium color='#CC3366' />
+                    <a href='https://medium.com/@kine.newsletter' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <BsMedium color='#333333' />
                         <span>Medium</span>
                     </a>
-                    <a href='https://linkedin' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
-                        <BsLinkedin color='#CC3366' />
+                    <a href='https://linkedin' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <BsLinkedin color='#333333' />
                         <span>Linkedin</span>
                     </a>
-                    <a href='newsletter@kinergy.network' className="flex items-center gap-2 bg-[#333333] hover:bg-[#8a00c2] hover:scale-105 duration-500 px-4 py-1 rounded-2xl">
-                        <IoMail color='#CC3366' />
+                    <a href='newsletter@kinergy.network' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <IoMail color='#333333' />
                         <span>Mail</span>
                     </a>
                 </div>
