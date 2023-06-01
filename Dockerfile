@@ -27,6 +27,6 @@ EXPOSE 30342
 EXPOSE 27017
 
 # Start the app
-CMD ["docker-compose", "up"]
+CMD ["npm", "start"]
 # docker tag local-image:tagname new-repo:tagname
 # docker push new-repo:tagname
