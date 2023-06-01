@@ -15,6 +15,7 @@ COPY . .
 RUN npm ci
 RUN npm install
 RUN npm install concurrently
+RUN npm install -g nodemon
 # Build the app
 RUN npm run build
 
