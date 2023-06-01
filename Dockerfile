@@ -13,10 +13,7 @@ COPY . .
 
 # Install dependencies (npm ci makes sure the exact versions in the lockfile gets installed)
 RUN npm ci
-RUN npm install
-RUN npm install concurrently
-RUN npm install nodemon
-RUN npm install mongodb
+
 # Build the app
 RUN npm run build
 
@@ -25,8 +22,10 @@ RUN npm run build
 # Set the env to "production"
 ENV NODE_ENV production
 # Expose the port on which the app will be running (3000 is the default that `serve` uses)
+EXPOSE 3001
 EXPOSE 30342
+
 # Start the app
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "start" ]
 # docker tag local-image:tagname new-repo:tagname
 # docker push new-repo:tagname
