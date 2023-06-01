@@ -70,11 +70,11 @@ const Subscribe = (props) => {
         try {
             const response = await axios.post('http://localhost:3001/api/subscribe', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
             console.log(response.data);
-            alert('Subscribed');
+            alert(response.data);
         } catch (error) {
             console.error(error);
-            alert('An error occurred while submitting the form');
-        }clearImmediate
+            alert('An error occurred while submitting the form, check if your e-mail is correct');
+        }
     };
 
     return (
