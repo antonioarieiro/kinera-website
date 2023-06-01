@@ -11,11 +11,3 @@ services:
     ports:
       - "27017:27017"
 
-  kinergy-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    depends_on:
-      - mongodb
-    ports:
-      - "3001:3001"
