@@ -1,21 +1,20 @@
 version: '3.8'
 
 services:
-  app:
-    build: .
-    ports:
-      - "3001:3001"
-      - "30342:30342"
-    environment:
-      - DB_URL=mongodb://kinergy:kinergy@mongodb:27017/newsletter
-    depends_on:
-      - mongodb
   mongodb:
     image: mongo
     restart: always
     container_name: kinergy-database
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=kinergy
-      - MONGO_INITDB_ROOT_PASSWORD=kinergy
+      MONGO_INITDB_ROOT_USERNAME: kinergy
+      MONGO_INITDB_ROOT_PASSWORD: kinergy
     ports:
       - "27017:27017"
+  
+  app:
+    build: .
+    ports:
+      - "30342:30342"
+      - "3001:3001"
+    depends_on:
+      - mongodb
