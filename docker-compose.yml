@@ -11,11 +11,11 @@ services:
     ports:
       - "27017:27017"
 
-  kine-website:
-    build: .
-    restart: always
-    ports:
-      - "3001:3001"
-      - "30342:30342"
+  kinergy-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     depends_on:
       - mongodb
+    ports:
+      - "3001:3001"

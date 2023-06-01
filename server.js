@@ -15,6 +15,7 @@ app.use(function(req, res, next) {
 
 const dbConfig = 'mongodb://kinergy:kinergy@mongodb:27017/newsletter';
 
+
 // Conexão com o banco de dados MongoDB
 mongoose.connect(dbConfig, {
   useNewUrlParser: true,

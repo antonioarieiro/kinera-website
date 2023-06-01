@@ -24,8 +24,9 @@ ENV NODE_ENV production
 # Expose the port on which the app will be running (3000 is the default that `serve` uses)
 EXPOSE 3001
 EXPOSE 30342
+EXPOSE 27017
 
 # Start the app
-CMD [ "npm", "start" ]
+CMD ["docker-compose", "up"]
 # docker tag local-image:tagname new-repo:tagname
 # docker push new-repo:tagname

@@ -1,0 +1,129 @@
+#1 [kine-website internal] load build definition from Dockerfile
+#1 transferring dockerfile: 679B done
+#1 ...
+
+#2 [kine-website internal] load .dockerignore
+#2 transferring context: 58B 0.0s done
+#2 DONE 0.4s
+
+#1 [kine-website internal] load build definition from Dockerfile
+#1 DONE 0.9s
+
+#3 [kine-website internal] load metadata for docker.io/library/node:16-alpine
+#3 DONE 1.0s
+
+#4 [kine-website 1/5] FROM docker.io/library/node:16-alpine@sha256:f1657204d3463bce763cefa5b25e48c28af6fe0cdb0f68b354f0f8225ef61be7
+#4 DONE 0.0s
+
+#5 [kine-website internal] load build context
+#5 transferring context: 39.09kB 0.1s done
+#5 DONE 0.4s
+
+#6 [kine-website 2/5] WORKDIR /app
+#6 CACHED
+
+#7 [kine-website 3/5] COPY . .
+#7 DONE 1.8s
+
+#8 [kine-website 4/5] RUN npm ci
+#8 19.38 
+#8 19.38 added 419 packages, and audited 420 packages in 18s
+#8 19.38 
+#8 19.38 87 packages are looking for funding
+#8 19.38   run `npm fund` for details
+#8 19.38 
+#8 19.38 1 high severity vulnerability
+#8 19.38 
+#8 19.38 To address all issues, run:
+#8 19.38   npm audit fix
+#8 19.38 
+#8 19.38 Run `npm audit` for details.
+#8 19.38 npm notice 
+#8 19.38 npm notice New major version of npm available! 8.19.4 -> 9.6.7
+#8 19.38 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+#8 19.38 npm notice Run `npm install -g npm@9.6.7` to update!
+#8 19.38 npm notice 
+#8 DONE 26.7s
+
+#9 [kine-website 5/5] RUN npm run build
+#9 1.616 
+#9 1.616 > kinergyv2@0.0.0 build
+#9 1.616 > concurrently "vite build" "nodemon server.js"
+#9 1.616 
+#9 2.085 [1] [33m[nodemon] 2.0.22[39m
+#9 2.086 [1] [33m[nodemon] to restart at any time, enter `rs`[39m
+#9 2.086 [1] [33m[nodemon] watching path(s): *.*[39m
+#9 2.086 [1] [33m[nodemon] watching extensions: js,mjs,json[39m
+#9 2.086 [1] [32m[nodemon] starting `node server.js`[39m
+#9 2.527 [0] vite v3.2.4 building for production...
+#9 2.570 [1] Example Node app running at the address: http://localhost:3001
+#9 2.605 [0] transforming...
+#9 7.055 [0] Browserslist: caniuse-lite is outdated. Please run:
+#9 7.055 [0]   npx update-browserslist-db@latest
+#9 7.055 [0]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+#9 14.92 [0] ✓ 1063 modules transformed.
+#9 15.41 [0] rendering chunks...
+#9 15.42 [0] dist/assets/icon.e60b24e8.svg        1.00 KiB
+#9 15.42 [0] dist/assets/asset06.aea0cfa3.png     41.66 KiB
+#9 15.42 [0] dist/assets/asset07.f5f7d2a0.png     37.97 KiB
+#9 15.42 [0] dist/assets/asset08.bb794c3a.png     112.61 KiB
+#9 15.42 [0] dist/assets/asset09.9ce31500.png     50.56 KiB
+#9 15.42 [0] dist/assets/logo.eb9a528d.png        17.67 KiB
+#9 15.42 [0] dist/assets/asset05.ec2f7a8c.png     93.62 KiB
+#9 15.42 [0] dist/assets/img02.fa700f25.png       29.43 KiB
+#9 15.42 [0] dist/assets/img01.e4583006.png       26.02 KiB
+#9 15.42 [0] dist/assets/img03.33fb57bc.png       37.07 KiB
+#9 15.42 [0] dist/assets/img04.6ccd0e74.png       34.36 KiB
+#9 15.42 [0] dist/assets/asset10.110472be.png     9.28 KiB
+#9 15.42 [0] dist/assets/fundo04.251733ad.png     343.88 KiB
+#9 15.42 [0] dist/assets/astronaut.99568f2b.png   419.78 KiB
+#9 15.42 [0] dist/assets/fundo06.01d479fd.png     684.65 KiB
+#9 15.42 [0] dist/assets/asset11.d972cd95.png     13.60 KiB
+#9 15.42 [0] dist/assets/fundo03.6e19517e.png     590.56 KiB
+#9 15.42 [0] dist/assets/fundo05.0708f600.png     1076.36 KiB
+#9 15.42 [0] dist/assets/fundo02.f4d64f71.png     1434.89 KiB
+#9 15.42 [0] dist/assets/asset12.cb91703d.png     5.72 KiB
+#9 15.42 [0] dist/assets/fundo01.2201dd09.png     50.82 KiB
+#9 15.42 [0] dist/assets/asset01.d5f7b39f.png     54.33 KiB
+#9 15.42 [0] dist/assets/asset02.b8ccbff5.png     43.77 KiB
+#9 15.42 [0] dist/assets/asset03.5c7a4dc4.png     41.09 KiB
+#9 15.42 [0] dist/assets/asset04.5e721a56.png     27.03 KiB
+#9 15.42 [0] dist/assets/fundo08.9311847b.png     139.75 KiB
+#9 15.42 [0] dist/assets/img08.7d2c6361.png       256.09 KiB
+#9 15.42 [0] dist/assets/bigK.c0b500f2.png        61.86 KiB
+#9 15.42 [0] dist/assets/bigK02.c70b637e.png      356.45 KiB
+#9 15.42 [0] dist/assets/bigK03.0d808115.png      40.34 KiB
+#9 15.42 [0] dist/assets/fundoblog.c0710a08.png   23.72 KiB
+#9 15.42 [0] dist/assets/fundo07.08c5fa6e.png     130.00 KiB
+#9 15.42 [0] dist/assets/banner1.d26c9357.png     32.58 KiB
+#9 15.42 [0] dist/assets/banner2.10c4ef32.png     86.62 KiB
+#9 15.42 [0] dist/assets/banner4.d9b98fb0.png     50.55 KiB
+#9 15.42 [0] dist/assets/banner3.34f9fed2.png     109.48 KiB
+#9 15.42 [0] dist/index.html                      0.68 KiB
+#9 15.43 [0] dist/assets/index.9b58568a.css       52.68 KiB / gzip: 8.59 KiB
+#9 15.44 [0] dist/assets/index.513aec99.js        445.97 KiB / gzip: 140.63 KiB
+#9 15.45 [1] [32m[nodemon] restarting due to changes...[39m
+#9 15.47 [1] [32m[nodemon] starting `node server.js`[39m
+#9 15.54 [0] vite build exited with code 0
+#9 16.40 [1] Example Node app running at the address: http://localhost:3001
+#9 46.39 [1] Erro ao conectar ao MongoDB MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+#9 46.39 [1]     at _handleConnectionErrors (/app/node_modules/mongoose/lib/connection.js:755:11)
+#9 46.39 [1]     at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:730:11) {
+#9 46.39 [1]   reason: TopologyDescription {
+#9 46.39 [1]     type: 'Unknown',
+#9 46.39 [1]     servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+#9 46.39 [1]     stale: false,
+#9 46.39 [1]     compatible: true,
+#9 46.39 [1]     heartbeatFrequencyMS: 10000,
+#9 46.39 [1]     localThresholdMS: 15,
+#9 46.39 [1]     setName: null,
+#9 46.39 [1]     maxElectionId: null,
+#9 46.39 [1]     maxSetVersion: null,
+#9 46.39 [1]     commonWireVersion: 0,
+#9 46.39 [1]     logicalSessionTimeoutMinutes: null
+#9 46.39 [1]   },
+#9 46.39 [1]   code: undefined
+#9 46.39 [1] }
+time="2023-06-01T18:51:38-03:00" level=error msg="got 3 SIGTERM/SIGINTs, forcing shutdown"
+#9 CANCELED
+canceled
