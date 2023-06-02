@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-const dbConfig = 'mongodb://kinergy:kinergy@127.0.0.1:27017/newsletter';
+const dbConfig = 'mongodb://kinergy:kinergy@localhost:27017/newsletter';
 
 // Conexão com o banco de dados MongoDB
 mongoose.connect(dbConfig, {
