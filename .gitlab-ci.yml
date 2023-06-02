@@ -1,5 +1,8 @@
 build:
-  stage: build
+  stage:
+    - build
+    - deploy
+    
   image: 
     name: gcr.io/kaniko-project/executor:v1.7.0-debug
     entrypoint: [""]
@@ -165,3 +168,12 @@ build:
     - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
     - /kaniko/executor --cache=false --single-snapshot --snapshotMode=redo --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination ${CI_REGISTRY_IMAGE}:latest
     - echo "Image pushed successfully to ${CI_REGISTRY_IMAGE}:latest"
+
+# Job for deploying the application
+deploy:
+  stage: deploy
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker-compose up -d
