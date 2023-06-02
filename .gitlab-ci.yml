@@ -1,19 +1,10 @@
-stages:
-  - build
-  - deploy
-
-variables:
-  DOCKER_DRIVER: overlay2
-  DOCKER_TLS_CERTDIR: "/certs"
-
-services:
-  - docker:dind
-
-before_script:
-  - apk add --no-cache docker-compose
-  - docker info
-  - docker-compose --version
-  - |
+build:
+  stage: build
+  image: 
+    name: gcr.io/kaniko-project/executor:v1.7.0-debug
+    entrypoint: [""]
+  before_script:
+    - |
       echo "-----BEGIN CERTIFICATE-----
       MIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw
       TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
@@ -169,23 +160,8 @@ before_script:
       gQwBAgEwDQYLKwYBBAGC3xMBAQEwCgYIKoZIzj0EAwMDaAAwZQIxAPJCN9qpyDmZ
       tX8K3m8UYQvK51BrXclM6WfrdeZlUBKyhTXUmFAtJw4X6A0x9mQFPAIwJa/No+KQ
       UAM1u34E36neL/Zba7ombkIOchSgx1iVxzqtFWGddgoG+tppRPWhuhhn
-      -----END CERTIFICATE-----" >> /etc/ssl/certs/additional-ca-cert-bundle.crt
-
-
-build:
-  stage: build
-  image: 
-    name: docker:19.03.1
-    entrypoint: [""]
+      -----END CERTIFICATE-----" >> /kaniko/ssl/certs/additional-ca-cert-bundle.crt
   script:
-    - docker-compose build
-    - echo "Images built successfully"
-    
-deploy:
-  stage: deploy
-  image: 
-    name: docker:19.03.1
-    entrypoint: [""]
-  script:
-    - docker-compose up -d
-    - echo "Services deployed successfully"
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --cache=false --single-snapshot --snapshotMode=redo --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination ${CI_REGISTRY_IMAGE}:latest
+    - echo "Image pushed successfully to ${CI_REGISTRY_IMAGE}:latest"
