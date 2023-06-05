@@ -9,6 +9,10 @@ WORKDIR /app
 # Copy app files
 COPY . .
 
+# Copy wait-for-it script
+COPY wait-for-it.sh /wait-for-it.sh
+RUN chmod +x /wait-for-it.sh
+
 # ==== BUILD =====
 
 # Install dependencies (npm ci makes sure the exact versions in the lockfile gets installed)
@@ -27,6 +31,4 @@ EXPOSE 30342
 EXPOSE 27017
 
 # Start the app
-CMD ["npm", "start"]
-# docker tag local-image:tagname new-repo:tagname
-# docker push new-repo:tagname
+CMD /wait-for-it.sh mongodb:27017 -- npm start
