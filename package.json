@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "concurrently \"npm run dev -- --port 30342\" \"nodemon server.js\"",
+    "start": "npm run dev -- --port 30342",
     "dev": "vite --port=30342",
     "build": "concurrently \"vite build\" \"nodemon server.js\"",
     "preview": "vite preview --port=30342"
