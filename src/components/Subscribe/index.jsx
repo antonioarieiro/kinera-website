@@ -68,7 +68,7 @@ const Subscribe = (props) => {
         };
 
         try {
-            const response = await axios.post('http://localhost:3001/api/subscribe', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
+            const response = await axios.post('https://teal-paletas-4e7d2f.netlify.app', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
             console.log(response.data);
             alert(response.data);
         } catch (error) {
