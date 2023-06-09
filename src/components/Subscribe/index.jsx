@@ -43,8 +43,8 @@ const Subscribe = (props) => {
       ));
 
     const validateEmail = (email) => {
-        // regex pattern for email validation
-        const re = /\S+@\S+\.\S+/;
+        // regex pattern for email validation according to RFC 5322
+        const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
       };
 
@@ -68,7 +68,7 @@ const Subscribe = (props) => {
         };
 
         try {
-            const response = await axios.post('http://localhost:3001/api/subscribe', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
+            const response = await axios.post('https://kine-email-server.herokuapp.com/', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
             console.log(response.data);
             alert(response.data);
         } catch (error) {

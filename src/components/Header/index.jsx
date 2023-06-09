@@ -41,7 +41,7 @@ const Header = () => {
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#community">Community</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#funding">Funding</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#newsletter">Newsletter</a></li>
-                <li className="text-base hover:text-[#FF0A78]"><a href="https://medium.com/@kine.newsletter">Blog</a></li>
+                <li className="text-base hover:text-[#FF0A78]"><a href="https://medium.com/@kine.newsletter" target="_blank">Blog</a></li>
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#social">Social</a></li>
             </ul>
 
