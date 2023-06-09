@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "npm start -- --port 30342",
+    "start": "npm run dev -- --port 30342",
     "dev": "vite --port=30342",
     "build": "vite build",
     "preview": "vite preview --port=30342"

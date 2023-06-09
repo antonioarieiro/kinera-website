@@ -17,14 +17,14 @@ const Struct = () => {
             className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-fixed bg-no-repeat text-black"
             id='struct'
             style={{
-                backgroundImage: `url(${fundo01})`
+                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${fundo01})`
             }}
         >
             <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">KINERGY STRUCTURE</h1>
 
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[19px] text-center"><strong>Kinergy’s architecture</strong> is composed of <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    <p className="text-[25px] text-center"><strong>Kinergy’s architecture</strong> is composed of <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
                 </div>
             </div>
 
