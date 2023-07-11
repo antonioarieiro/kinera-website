@@ -7,7 +7,7 @@ const Footer = () => {
                 <img src={logo} alt="Codice" className="h-16" />
             </div>
             <div className="w-full h-[20%] mt-10 flex sm:flex-row flex-col sm:justify-between justify-center items-center">
-                <p className="text-center">Kinergy © 2023. Todos os direitos reservados.</p>
+                <p className="text-center">Kinera © 2023. Todos os direitos reservados.</p>
                 <p className='font-bold'>Desenvolvido por: Codice</p>
             </div>
         </footer>

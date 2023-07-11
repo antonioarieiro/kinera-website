@@ -15,11 +15,11 @@ const About = () => {
 
                 <div className="w-full flex justify-center mt-10">
                     <div className="w-[80%]">
-                        <p className="text-[19px] text-center" data-aos="fade-left"><strong>Kinergy</strong> is the home for online <strong>public-driven competitions</strong> and <strong>rankings</strong> that value the information generated in the process through a system of <strong>tokenized incentives</strong>.</p>
+                        <p className="text-[19px] text-center" data-aos="fade-left"><strong>Kinera</strong> is the home for online <strong>public-driven competitions</strong> and <strong>rankings</strong> that value the information generated in the process through a system of <strong>tokenized incentives</strong>.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><strong>Our platform</strong> is designed with different <strong>levels of participation</strong> in order to include all voices.</p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><strong>Our App</strong> is designed with different <strong>levels of participation</strong> in order to include all voices.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">The <strong>moderation</strong> system is <strong>controlled by the its users</strong>, and design to assure that people have a platform environment according to their <strong>values</strong> and the <strong>engagement</strong> they choose to have.</p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">The <strong>moderation</strong> system is <strong>controlled by the its users</strong>, and design to assure that people have a DApp environment according to their <strong>values</strong> and the <strong>engagement</strong> they choose to have.</p>
 
                         <p className="text-[19px] text-center mt-10" data-aos="fade-right">We want to be the <strong>first global content distribution network</strong> where the same <strong>content is available everywhere.</strong></p>
 

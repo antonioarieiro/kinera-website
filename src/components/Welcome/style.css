@@ -12,3 +12,71 @@
         animation-timing-function: cubic-bezier(0,0,0.2,1);
     }
 }
+
+.main-content {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: -2rem; /* Add negative margin */
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.kinera-title {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    max-width: 40%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; /* Added this line */
+}
+
+.info-button {
+    padding: 1rem 2.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.icon {
+    color: pink;
+    font-size: 1rem;
+}

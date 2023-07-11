@@ -20,11 +20,11 @@ const Struct = () => {
                 backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${fundo01})`
             }}
         >
-            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">KINERGY STRUCTURE</h1>
+            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">KINERA STRUCTURE</h1>
 
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[25px] text-center"><strong>Kinergy’s architecture</strong> is composed of <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    <p className="text-[25px] text-center"><strong>Kinera’s architecture</strong> is composed of <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ const Struct = () => {
                     title="Constellations"
                     imgUrl={asset02}
                     icon={<AiOutlineStar className="text-6xl my-[30px]" />}
-                    backDesc="Constellation is the second layer for curation inside Kinergy. In this competition arena, curators may vote on their best personal choices, in direct competition with other users. This is where curators test their cinema tastes, hidden gems take the spotlight and conviction intersects with the community's truth"
+                    backDesc="Constellation is the second layer for curation inside Kinera. In this competition arena, curators may vote on their best personal choices, in direct competition with other users. This is where curators test their cinema tastes, hidden gems take the spotlight and conviction intersects with the community's truth"
                 />
                 <FlipCard
                     id='post3_img'
@@ -55,7 +55,7 @@ const Struct = () => {
                     title="Kine Makers"
                     imgUrl={asset04}
                     icon={<BsPlusLg className="text-6xl my-[50px]" />}
-                    backDesc="Kine Makers is a crowdfunding platform for moving pictures, where patrons buy tokens that represent film rights and are rewarded each time their films generate revenue"
+                    backDesc="Kine Makers is a crowdfunding DApp for moving pictures, where patrons buy tokens that represent film rights and are rewarded each time their films generate revenue"
                 />
             </div>
         </div>

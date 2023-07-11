@@ -41,14 +41,14 @@ const Participation = () => {
                 <div className="w-full flex md:flex-row flex-col-reverse items-center">
                     <DropItem
                         question="Moderators"
-                        answer={<p><strong>MODERATORS</strong> play a more subtle role. They are responsible for solving content disputes and mediating guideline infractions, should they occur on the platform. To apply for this role, a collateral is required.</p>}
+                        answer={<p><strong>MODERATORS</strong> play a more subtle role. They are responsible for solving content disputes and mediating guideline infractions, should they occur on the DApp. To apply for this role, a collateral is required.</p>}
                     />
                     <img src={img03} alt="img03" className="w-[360px]" />
                 </div>
                 <div className="w-full flex md:flex-row-reverse flex-col-reverse items-center">
                     <DropItem
                         question="Ambassadors"
-                        answer={<p><strong>AMBASSADORS</strong> are the final, but equally important members of the community. They are in charge of the divulgation of the project and assist in the creation of a meaningful platform. To become ambassadors, users are required to apply and complete the Tokens Ambassadors Programme.</p>}
+                        answer={<p><strong>AMBASSADORS</strong> are the final, but equally important members of the community. They are in charge of the divulgation of the project and assist in the creation of a meaningful DApp. To become ambassadors, users are required to apply and complete the Tokens Ambassadors Programme.</p>}
                     />
                     <img src={img04} alt="img04" className="w-[360px]" />
                 </div>

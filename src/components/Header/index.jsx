@@ -20,7 +20,7 @@ const Header = () => {
                 <li className="text-base hover:text-[#FF0A78]"><a href="/#home">Home</a></li>
                 <li className="group relative">
                     <div className="flex items-center gap-2">
-                        <a href="/#about" className="text-white group-hover:text-[#FF0A78] text-base">Kinergy</a>
+                        <a href="/#about" className="text-white group-hover:text-[#FF0A78] text-base">Kinera</a>
                         <IoIosArrowDown className="group-hover:text-white text-[#FF0A78]" />
                     </div>
 
@@ -31,7 +31,7 @@ const Header = () => {
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#about">About</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#mission">Mission</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#kine">Kine Token</a></li>
-                            <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#struct">Kinergy Structure</a></li>
+                            <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#struct">Kinera Structure</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#participation">Types of Participation</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="https://drive.google.com/file/d/1zoowL-_N_BlzWLCeMEqmjDXY3JZ6HDQL/view?usp=share_link">Lightpaper</a></li>
                         </ul>
@@ -49,7 +49,7 @@ const Header = () => {
                 <li className="text-base hover:text-[#DDD]"><a href="/#home">Home</a></li>
                 <li className="group">
                     <div className="flex items-center gap-2">
-                        <span className="text-white group-hover:text-[#FF0A78] text-base">Kinergy</span>
+                        <span className="text-white group-hover:text-[#FF0A78] text-base">Kinera</span>
                         <IoIosArrowDown className="group-hover:text-white text-[#FF0A78]" />
                     </div>
 
@@ -57,7 +57,7 @@ const Header = () => {
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#about">About</a></li>
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#mission">Mission</a></li>
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#kine">Kine Token</a></li>
-                        <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#struct">Kinergy Structure</a></li>
+                        <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#struct">Kinera Structure</a></li>
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/#participation">Types of Participation</a></li>
                         <li className="bg-transparent pl-4 py-3 hover:bg-[#FF0A78] duration-500"><a href="/">Social</a></li>
                     </ul>

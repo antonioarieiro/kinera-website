@@ -38,7 +38,7 @@ const Social = () => {
                         <BsLinkedin color='#333333' />
                         <span>Linkedin</span>
                     </a>
-                    <a href='newsletter@kinergy.network' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                    <a href='newsletter@kinera.network' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <IoMail color='#333333' />
                         <span>Mail</span>
                     </a>
