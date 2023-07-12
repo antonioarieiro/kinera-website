@@ -19,7 +19,8 @@ const Welcome = () => {
                         <img src={BigK02} alt='BigK02' className="logo-img pulse" /> 
                     </div>
 
-                    <p className="description">A social network for moving pictures curation, a framework to kick-start and manage online film and video competitions</p>
+                    <p className="description">A social network for moving pictures curation, a framework to kick-start</p>
+                    <p className="description2">and manage online film and video competitions</p>
                 </div>
 
                 <div className="button-wrapper">

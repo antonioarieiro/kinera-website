@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    margin-top: -2rem; /* Add negative margin */
+    margin-top: 2rem; /* Add negative margin */
 }
 
 .content-wrapper {
@@ -33,7 +33,7 @@
 }
 
 .kinera-title {
-    font-size: 80px;
+    font-size: 100px;
     font-weight: bold;
     text-align: center;
 }
@@ -56,13 +56,23 @@
     font-weight: 600;
     width: 100%;
     text-align: center;
+    margin-top: 2rem; /* Added this line */
+    margin-bottom: -2rem; /* Added this line */
+}
+
+.description2 {
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem; /* Added this line */
 }
 
 .button-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 2rem; /* Added this line */
+    margin-top: 5rem; /* Added this line */
 }
 
 .info-button {
@@ -74,6 +84,7 @@
     background: white;
     color: black;
     font-weight: bold;
+    margin-bottom: 4rem; /* Added this line */
 }
 
 .icon {
