@@ -23,7 +23,7 @@ RUN npm run build
 ENV NODE_ENV production
 # Expose the port on which the app will be running (3000 is the default that `serve` uses)
 EXPOSE 3001
-EXPOSE 30342
+EXPOSE 30352
 EXPOSE 27017
 
 # Start the app

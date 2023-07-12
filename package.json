@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "npm run dev -- --port 30342",
-    "dev": "vite --port=30342",
+    "start": "npm run dev -- --port 30352",
+    "dev": "vite --port=30352",
     "build": "vite build",
-    "preview": "vite preview --port=30342"
+    "preview": "vite preview --port=30352"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
