@@ -1,5 +1,3 @@
-# ==== CONFIGURE =====
-
 # Use a Node 16 base image
 FROM node:16-alpine
 
@@ -21,12 +19,22 @@ RUN npm run build
 
 # Set the env to "production"
 ENV NODE_ENV production
-# Expose the port on which the app will be running (3000 is the default that `serve` uses)
+
+# Expose the port on which the app will be running (3001 is the default that `serve` uses)
 EXPOSE 3001
 EXPOSE 30352
 EXPOSE 27017
 
-# Start the app
-CMD ["npm", "start"]
-# docker tag local-image:tagname new-repo:tagname
-# docker push new-repo:tagname
+# Install NGINX
+RUN apk update && apk add nginx
+
+# Remove default NGINX configuration
+RUN rm /etc/nginx/conf.d/default.conf
+
+# Copy custom NGINX configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Start NGINX and the app
+CMD ["nginx", "-g", "daemon off;"]
+
+
