@@ -46,9 +46,31 @@
 }
 
 .logo-img {
-    max-width: 40%;
+    width: 65rem; /* You'll adjust this value for different screen sizes */
+    max-width: 100%; /* This will ensure the image never exceeds the container width */
     height: auto;
     margin-top: 5px;
+}
+
+/* This is for tablets and smaller laptops */
+@media (max-width: 1024px) {
+    .logo-img {
+        width: 50rem; /* Adjust this value based on your design preference */
+    }
+}
+
+/* This is for smartphones and tablets in portrait mode */
+@media (max-width: 768px) {
+    .logo-img {
+        width: 30rem; /* Adjust this value based on your design preference */
+    }
+}
+
+/* This is for smaller smartphones */
+@media (max-width: 480px) {
+    .logo-img {
+        width: 20rem; /* Adjust this value based on your design preference */
+    }
 }
 
 .description {

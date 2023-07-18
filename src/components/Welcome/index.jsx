@@ -4,7 +4,7 @@ import Header from "../Header";
 
 import './style.css';
 
-import BigK02 from '../../assets/images/bigK02.png';
+import Banner from '../../assets/images/kinerabanner.png';
 
 const Welcome = () => {
     return (
@@ -16,7 +16,7 @@ const Welcome = () => {
                     <h1 className="kinera-title">KINERA</h1>
 
                     <div className="logo-section">
-                        <img src={BigK02} alt='BigK02' className="logo-img pulse" /> 
+                        <img src={Banner} alt='BigK02' className="logo-img pulse" /> 
                     </div>
 
                     <p className="description">A social network for moving pictures curation, a framework to kick-start</p>

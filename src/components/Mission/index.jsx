@@ -1,11 +1,11 @@
-import astronaut from '../../assets/images/astronaut.png';
+import mission from '../../assets/images/mission.png';
 
 const Mission = () => {
     return (
         <div
             className="w-full min-h-screen flex flex-col py-20 sm:bg-[length:100vh_100vh] bg-[length:50vh_50vh] bg-no-repeat bg-right-bottom text-[#F3F6FB]"
             style={{
-                backgroundImage: `url(${astronaut})`
+                backgroundImage: `url(${mission})`
             }}
             id="mission"
         >

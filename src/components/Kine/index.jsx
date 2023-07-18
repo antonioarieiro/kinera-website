@@ -1,4 +1,4 @@
-import img08 from '../../assets/images/img08.png';
+import token from '../../assets/images/token.png';
 
 const Kine = () => {
     return (
@@ -7,7 +7,7 @@ const Kine = () => {
             
             <div className="w-full flex flex-col md:flex-row justify-center items-center md:px-40 px-10 mt-20 space-y-10 md:space-y-0">
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <img src={img08} alt="claquete" className="w-3/4 animate-bounce" />
+                    <img src={token} alt="claquete" className="w-3/4 animate-bounce" />
                 </div>
                 
                 <div className="w-full md:w-1/2 flex flex-col justify-center" data-aos="fade-left">
