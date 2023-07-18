@@ -1,0 +1,31 @@
+.is-mobile-version {
+  display: none !important;     
+}
+
+
+@media (min-width: 650px) { 
+  .is-mobile-version {
+      display: none !important;     
+  }
+
+  .is-md-w {
+    display: block !important;
+  }
+}
+
+
+
+@media (max-width: 640px) {
+    #mission {
+      background-position: right bottom 50vh;
+    }
+
+    .is-mobile-version {
+        display: block !important;     
+    }
+
+    .is-md-w {
+      display: none !important;
+    }
+  }
+  
