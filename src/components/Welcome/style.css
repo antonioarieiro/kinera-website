@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    margin-top: 0rem; /* Add negative margin */
+    margin-top: -1rem; /* Add negative margin */
 }
 
 .content-wrapper {
@@ -46,7 +46,7 @@
 }
 
 .logo-img {
-    width: 52rem; /* You'll adjust this value for different screen sizes */
+    width: 49rem; /* You'll adjust this value for different screen sizes */
     max-width: 100%; /* This will ensure the image never exceeds the container width */
     height: auto;
     margin-top: -2rem;
@@ -106,7 +106,8 @@
     background: white;
     color: black;
     font-weight: bold;
-    margin-bottom: 4rem; /* Added this line */
+    margin-top: -2rem; /* Added this line */
+    margin-bottom: 2rem; /* Added this line */
 }
 
 .icon {

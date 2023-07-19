@@ -1,5 +1,5 @@
 import fundo04 from '../../assets/images/fundo04.png'
-import foundation01 from '../../assets/images/foundation01.png'
+import fundation01 from '../../assets/images/fundation01.png'
 
 const Foundation = () => {
     return (
@@ -10,16 +10,15 @@ const Foundation = () => {
             }}
             id='foundation'
         >
-            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-white">KINE FOUNDATION</h1>
+            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-white mb-10">THE KINE FOUNDATION</h1>
             
-            <div className="w-full flex md:flex-row flex-col mt-40 md:px-20 px-10 mt-16 justify-center">
-                <div className="md:w-1/2 w-full md:px-20 px-2 flex justify-center items-center">
-                    <img src={foundation01} alt="foundation" className="mx-auto my-auto animate-bounce" style={{ width: '60%' }} />
+            <div className="container mx-auto flex flex-col md:flex-row mt-16 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
+                <div className="md:w-1/2 w-full flex justify-center items-center">
+                    <img src={fundation01} alt="foundation" className="w-full md:w-[100%] mx-auto my-auto animate-bounce" />
                 </div>
                 <div className="md:w-1/2 w-full" data-aos="fade-left">
-                    <p className="text-[24px] md:text-left text-center my-10">The <strong>Kine Foundation</strong> is a non-profit organization that is in the process of establishment. Its mission is to transform the traditional approaches to film curation, exhibition, production, and audience engagement by embracing a new paradigm.</p>
-                    <p className="text-[24px] md:text-left text-center my-10">Kinera, the DApp developed by the Foundation, operates as a <strong>community-governed ecosystem</strong> where the community's vision and decisions will be implemented through <strong>futarchy and other processes</strong> that allied reputation and token value. This will ensure that the DApp remains aligned with its mission and that its <strong>users</strong> have a voice in its ongoing development and evolution.</p>
-                    <p className="text-[24px] md:text-left text-center my-10">The foundation will have <strong>two founding rounds</strong>. Because of the nature of the token and its network uses for curation we will not be accepting venture capital in our rounds. If you want to participate and get information about this process subscribe to our newsletter <strong>HERE</strong>.</p>
+                    <p className="text-[24px] md:text-left text-center my-10"><span class="glitch"> The Kine Foundation</span> is a non-profit organization in the process of establishment. Its mission is to transform traditional approaches to film curation, exhibition, production, and audience engagement by embracing a new paradigm.</p>
+                    <p className="text-[24px] md:text-left text-center my-10"><strong> Kinera,</strong>  the platform developed by the Kine Foundation, operates as a <strong>community-governed ecosystem</strong> where the community's vision and decisions will, in the last development stage, be implemented through futarchy and other processes that combine reputation, token value and curation markets. This ensures that the platform remains aligned with its mission, and its users have a voice in its ongoing development and evolution.</p>
                 </div>
             </div>
         </div>

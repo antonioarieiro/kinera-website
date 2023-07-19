@@ -15,13 +15,13 @@ const About = () => {
 
                 <div className="w-full flex justify-center mt-10">
                     <div className="w-[80%]">
-                        <p className="text-[19px] text-center" data-aos="fade-left"><strong>Kinera</strong> is the home for online <strong>public-driven competitions</strong> and <strong>rankings</strong> that value the information generated in the process through a system of <strong>tokenized incentives</strong>.</p>
+                        <p className="text-[19px] text-center" data-aos="fade-left"><strong>Kinera</strong> is a home for online user-driven competitions and rankings created to value the information generated through a system of tokenized incentives.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><strong>Our App</strong> is designed with different <strong>levels of participation</strong> in order to include all voices.</p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">Our platform is designed to include all voices through different levels of participation.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">The <strong>moderation</strong> system is <strong>controlled by the its users</strong>, and design to assure that people have a DApp environment according to their <strong>values</strong> and the <strong>engagement</strong> they choose to have.</p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">The moderation is controlled by its users and is designed to ensure that people have a platform environment aligned with their values and chosen level of engagement.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">We want to be the <strong>first global content distribution network</strong> where the same <strong>content is available everywhere.</strong></p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right">We aim to become the first global content distribution network where the same content is available everywhere.</p>
 
                     </div>
                 </div>

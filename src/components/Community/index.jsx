@@ -76,31 +76,31 @@ const Community = () => {
             }}
             id='community'
         >
-            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]">COMMUNITY</h1>
+            <h1 className="sm:text-[64px] text-[38px] font-bold text-center -mb-20 text-[#FF0A78]">COMMUNITY</h1>
             
             <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-40 pb-20">
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
                         question="1. The community is the key to making all this possible"
-                        answer="Kinera is a decentralized DApp that aims to revolutionize the film industry. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund film productions of all sizes.The DApp is designed to incentivize participation through rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favorite videos. The strength of Kinera lies in its community-driven approach, where every participant plays a crucial role in its success."
+                        answer="Kinera is a decentralized platform aiming to revolutionize the film industry. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund film productions of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favorite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
                         onClick={() => { setShowAnswer1(!showAnswer1) }}
                         showAnswer={showAnswer1}
                     />
                     <DropInfo
-                        question="2. Decentralization is fundamental"
-                        answer="Every action taken on the DApp contributes to its growth and the growth of its users. Our goal is to bring together social and technological communities to create solutions that make sense of the complex world we live in. That's why we're building a DApp that leverages the power of decentralized networks to drive human coordination into the future."
+                        question="2. Decentrlization is the key"
+                        answer="Every action taken on the platform contributes to its growth and the growth of its users. Our goal is to bring together social and technological communities to create solutions that make sense of the complex world we live in. That's why we're building a platform that leverages the power of decentralized networks to drive human coordination into the future."
                         onClick={() => { setShowAnswer2(!showAnswer2) }}
                         showAnswer={showAnswer2}
                     />
                     <DropInfo
-                        question="3. Kine Foundation's first founding act"
-                        answer="We want to use blockchain technology to give media content a DApp for the creation of a meaningful interoperability, to enhance collective actions that create new social value, align online communities and build on top of this infrastructure. To facilitate this, we have included various forms of offers to the community, including token airdrops."
+                        question="3. Token airdrops."
+                        answer="We aim to use blockchain technology to provide media content with a platform for meaningful interoperability, enhancing collective actions that create new social value, aligning online communities, and building upon this infrastructure. To facilitate this, we have included various forms of offers to the community, including token airdrops."
                         onClick={() => { setShowAnswer3(!showAnswer3) }}
                         showAnswer={showAnswer3}
                     />
                     <DropInfo
-                        question="4. Register as a curator and be creative"
-                        answer="To ensure a robust and diverse community of curators and to jumpstart the DApp, we will be launching a series of incentivized contests to reward with tokens participants who submit meaningful and high-quality content. This initiative encourages the creation of constellations aligned with the DApp goals. If you're interested in participating, you can register here to be updated on future contests leading to airdrops."
+                        question="4. Register as a curator and be creative."
+                        answer="To ensure a robust and diverse community of curators and to kickstart the platform, we will be initiating a series of incentivized contests to reward participants who submit meaningful and high-quality content with Kinex tokens. This initiative fosters the creation of constellations aligned with the platform's objectives. If you're interested in participating, you can register for our newsletter to receive updates on future contests that lead to airdrops."
                         onClick={() => { setShowAnswer4(!showAnswer4) }}
                         showAnswer={showAnswer4}
                     />
@@ -153,17 +153,16 @@ const Community = () => {
                 }}
                 id='funding'
             >
-                <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING AND SEED FUNDING</h1>
+                <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING</h1>
 
-                <h2 className="font-semibold text-center text-[28px] mt-20" data-aos="zoom-in">Blockchain technology disrupts and overcomes many problems inherent to startup financing.</h2>
+                <h2 className="font-semibold text-center text-[28px] mt-20" data-aos="zoom-in">Blockchain technology disrupts and overcomes many challenges inherent in startup financing.</h2>
                 
                 <div className="w-full flex flex-col gap-10 mt-20" data-aos="zoom-in">
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">The wide adoption of crypto is mainly due to Ethereum’s financing model and Bitcoin’s permissionless mining access since its inception. Until 2015, there was no venture capital or angel investments helping projects to grow. Today, single investors are being left out of funding opportunities, making this ecosystem more centralized.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Until 2020 protocols and financial applications dominated the landscape. When NFTs entered the space capturing everybody's imagination, blockchain technology matured beyond its financial roots, and tokens started to have a practical utility in people's lives.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Our proposal is to use the Kine token to curate content in the Kinera. We believe that curation tokens will emerge in the next few years and have the same capacity to capture people's imagination that NFTs had. </p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">When we talk about curation, to maintain voting systems exemption from users that have an initial advantage of having more voting power, participants’ contributions in the different funding opportunities must be capped. This makes curation tokens' first goal the creation of a community of interested users and will be dedicating a substantial amount of creativity to this task.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Seed funders will have a small advantage in the token price but not in the number of tokens received. This practice is designed to multiply community members and this will strengthen and add credibility to the information curated in the Kinera DApp.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">If you want to participate and get information about the funding process subscribe our newsletter below.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">The widespread adoption of crypto can be attributed to Ethereum's financing model and Bitcoin's permissionless mining. From a time when venture capital didn’t exist to the current funding landscape, we can see the diminishing role of individual investors and the comeback of centralized models.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Before 2020, when NFTs captured the world’s attention, crypto projects were mostly protocols and financial applications. NFTs marked a shift for blockchain technology, as tokens began to find practical utility in people's lives, and this tendency will remain.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Our proposal is to leverage the Kinex token for content curation on the Kinera platform. We anticipate that curation tokens will emerge in the next few years, possessing the same capacity to capture people's imagination as NFTs did.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">When discussing tokens with the features of curation and funding, it is crucial to cap participants' contributions to ensure voting systems remain unbiased against users with initial advantages in voting power. This approach focuses curation tokens on their primary goal of fostering a community of interested users, and we will dedicate significant effort to achieve this goal.</p>
+                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">If you wish to participate and receive information about the funding process subscribe to our newsletter bellow.</p>
                 </div>
             </div>
         </div>
