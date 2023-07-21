@@ -1,4 +1,4 @@
-import fundo02 from '../../assets/images/fundo02.png';
+import backAbout01 from '../../assets/images/backAbout01.png';
 
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
             className="w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black py-20"
             id="about"
             style={{
-                backgroundImage: `url(${fundo02})`
+                backgroundImage: `url(${backAbout01})`
             }}
         >
             <div className="w-full h-full flex flex-col">

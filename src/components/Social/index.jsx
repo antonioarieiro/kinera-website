@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { BsDiscord, BsYoutube, BsLinkedin, BsMedium } from 'react-icons/bs'
 import { IoMail } from 'react-icons/io5'
 
-import Fundo04 from "../../assets/images/fundoblog.png";
+import socialBack from "../../assets/images/socialBack.png";
 
 const Social = () => {
     return (
@@ -11,7 +11,7 @@ const Social = () => {
             id='social'
             className="w-full bg-fixed bg-center py-16"
             style={{
-                backgroundImage: `url(${Fundo04})`,
+                backgroundImage: `url(${socialBack})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
                 backgroundPosition: "center",

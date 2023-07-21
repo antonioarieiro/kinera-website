@@ -16,7 +16,8 @@ const Welcome = () => {
                     <h1 className="kinera-title">THE KINERA PLATFORM</h1>
 
                     <div className="logo-section">
-                        <img src={Banner} alt='BigK02' className="logo-img pulse" /> 
+                        <img src={Banner} alt='BigK02' className="logo-img pulse" />
+                        
                     </div>
 
                     <p className="description">The <span class="glitch">Kinera Platform</span> is a social network dedicated to moving picture curation, </p>

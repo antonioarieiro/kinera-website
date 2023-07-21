@@ -1,7 +1,15 @@
+import backNews from '../../assets/images/backNews.png';
+
 const Newsletter = (props) => {
     const {setOpenModal,openModal}=props
     return (
-        <div className="w-screen min-h-[50vh] bg-[#FF0A78] flex justify-center items-center " id="newsletter">
+        <div
+            className="w-screen min-h-[50vh] flex justify-center items-center"
+            id="newsletter"
+            style={{
+                backgroundImage: `url(${backNews})`
+            }}
+        >
             <div className="w-full p-10 flex flex-col items-center justify-center gap-20">
                 <h1 onClick={()=>{setOpenModal(!openModal)}} className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB]">SUBSCRIBE TO OUR NEWSLETTER</h1>
                 <a

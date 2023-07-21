@@ -1,11 +1,18 @@
 import token from '../../assets/images/token.png';
+import kinexBack from '../../assets/images/kinexBack.png';
 
 const Kine = () => {
     return (
-        <div className="w-full min-h-[90vh] py-20 bg-[linear-gradient(180deg,#FFBAE7_0%,#FF6EC7_100%)]" id='kine'>
+        <div
+            className="w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black py-20"
+            id="kinex"
+            style={{
+                backgroundImage: `url(${kinexBack})`
+            }}
+        >
             <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE KINEX</h1>
             
-            <div className="w-full flex flex-col md:flex-row justify-center items-center md:px-40 px-10 mt-20 space-y-10 md:space-y-0">
+            <div className="container mx-auto flex flex-col md:flex-row mt-16 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
                 <div className="w-full md:w-1/2 flex justify-center">
                     <img src={token} alt="claquete" className="w-3/4 animate-pulse" />
                 </div>

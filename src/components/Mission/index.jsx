@@ -1,4 +1,4 @@
-import mission from '../../assets/images/mission.png';
+import missionImg from '../../assets/images/missionImg.png';
 import './mission.css'
 
 
@@ -9,7 +9,7 @@ const Mission = () => {
         <div
             className="is-md-w w-full min-h-screen flex flex-col py-20 sm:bg-[length:100vh_100vh] bg-[length:50vh_50vh] bg-no-repeat bg-right-bottom text-[#F3F6FB]"
             style={{
-                backgroundImage: `url(${mission})`
+                backgroundImage: `url(${missionImg})`
             }}
             id="mission"
         >
@@ -38,7 +38,7 @@ const Mission = () => {
             </div>
         </div>
         <div className='is-mobile-version'>
-            <img src={mission}/>
+            <img src={missionImg}/>
         </div>
     </div>
         </div>

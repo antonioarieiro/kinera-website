@@ -22,38 +22,38 @@ const Participation = () => {
                 <p className="text-[28px] text-center font-bold mt-20" data-aos="zoom-in">
                     Join the network and become an integral part of the ecosystem with one of these main roles, open to all participants:
                 </p>
+                <p></p>
 
                 <div className="my-20 flex flex-col gap-10">
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <DropItem
-                            question="Curators"
-                            answer={<p><strong>CURATORS</strong> are organized within a social network, engaging in various activities such as discovering films and videos from the internet or decentralized platforms, creating competitions, and voting for the best channels.</p>}
+                          question="Curators"
+                          answer={<p style={{ fontSize: '20px' }}><strong>CURATORS</strong> are organized within a social network, engaging in various activities such as discovering films and videos from the internet or decentralized platforms, creating competitions, and voting for the best channels.</p>}
                         />
-                        <img src={curators01} alt="curators01" className="w-full md:w-[360px]" />
+                        <img src={curators01} alt="creators01" className="w-full md:w-[360px]" />
                     </div>
-                    <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-4">
+                    <div className="flex flex-col md:flex-row-reverse items-center gap-4">
                         <DropItem
-                            question="Creators"
-                            answer={<p><strong>CREATORS</strong> select films and videos from curated lists and rankings to create television channels, which can be enhanced with interviews and live feed events.</p>}
+                          question="Creators"
+                          answer={<p style={{ fontSize: '20px' }}><strong>CREATORS</strong> select films and videos from curated lists and rankings to create television channels, which can be enhanced with interviews and live feed events.</p>}
                         />
-                        <img src={creators01} alt="creators01" className="w-full md:w-[360px]" />
+                        <img src={creators01} alt="curators01" className="w-full md:w-[360px]" />
                     </div>
-
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <DropItem
-                            question="Moderators"
-                            answer={<p><strong>MODERATORS</strong> play a more subtle role, resolving content disputes and ensuring adherence to guidelines on the platform. This is a voluntary role, to apply a collateral deposit is required.</p>}
+                          question="Moderators"
+                          answer={<p style={{ fontSize: '20px' }}><strong>MODERATORS</strong> play a more subtle role, resolving content disputes and ensuring adherence to guidelines on the platform. This is a voluntary role, to apply a collateral deposit is required.</p>}
                         />
                         <img src={moderators01} alt="moderators01" className="w-full md:w-[360px]" />
                     </div>
-                    <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-4">
+                    <div className="flex flex-col md:flex-row-reverse items-center gap-4">
                         <DropItem
-                            question="Ambassadors"
-                            answer={<p><strong>AMBASSADORS</strong> are equally vital members of our community, as they play a crucial role in promoting the project and bringing meaningful cinematography from all corners of the world to our platform. Interested individuals must apply to participate in and complete the Tokens Ambassadors Program to become ambassadors.</p>}
+                          question="Ambassadors"
+                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are equally vital members of our community, as they play a crucial role in promoting the project and bringing meaningful cinematography from all corners of the world to our platform. Interested individuals must apply to participate in and complete the Tokens Ambassadors Program to become ambassadors.</p>}
                         />
                         <img src={ambassadors01} alt="ambassadors01" className="w-full md:w-[360px]" />
                     </div>
-                </div>
+                    </div>
             </div>
         </div>
     )
