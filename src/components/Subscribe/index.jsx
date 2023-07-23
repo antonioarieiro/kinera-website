@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import {
     TextField, FormControl, FormLabel, RadioGroup as MuiRadioGroup,
     Radio, Select, MenuItem, InputLabel, TextareaAutosize, FormControlLabel
@@ -11,7 +12,7 @@ import fundo07 from '../../assets/images/fundo07.png';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const Subscribe = (props) => {
-    const {setOpenModal, openModal } = props;
+    const { setOpenModal, openModal } = props;
     const [wantToBeYouTuber, setWantToBeYouTuber] = useState(false);
     const [alreadyYouTuber, setAlreadyYouTuber] = useState(false);
     const [pickVideos, setPickVideos] = useState(false);
@@ -21,38 +22,39 @@ const Subscribe = (props) => {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [nationality, setNationality] = useState('');
-
+    const serverUlr = 'https://kinera-server-929f90d052fc.herokuapp.com'
     const theme = createTheme({
         components: {
-          MuiInputLabel: {
-            styleOverrides: {
-              root: {
-                color: 'white',
-                fontSize: '1.2rem', 
-                fontWeight: 500,
-              },
+            MuiInputLabel: {
+                styleOverrides: {
+                    root: {
+                        color: 'white',
+                        fontSize: '1.2rem',
+                        fontWeight: 500,
+                    },
+                },
             },
-          },
         },
-      });
+    });
 
     const countryOptions = Object.keys(countries.countries).map((code) => (
         <MenuItem key={code} value={code}>
-          {countries.countries[code].name}
+            {countries.countries[code].name}
         </MenuItem>
-      ));
+    ));
 
     const validateEmail = (email) => {
         // regex pattern for email validation according to RFC 5322
         const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);
-      };
+    };
 
     const handleSubmit = async () => {
         // validate email before submitting the form
+        console.log('dsadsasadsdadsasda:', serverUlr);
         if (!validateEmail(email)) {
             alert('Please enter a valid email address.');
-        return;
+            return;
         }
         setOpenModal(false);
         const data = {
@@ -66,9 +68,14 @@ const Subscribe = (props) => {
             receiveInformation: receiveInformation,
             nationality: nationality,
         };
-
+        
         try {
-            const response = await axios.post('https://kine-email-server.herokuapp.com/', data, {   headers: {     'Content-Type': 'application/json',   } }) ;
+        
+            const response = await axios.post(serverUlr, data, {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
             console.log(response.data);
             alert(response.data);
         } catch (error) {
@@ -76,6 +83,7 @@ const Subscribe = (props) => {
             alert('An error occurred while submitting the form, check if your e-mail is correct');
         }
     };
+
 
     return (
         <div className="w-full h-auto bg-white" style={{
