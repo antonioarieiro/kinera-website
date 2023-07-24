@@ -19,6 +19,7 @@ import Welcome from "./components/Welcome";
 import Roadmap from "./components/Rodmap";
 import Subscribe from "./components/Subscribe";
 import Social from "./components/Social/index.jsx";
+import Funding from "./components/Funding/index.jsx";
 //import Blog from "./components/Blog";
 
 
@@ -43,6 +44,7 @@ const App = () => {
             <Participation />
             <Foundation />
             <Community />
+            <Funding />
             <div className="relative w-full flex items-center justify-center">
             <Newsletter openModal={openModal} setOpenModal={setOpenModal}/>
             {

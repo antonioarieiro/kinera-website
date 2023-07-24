@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown'
 
 import FlipCard from '../FlipCard';
 
-import kineraStructure from '../../assets/images/kineraStructure.png';
+import kineraStructure02 from '../../assets/images/kineraStructure02.png';
 import asset01 from '../../assets/images/asset01.png';
 import asset02 from '../../assets/images/asset02.png';
 import asset03 from '../../assets/images/asset03.png';
@@ -19,7 +19,7 @@ const Struct = () => {
             className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-fixed bg-no-repeat text-black"
             id='struct'
             style={{
-                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${kineraStructure})`
+                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${kineraStructure02})`
             }}
         >
             <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
