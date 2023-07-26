@@ -1,4 +1,4 @@
-import kineraFund02 from '../../assets/images/kineraFund02.png'
+import kineraFund03 from '../../assets/images/kineraFund03.png'
 import fundation01 from '../../assets/images/fundation01.png'
 
 const Foundation = () => {
@@ -6,7 +6,7 @@ const Foundation = () => {
         <div
             className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-no-repeat bg-fixed text-white"
             style={{
-                backgroundImage: `url(${kineraFund02})`
+                backgroundImage: `url(${kineraFund03})`
             }}
             id='foundation'
         >

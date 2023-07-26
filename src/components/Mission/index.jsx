@@ -1,12 +1,12 @@
 import missionImg from '../../assets/images/missionImg.png';
-import missionImg2 from '../../assets/images/missionImg2.png';
+import missionImg3 from '../../assets/images/missionImg3.png';
 import './mission.css'
 
 
 const Mission = () => {
     return (
         <div className="mission-container">
-            <div className="background-image" style={{backgroundImage: `url(${missionImg2})`}} />
+            <div className="background-image" style={{backgroundImage: `url(${missionImg3})`}} />
             <div className='global-mobile'>
         <div
             className="foreground-image is-md-w w-full min-h-screen flex flex-col py-20 sm:bg-[length:100vh_100vh] bg-[length:50vh_50vh] bg-no-repeat bg-right-bottom text-[#F3F6FB]"

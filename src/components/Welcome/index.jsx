@@ -13,7 +13,7 @@ const Welcome = () => {
 
             <div className="main-content">
                 <div className="content-wrapper">
-                    <h1 className="kinera-title">THE KINERA PLATFORM</h1>
+                    <h1 className="kinera-title">KINERA PLATFORM</h1>
 
                     <div className="logo-section">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
