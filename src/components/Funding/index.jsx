@@ -13,7 +13,7 @@ const Funding = () => {
     }}
     id='funding'
 >
-                <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING</h1>
+                <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING</h1>
 
                 <h2 className="font-semibold text-center text-[28px] mt-20" data-aos="zoom-in">Blockchain technology disrupts and overcomes many challenges inherent in startup financing.</h2>
                 

@@ -15,7 +15,7 @@ const Participation = () => {
             id='participation'
         >
             <div className="container mx-auto px-4">
-                <h1 className="sm:text-[64px] text-[38px] font-bold text-center mb-5">
+                <h1 className="sm:text-[75px] text-[38px] font-bold text-center mb-5">
                     TYPES OF PARTICIPATION
                 </h1>
 

@@ -11,7 +11,7 @@ const Newsletter = (props) => {
             }}
         >
             <div className="w-full p-10 flex flex-col items-center justify-center gap-20">
-                <h1 onClick={()=>{setOpenModal(!openModal)}} className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB]">SUBSCRIBE TO OUR NEWSLETTER</h1>
+                <h1 onClick={()=>{setOpenModal(!openModal)}} className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB]">SUBSCRIBE TO OUR NEWSLETTER</h1>
                 <a
                 onClick={()=>{setOpenModal(!openModal)}}
                     className="

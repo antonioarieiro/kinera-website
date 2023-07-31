@@ -8,7 +8,10 @@ import Banner from '../../assets/images/kinerabanner.png';
 
 const Welcome = () => {
     return (
-        <div id="home">
+        <div className="w-full mb-12 text-[#F3F6FB]"
+            id="home"
+        >
+
             <Header />
 
             <div className="main-content">

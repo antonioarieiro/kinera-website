@@ -22,7 +22,7 @@ const Struct = () => {
                 backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${kineraStructure03})`
             }}
         >
-            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[80%]" data-aos="zoom-in">

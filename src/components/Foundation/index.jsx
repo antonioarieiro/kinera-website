@@ -10,7 +10,7 @@ const Foundation = () => {
             }}
             id='foundation'
         >
-            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-white mb-10">THE KINE FOUNDATION</h1>
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-white mb-10">THE KINE FOUNDATION</h1>
             
             <div className="container mx-auto flex flex-col md:flex-row mt-16 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
                 <div className="md:w-1/2 w-full flex justify-center items-center">

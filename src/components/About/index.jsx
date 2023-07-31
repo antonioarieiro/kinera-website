@@ -11,7 +11,7 @@ const About = () => {
             }}
         >
             <div className="w-full h-full flex flex-col">
-                <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-white">ABOUT</h1>
+                <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-white">ABOUT</h1>
 
                 <div className="w-full flex justify-center mt-10">
                     <div className="w-[80%]">

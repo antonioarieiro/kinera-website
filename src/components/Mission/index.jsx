@@ -15,7 +15,7 @@ const Mission = () => {
             }}
             id="mission"
         >
-            <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#FF0A78]">MISSION</h1>
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78]">MISSION</h1>
 
             <div className="w-full mt-20 px-2" data-aos="fade-right">
                 <div className="sm:w-[55%] w-full md:pl-28 pl-0 mt-50">
