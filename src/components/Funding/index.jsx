@@ -1,32 +1,35 @@
-import { useState, useEffect } from 'react'
-
-import fundBack from '../../assets/images/fundBack.png'
-
+import { useState, useEffect } from 'react';
+import fundBack from '../../assets/images/fundBack.png';
 
 const Funding = () => {
     return (
         <div
-    className="w-full min-h-screen flex flex-col py-20 md:px-44 px-5 bg-center bg-no-repeat bg-fixed text-white"
-    style={{
-        backgroundImage: `url(${fundBack})`,
-        backgroundSize: 'auto'
-    }}
-    id='funding'
->
-                <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING</h1>
-
-                <h2 className="font-semibold text-center text-[28px] mt-20" data-aos="zoom-in">Blockchain technology disrupts and overcomes many challenges inherent in startup financing.</h2>
-                
-                <div className="w-full flex flex-col gap-10 mt-20" data-aos="zoom-in">
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">The widespread adoption of crypto can be attributed to Ethereum's financing model and Bitcoin's permissionless mining. From a time when venture capital didn’t exist to the current funding landscape, we can see the diminishing role of individual investors and the comeback of centralized models.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Before 2020, when NFTs captured the world’s attention, crypto projects were mostly protocols and financial applications. NFTs marked a shift for blockchain technology, as tokens began to find practical utility in people's lives, and this tendency will remain.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">Our proposal is to leverage the Kinex token for content curation on the Kinera platform. We anticipate that curation tokens will emerge in the next few years, possessing the same capacity to capture people's imagination as NFTs did.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">When discussing tokens with the features of curation and funding, it is crucial to cap participants' contributions to ensure voting systems remain unbiased against users with initial advantages in voting power. This approach focuses curation tokens on their primary goal of fostering a community of interested users, and we will dedicate significant effort to achieve this goal.</p>
-                    <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">If you wish to participate and receive information about the funding process subscribe to our newsletter bellow.</p>
-                </div>
+            className="w-full min-h-screen flex flex-col py-20 md:px-20 px-5 bg-center bg-no-repeat bg-fixed text-white"
+            style={{ backgroundImage: `url(${fundBack})`, backgroundSize: 'auto' }}
+            id='funding'
+        >
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING</h1>
+            <h2 className="font-semibold text-center text-[28px] mt-10" data-aos="zoom-in">Some considerations:</h2>
+            
+            <div className="w-full flex flex-col gap-10 mt-20" data-aos="zoom-in">
+                <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">
+                    Blockchain technology disrupts and overcomes many challenges inherent in startup financing. The widespread adoption of crypto can be attributed to Ethereum's financing model with no venture capital and to Bitcoin's permissionless mining. From a time when venture capital didn’t exist to the current funding landscape, we can see the diminishing role of individual investors and the comeback of centralized corporate models.
+                </p>
+                <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">
+                    Before NFTs captured the world’s attention, crypto projects were mostly protocols and financial applications. NFTs represented a shift in blockchain technology, as tokens started to serve practical purposes in people's lives. We anticipate this trend to persist.
+                </p>
+                <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">
+                    Our proposal is to utilize the Kinex token for content curation on the Kinera platform. We anticipate the emergence of curation tokens and curation markets in the next few years, as they are the most effective tools for categorizing information and are likely to capture people's imagination, similar to the way NFTs did.
+                </p>
+                <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">
+                    When developing tokens for curation, it is crucial to cap participants' contributions in the founding round to ensure that voting systems remain unbiased against users with initial advantages in voting power. This primary goal of curation tokens is to foster a community of interested users within the token's domain, and we will dedicate significant effort to nurturing our community.
+                </p>
+                <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">
+                    If you wish to participate or just receive information about our funding process subscribe to our newsletter. See instructions below.
+                </p>
             </div>
-
-)
+        </div>
+    );
 }
 
-export default Funding
+export default Funding;

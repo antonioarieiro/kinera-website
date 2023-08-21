@@ -16,15 +16,15 @@ const Welcome = () => {
 
             <div className="main-content">
                 <div className="content-wrapper">
-                    <h1 className="kinera-title">KINERA PLATFORM</h1>
+                    <h1 className="kinera-title">THE KINERA PLATFORM</h1>
 
                     <div className="logo-section">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
                         
                     </div>
 
-                    <p className="description">The <span class="glitch">Kinera Platform</span> is a social network dedicated to moving picture curation, </p>
-                    <p className="description2">providing a framework to kick start and manage online rankings and video competitions.</p>
+                    <p className="description">The <span class="glitch">Kinera Platform</span> is a dedicated hub for creating subscription and non-subscription-based television channels </p>
+                    <p className="description2">built with tools designed to create decentralized video rankings and best film competitions.</p>
                 </div>
 
                 <div className="button-wrapper">

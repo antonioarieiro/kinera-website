@@ -81,26 +81,26 @@ const Community = () => {
             <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-40 pb-20">
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
-                        question="1. The community is the key to making all this possible"
-                        answer="Kinera is a decentralized platform aiming to revolutionize the film industry. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund film productions of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favorite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
+                        question="1. The community of participants is the backbone of Kinera."
+                        answer="Kinera is a decentralized platform aiming to revolutionize the way we make, classify and consume media. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund audio-visual projects of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favorite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
                         onClick={() => { setShowAnswer1(!showAnswer1) }}
                         showAnswer={showAnswer1}
                     />
                     <DropInfo
-                        question="2. Decentrlization is the key"
-                        answer="Every action taken on the platform contributes to its growth and the growth of its users. Our goal is to bring together social and technological communities to create solutions that make sense of the complex world we live in. That's why we're building a platform that leverages the power of decentralized networks to drive human coordination into the future."
+                        question="2. Decentralization is a core feature of Kinera "
+                        answer="Every action taken on the platform contributes to the network's growth. Our goal is to bring together social and technological communities to create a meaningful understanding of the complex world we live in. We aim to develop a platform that leverages the strength of decentralized networks as coordination systems to free the media from external influences, namely from the control of major corporations or institutional powers."
                         onClick={() => { setShowAnswer2(!showAnswer2) }}
                         showAnswer={showAnswer2}
                     />
                     <DropInfo
                         question="3. Token airdrops."
-                        answer="We aim to use blockchain technology to provide media content with a platform for meaningful interoperability, enhancing collective actions that create new social value, aligning online communities, and building upon this infrastructure. To facilitate this, we have included various forms of offers to the community, including token airdrops."
+                        answer="The Kinera platform uses blockchain technology to provide the conditions for media content that can  enhance  collective actions, create social value and align  online communities. To facilitate this, we have various offers to the community, including token airdrops."
                         onClick={() => { setShowAnswer3(!showAnswer3) }}
                         showAnswer={showAnswer3}
                     />
                     <DropInfo
                         question="4. Register as a curator and be creative."
-                        answer="To ensure a robust and diverse community of curators and to kickstart the platform, we will be initiating a series of incentivized contests to reward participants who submit meaningful and high-quality content with Kinex tokens. This initiative fosters the creation of constellations aligned with the platform's objectives. If you're interested in participating, you can register for our newsletter to receive updates on future contests that lead to airdrops."
+                        answer="To kickstart the platform and build a  strong and diverse community of curators, we will implement a series of incentives in the form of contests. These contests will reward participants who submit meaningful and high-quality content with Kinex tokens. This initiative aims to encourage the creation of constellations aligned with the platform's objectives. If you're interested in participating, you can register to receive our newsletter for updates on future contests that may lead to airdrops."
                         onClick={() => { setShowAnswer4(!showAnswer4) }}
                         showAnswer={showAnswer4}
                     />

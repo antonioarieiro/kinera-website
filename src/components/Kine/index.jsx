@@ -18,8 +18,8 @@ const Kine = () => {
                 </div>
                 
                 <div className="w-full md:w-1/2 flex flex-col justify-center" data-aos="fade-left">
-                    <p className="text-[24px] md:text-left text-center my-10 text-[#35012B]">The <span class="glitch">Kinex Token</span> is developed using a substrate-based infrastructure build in the Kusama and Polkadot networks and using their interoperability.</p>
-                    <p className="text-[24px] md:text-left text-center my-10 text-[#35012B]">Kinex serves <strong> multiple purposes </strong> within the platform, including <strong>ranking</strong> cinema and video content, <strong>curating</strong> Constellations categories, <strong>supporting</strong> SEE TV channels and film/video proposals in the Producers Network, and <strong>participating</strong> in governance decisions through voting and proposal submissions.</p>
+                    <p className="text-[24px] md:text-left text-center my-10 text-[#35012B]"><span class="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks, leveraging the networks' interoperability features and ability to outsource task resolution to other parachains.</p>
+                    <p className="text-[24px] md:text-left text-center my-10 text-[#35012B]"><strong> The Kinex token </strong> serves multiple purposes within the platform, including <strong> staking in the ranking of cinema and video content, Constellations categories, curating constellation games and supporting and moderating SEE TV channels. </strong> The tokens are also used in <strong> governance decisions </strong> through proposal submission and voting.</p>
                 </div>
             </div>
         </div>

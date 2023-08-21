@@ -20,7 +20,7 @@ const Participation = () => {
                 </h1>
 
                 <p className="text-[28px] text-center font-bold mt-20" data-aos="zoom-in">
-                    Join the network and become an integral part of the ecosystem with one of these main roles, open to all participants:
+                    Join the Kinera platform  and become an active  member  of the ecosystem taking on one or more of  of the following  roles:
                 </p>
                 <p></p>
 
@@ -42,14 +42,14 @@ const Participation = () => {
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <DropItem
                           question="Moderators"
-                          answer={<p style={{ fontSize: '20px' }}><strong>MODERATORS</strong> play a more subtle role, resolving content disputes and ensuring adherence to guidelines on the platform. This is a voluntary role, to apply a collateral deposit is required.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>MODERATORS</strong> play an important role in the governance of the platform,  resolving content disputes and ensuring adherence to guidelines on the platform. This is a voluntary role. Moderators need to apply for this role and deposit a number of tokens yet to be determined as collateral.</p>}
                         />
                         <img src={moderators01} alt="moderators01" className="w-full md:w-[360px]" />
                     </div>
                     <div className="flex flex-col md:flex-row-reverse items-center gap-4">
                         <DropItem
                           question="Ambassadors"
-                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are equally vital members of our community, as they play a crucial role in promoting the project and bringing meaningful cinematography from all corners of the world to our platform. Interested individuals must apply to participate in and complete the Tokens Ambassadors Program to become ambassadors.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are vital members, they  play an important  role in promoting the project and bringing meaningful content  from all corners of the world to our platform. Interested individuals must apply to participate in and complete the Tokens Ambassadors Program to become ambassadors.</p>}
                         />
                         <img src={ambassadors01} alt="ambassadors01" className="w-full md:w-[360px]" />
                     </div>
