@@ -19,9 +19,9 @@ const Social = () => {
             }}
         >
             <div className="min-h-[30vh] flex flex-col items-center md:px-20 px-2 gap-y-20">
-                <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB] mt-10">SOCIAL</h1>
+                <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-4">SOCIAL</h1>
 
-                <div className="w-full flex justify-center flex-wrap gap-10">
+                <div className="-mt-10 w-full flex justify-center flex-wrap gap-10">
                     <a href='https://discord.gg/VxhMApAGMn' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <BsDiscord color='#333333' />
                         <span>Discord</span>

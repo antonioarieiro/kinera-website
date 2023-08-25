@@ -76,9 +76,9 @@ const Community = () => {
     }}
     id='community'
 >
-            <h1 className="sm:text-[75px] text-[38px] font-bold text-center -mb-20 text-[#FF0A78]">COMMUNITY</h1>
+            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center -mb-20 text-[#FF0A78]">COMMUNITY</h1>
             
-            <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-40 pb-20">
+            <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-32 pb-20">
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
                         question="1. The community of participants is the backbone of Kinera."

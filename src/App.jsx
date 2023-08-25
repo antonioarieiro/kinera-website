@@ -20,7 +20,7 @@ import Roadmap from "./components/Rodmap";
 import Subscribe from "./components/Subscribe";
 import Social from "./components/Social/index.jsx";
 import Funding from "./components/Funding/index.jsx";
-//import Blog from "./components/Blog";
+import Blog from "./components/Blog";
 
 
 
@@ -52,6 +52,7 @@ const App = () => {
             }
             </div>
             <Social />
+            <Blog />
             <Footer />
         </div>
     )

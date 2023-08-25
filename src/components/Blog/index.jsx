@@ -1,4 +1,4 @@
-/*
+
   import React, { useState, useEffect } from 'react';
   import Fundo04 from "../../assets/images/fundoblog.png";
 
@@ -30,8 +30,8 @@
           backgroundPosition: "center",
         }}
       >
-        <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] mt-10">READ OUR BLOG</h1>
-        <div className="container mx-auto py-20 flex flex-col items-center justify-center">
+        <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-2">READ OUR BLOG</h1>
+        <div className="-mt-6 container mx-auto py-20 flex flex-col items-center justify-center">
           {selectedPost ? (
             <div className="w-full max-w-3xl">
               <button className="text-pink-500 mb-4" onClick={() => setSelectedPost(null)}>Back to posts</button>
@@ -69,9 +69,9 @@
   };
 
   export default Blog;
-*/
 
 
+/*
   import { useState, useEffect } from 'react'
   import { BsMedium } from 'react-icons/bs'
   import Fundo04 from "../../assets/images/fundoblog.png";
@@ -110,4 +110,4 @@
   }
   
   export default Blog
-  
+  */
