@@ -43,7 +43,7 @@ const Struct = () => {
                     title="Constellations"
                     imgUrl={asset02}
                     icon={<AiOutlineStar className="text-6xl my-[30px]" />}
-                    backDesc={<ReactMarkdown>{"***Constellations*** within Kinera act as the second layer for curation . In this competition arena, curators can vote for their favorite choices, competing directly with other users. This platform allows curators to showcase their knowledge and preferences in cinema, giving lesser-known gems an opportunity to shine while aligning with the collective judgment of the community."}</ReactMarkdown>}
+                    backDesc={<ReactMarkdown>{"***Constellations*** within Kinera act as the second layer for curation . In this competition arena, curators can vote for their favourite choices, competing directly with other users. This platform allows curators to showcase their knowledge and preferences in cinema, giving lesser-known gems an opportunity to shine while aligning with the collective judgement of the community."}</ReactMarkdown>}
                 />
                 <FlipCard
                     id='post3_img'

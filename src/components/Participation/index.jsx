@@ -21,7 +21,7 @@ const Participation = () => {
 
                 <div className="w-full flex justify-center mt-10">
                 <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[25px] text-center">Join the Kinera platform  and become an active  member  of the ecosystem taking on one or more of  of the following  roles:</p>
+                    <p className="text-[25px] text-center">Join the Kinera platform and become an active  member  of the ecosystem as a Curator, Creator, Moderator and Ambassador:</p>
                 </div>
                 </div>
 
@@ -30,7 +30,7 @@ const Participation = () => {
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <DropItem
                           question="Curators"
-                          answer={<p style={{ fontSize: '20px' }}><strong>CURATORS</strong> are organized within a social network, engaging in various activities such as discovering films and videos from the internet or decentralized platforms, creating competitions, and voting for the best channels.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>CURATORS</strong> are organised within a social network, engaging in activities such as discovering films and videos from the internet or decentralised platforms, creating competitions, and voting for the best channels.</p>}
                         />
                         <img src={curators01} alt="creators01" className="w-full md:w-[360px]" />
                     </div>
@@ -51,7 +51,7 @@ const Participation = () => {
                     <div className="flex flex-col md:flex-row-reverse items-center gap-4">
                         <DropItem
                           question="Ambassadors"
-                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are vital members of the community and  play an important  role in promoting the project and bringing meaningful content  from all corners of the world to our platform. Interested individuals must apply to participate in and complete the <strong>Tokens Ambassadors Program </strong>to become ambassadors.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are vital members of the community and  play an important  role in promoting the project and bringing meaningful content  from all corners of the world to our platform. Interested individuals must apply to participate in and complete the <strong> Tokens Ambassadors Program </strong> to become ambassadors.</p>}
                         />
                         <img src={ambassadors01} alt="ambassadors01" className="w-full md:w-[360px]" />
                     </div>

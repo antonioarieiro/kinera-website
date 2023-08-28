@@ -82,13 +82,13 @@ const Community = () => {
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
                         question="1. The community of participants is the backbone of Kinera."
-                        answer="Kinera is a decentralized platform aiming to revolutionize the way we make, classify and consume media. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund audio-visual projects of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favorite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
+                        answer="Kinera is a decentralised platform aiming to revolutionise the way we make, classify and consume media. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund audio-visual projects of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favourite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
                         onClick={() => { setShowAnswer1(!showAnswer1) }}
                         showAnswer={showAnswer1}
                     />
                     <DropInfo
                         question="2. Decentralization is a core feature of Kinera "
-                        answer="Every action taken on the platform contributes to the network's growth. Our goal is to bring together social and technological communities to create a meaningful understanding of the complex world we live in. We aim to develop a platform that leverages the strength of decentralized networks as coordination systems to free the media from external influences, namely from the control of major corporations or institutional powers."
+                        answer="Every action taken on the platform contributes to the network's growth. Our goal is to bring together social and technological communities to create a better understanding of the complex world we live in. We aim to develop a platform that leverages the strength of decentralised networks as coordination systems to free the media from external influences, namely from the control of major corporations and  institutional manipulation."
                         onClick={() => { setShowAnswer2(!showAnswer2) }}
                         showAnswer={showAnswer2}
                     />

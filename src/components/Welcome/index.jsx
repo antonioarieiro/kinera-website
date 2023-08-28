@@ -22,9 +22,9 @@ const Welcome = () => {
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
                         
                     </div>
-                    <p className="text-[19px] text-center mt-10" ><span class="glitch">Kinera</span> is a media platform where creators and viewers meet to view, curate and create  audiovisual content and films.</p>
-                    <p className="text-[19px] text-center -mt-0" >Kineras' mission is to harness the wisdom of the crowd to bring into focus new narratives and interests that mirror</p>
-                    <p className="text-[19px] " >the complexity and creativity of the world we live in.  </p>
+                    <p className="text-[19px] text-center mt-10" ><span class="glitch">Kinera</span> is a decentralised media platform. The platform is an environment where creators and viewers can publish their content and rank and curate existing videos and films. </p>
+                    <p className="text-[19px] text-center -mt-0" > On the platform audiovisual content and media experiences can be  organised in layers to create  television channels.</p>
+                    <p className="text-[19px] text-center -mt-0" > Kineras' mission is to harness the wisdom of the crowd to bring into focus new narratives and interests that mirror the complexity and creativity of the world we live in.   </p>
                 </div>
 
                 <div className="button-wrapper">

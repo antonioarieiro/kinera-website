@@ -34,9 +34,9 @@ const Mission = () => {
 
         <div className="w-full mt-20 px-2" data-aos="fade-right">
             <div className="sm:w-[55%] w-full md:pl-28 pl-0 mt-50">
-                <p className="text-[21px] sm:text-left text-center mt-28 font-medium"> Our <span class="glitch"> mission </span> is to construct a swift, scalable, and decentralized audiovisual network that operates with curation layers encompassing the creation and presentation of moving images.</p>
-                <p className="text-[21px] sm:text-left text-center mt-28 font-medium">  We envision forging an <span class="glitch"> open and resilient  curation ecosystem </span> that unites a diverse community of nonconformist media creators and professionals seeking to utilize and maintain subscription models for distributing audiovisual content.</p>
-                <p className="text-[21px] sm:text-left text-center mt-20 font-medium">  Our <span class="glitch"> objective </span> is to challenge existing ecosystems by reframing important questions about information accessibility, funding, and content distribution control. We aim to heighten awareness and actively explore new solutions in an environment where active participation of curators, producers, and consumers is fully rewarded.</p>
+                <p className="text-[21px] sm:text-left text-center mt-28 font-medium"> Our <span class="glitch"> mission </span> is to construct a swift, scalable, and decentralised audiovisual network that operates with curation layers for the creation and dissemination of moving images.</p>
+                <p className="text-[21px] sm:text-left text-center mt-28 font-medium">  We want to create an <span class="glitch"> open and resilient curation ecosystem </span> that unites a diverse community of  viewers and nonconformist media creators seeking to utilise and maintain  subscription models for distributing audiovisual content.</p>
+                <p className="text-[21px] sm:text-left text-center mt-20 font-medium">  Our <span class="glitch"> objective </span> is to challenge existing ecosystems by reframing important questions about information accessibility, funding, and content distribution control. We aim to deliver platform solutions that put the creator/viewer centre stage, and where active participation of  curators, producers, and consumers is fully rewarded.</p>
             </div>
         </div>
         <div className='is-mobile-version'>

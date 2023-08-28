@@ -1,3 +1,46 @@
+import { useState, useEffect } from 'react'
+import { BsMedium } from 'react-icons/bs'
+import Fundo04 from "../../assets/images/fundoblog.png";
+
+const Blog = () => {
+    return (
+        <div
+            id='blog'
+            className="w-full bg-fixed bg-center py-16"
+            style={{
+                backgroundImage: `url(${Fundo04})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                
+            }}
+        >
+            <div className="w-full p-10 flex flex-col items-center justify-center gap-20 ">
+                <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-8">READ OUR BLOG</h1>
+
+                <div className="w-full flex justify-center flex-wrap gap-10">
+                    <a href='https://medium.com/@kine.newsletter' className="
+                    bg-white hover:bg-[#FF0A78]
+                    duration-500 text-[#101111] hover:text-white
+                    text-lg font-bold px-3 py-2 rounded-3xl min-w-1/2
+                    text-center
+                    "
+                    style={{ width: '250px' }}
+                    >
+                        <span>Blog</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Blog
+
+
+
+/*
+
 
   import React, { useState, useEffect } from 'react';
   import Fundo04 from "../../assets/images/fundoblog.png";
@@ -69,45 +112,4 @@
   };
 
   export default Blog;
-
-
-/*
-  import { useState, useEffect } from 'react'
-  import { BsMedium } from 'react-icons/bs'
-  import Fundo04 from "../../assets/images/fundoblog.png";
-  
-  const Blog = () => {
-      return (
-          <div
-              id='blog'
-              className="w-full bg-fixed bg-center py-16"
-              style={{
-                  backgroundImage: `url(${Fundo04})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  
-              }}
-          >
-              <div className="w-full p-10 flex flex-col items-center justify-center gap-20">
-                  <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] mt-10">READ OUR BLOG</h1>
-  
-                  <div className="w-full flex justify-center flex-wrap gap-10">
-                      <a href='https://medium.com/@kine.newsletter' className="
-                      bg-white hover:bg-[#FF0A78]
-                      duration-500 text-[#101111] hover:text-white
-                      text-lg font-bold px-3 py-2 rounded-3xl min-w-1/2
-                      text-center
-                      "
-                      style={{ width: '250px' }}
-                      >
-                          <span>Blog</span>
-                      </a>
-                  </div>
-              </div>
-          </div>
-      )
-  }
-  
-  export default Blog
   */
