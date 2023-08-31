@@ -45,6 +45,7 @@ const App = () => {
             <Foundation />
             <Community />
             <Funding />
+            <Blog />
             <div className="relative w-full flex items-center justify-center">
             <Newsletter openModal={openModal} setOpenModal={setOpenModal}/>
             {
@@ -52,7 +53,7 @@ const App = () => {
             }
             </div>
             <Social />
-            <Blog />
+            
             <Footer />
         </div>
     )
