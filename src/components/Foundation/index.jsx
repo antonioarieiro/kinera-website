@@ -4,7 +4,7 @@ import fundation01 from '../../assets/images/fundation01.png'
 const Foundation = () => {
     return (
         <div
-            className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-no-repeat bg-fixed text-white"
+            className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-no-repeat text-white"
             style={{
                 backgroundImage: `url(${kineraFund03})`
             }}

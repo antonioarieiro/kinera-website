@@ -4,7 +4,7 @@ import kinexBack from '../../assets/images/kinexBack.png';
 const Kine = () => {
     return (
         <div
-            className="w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black py-20"
+            className="w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black bg-fixed py-20"
             id="kinex"
             style={{
                 backgroundImage: `url(${kinexBack})`

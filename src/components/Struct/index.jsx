@@ -16,7 +16,7 @@ import asset04 from '../../assets/images/asset04.png';
 const Struct = () => {
     return (
         <div
-            className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-fixed bg-no-repeat text-black"
+            className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-no-repeat text-black"
             id='struct'
             style={{
                 backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${kineraStructure03})`

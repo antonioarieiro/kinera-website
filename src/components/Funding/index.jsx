@@ -4,7 +4,7 @@ import fundBack from '../../assets/images/fundBack.png';
 const Funding = () => {
     return (
         <div
-            className="w-full min-h-screen flex flex-col pt-5 pb-20 md:px-20 px-5 bg-center bg-no-repeat bg-fixed text-white"
+            className="w-full min-h-screen flex flex-col pt-5 pb-20 md:px-20 px-5 bg-center bg-no-repeat text-white"
             style={{ backgroundImage: `url(${fundBack})`, backgroundSize: 'auto' }}
             id='funding'
         >

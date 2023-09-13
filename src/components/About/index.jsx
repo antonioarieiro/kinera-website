@@ -4,7 +4,7 @@ import backAbout01 from '../../assets/images/backAbout01.png';
 const About = () => {
     return (
         <div
-            className="w-full min-h-[85vh] bg-center bg-cover bg-no-repeat text-black py-20"
+            className="w-full min-h-[85vh] bg-center bg-cover bg-fixed bg-no-repeat text-black py-20"
             id="about"
             style={{
                 backgroundImage: `url(${backAbout01})`
