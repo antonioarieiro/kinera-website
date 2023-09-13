@@ -38,7 +38,7 @@ const Header = () => {
                 <a href="/#community" className="text-base hover:text-[#FF0A78]">Community</a>
                 <a href="/#funding" className="text-base hover:text-[#FF0A78]">Funding</a>
                 <a href="/#newsletter" className="text-base hover:text-[#FF0A78]">Newsletter</a>
-                <a href="https://main--marvelous-salamander-585fa8.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
+                <a href="https://main--incredible-wisp-737646.netlify.app/blog/" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
                 <a href="/#social" className="text-base hover:text-[#FF0A78]">Social</a>
             </nav>
         </header>
