@@ -4,7 +4,7 @@ import Header from "../Header";
 
 import './style.css';
 
-import Banner from '../../assets/images/kinera-banner.png';
+import Banner from '../../assets/images/kinera-banner-new.png';
 
 const Welcome = () => {
     return (
