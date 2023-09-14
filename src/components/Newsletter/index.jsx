@@ -10,7 +10,7 @@ const Newsletter = (props) => {
                 backgroundImage: `url(${backNews})`
             }}
         >
-            <div className="-mt-6 w-full p-10 flex flex-col items-center justify-center gap-20">
+            <div className="-mt-6 w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="zoom out">
                 <h1 onClick={()=>{setOpenModal(!openModal)}} className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB]">SUBSCRIBE TO OUR NEWSLETTER</h1>
                 <a
                 onClick={()=>{setOpenModal(!openModal)}}

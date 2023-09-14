@@ -11,7 +11,7 @@ const Funding = () => {
             <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78] mt-10" data-aos="zoom-in">FUNDING</h1>
            
             
-            <div className="w-full flex flex-col gap-10 mt-10" data-aos="zoom-in">
+            <div className="w-full flex flex-col gap-10 mt-10" data-aos="fade-left">
                 <p className="text-center hover:text-[#FF0A78] text-[19px] font-extralight">
                 Blockchain technology disrupts and overcomes many challenges inherent in startup financing. The widespread adoption of crypto can be attributed to Ethereum's financing model without  venture capital and to Bitcoin's  permissionless mining. From a time when venture capital didn’t exist to the current funding landscape, we can see the diminishing role of individual investors and the comeback of centralised corporate models.
                 </p>

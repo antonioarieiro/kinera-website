@@ -4,11 +4,11 @@ import Header from "../Header";
 
 import './style.css';
 
-import Banner from '../../assets/images/kinera-banner-renew.png';
+import Banner from '../../assets/images/kinera-banner.png';
 
 const Welcome = () => {
     return (
-        <div className="w-full mb-12 text-[#F3F6FB]" id="home">
+        <div className="w-full mb-25 text-[#F3F6FB]" id="home">
             <Header />
             <div className="main-content">
                 <div className="content-wrapper">
@@ -24,18 +24,18 @@ const Welcome = () => {
                         from public repositories and from other media networks on the Internet.
                     </p>
 
-                    <p className="text-[19px] text-center -mt-0">
+                    <p className="text-[19px] text-center mt-5">
                         The process of rank and curation leads to a set of public lists with relevant content that,<br />
                         in a second interaction, will be used to create television channels.
                     </p>
 
-                    <p className="text-[19px] text-center -mt-0">
+                    <p className="text-[19px] text-center mt-5">
                         Kineras' mission is to harness the wisdom of the crowd to bring into focus new media narratives,<br />
-                        pieces from creators that mirror the complexity and creativity of the world we <br /> live in.
+                        pieces from creators that mirror the complexity and creativity of the world we live in.
                     </p>
                 </div>
 
-                <div className="button-wrapper">
+                <div className="button-wrapper ">
                     <a className="info-button" href="/#about">
                         <AiOutlineCaretDown className="icon" />
                         <p>Know more</p>

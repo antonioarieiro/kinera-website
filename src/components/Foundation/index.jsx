@@ -10,11 +10,11 @@ const Foundation = () => {
             }}
             id='foundation'
         >
-            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-white mb-10">THE KINE FOUNDATION</h1>
+            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-white mb-10" data-aos="fade-left">THE KINE FOUNDATION</h1>
             
-            <div className="container mx-auto flex flex-col md:flex-row -mt-10 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
+            <div className="container mx-auto flex flex-col md:flex-row -mt-10 md:px-20 px-4 justify-center" data-aos="fade-left" style={{ gap: '5rem' }}>
                 <div className="md:w-1/2 w-full flex justify-center items-center">
-                    <img src={fundation01} alt="foundation" className="w-full md:w-[100%] mx-auto my-auto animate-bounce" />
+                    <img src={fundation01} alt="foundation" className="w-full md:w-[100%] mx-auto my-auto animate-bounce" data-aos="fade-right"/>
                 </div>
                 <div className="md:w-1/2 w-full" data-aos="fade-left">
                     <p className="text-[19px] md:text-left text-center my-10"><span class="glitch"> The Kine Foundation</span> is a non-profit organisation in the process of being established. </p>

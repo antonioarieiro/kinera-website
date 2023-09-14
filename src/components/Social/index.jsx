@@ -18,7 +18,7 @@ const Social = () => {
                 
             }}
         >
-            <div className="min-h-[30vh] flex flex-col items-center md:px-20 px-2 gap-y-20">
+            <div className="min-h-[30vh] flex flex-col items-center md:px-20 px-2 gap-y-20" data-aos="fade-left">
                 <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-4">SOCIAL</h1>
 
                 <div className="-mt-10 w-full flex justify-center flex-wrap gap-10">

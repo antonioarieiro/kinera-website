@@ -14,7 +14,7 @@ const Blog = () => {
                 backgroundPosition: "center",
             }}
         >
-            <div className="w-full p-10 flex flex-col items-center justify-center gap-20 ">
+            <div className="w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="zoom in">
                 <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-8">READ OUR BLOG</h1>
 
                 <div className="w-full flex justify-center flex-wrap gap-10">

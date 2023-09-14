@@ -15,7 +15,7 @@ const Participation = () => {
             id='participation'
         >
             <div className="container mx-auto px-4">
-                <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center mb-5">
+                <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center mb-5" data-aos="fade-left">
                     TYPES OF PARTICIPATION
                 </h1>
 
@@ -27,28 +27,28 @@ const Participation = () => {
 
 
                 <div className="my-20 flex flex-col gap-10">
-                    <div className="flex flex-col md:flex-row items-center gap-4">
+                    <div className="flex flex-col md:flex-row items-center gap-4" data-aos="fade-left">
                         <DropItem
                           question="Curators"
                           answer={<p style={{ fontSize: '20px' }}><strong>CURATORS</strong> are organised within a social network, engaging in activities such as discovering films and videos from the internet or decentralised platforms, creating competitions, and voting for the best channels.</p>}
                         />
                         <img src={curators01} alt="creators01" className="w-full md:w-[360px]" />
                     </div>
-                    <div className="flex flex-col md:flex-row-reverse items-center gap-4">
+                    <div className="flex flex-col md:flex-row-reverse items-center gap-4" data-aos="fade-right">
                         <DropItem
                           question="Creators"
                           answer={<p style={{ fontSize: '20px' }}><strong>CREATORS</strong> submit their own original work or select films and videos from curated lists and rankings to create television channels, which can be enhanced with interviews and live feed events.</p>}
                         />
                         <img src={creators01} alt="curators01" className="w-full md:w-[360px]" />
                     </div>
-                    <div className="flex flex-col md:flex-row items-center gap-4">
+                    <div className="flex flex-col md:flex-row items-center gap-4" data-aos="fade-left">
                         <DropItem
                           question="Moderators"
                           answer={<p style={{ fontSize: '20px' }}><strong>MODERATORS</strong> play an important role in the governance of the platform,  resolving content disputes and ensuring adherence to guidelines on the platform. This is a voluntary role. Moderators need to apply for this role and deposit tokens as collateral.</p>}
                         />
                         <img src={moderators01} alt="moderators01" className="w-full md:w-[360px]" />
                     </div>
-                    <div className="flex flex-col md:flex-row-reverse items-center gap-4">
+                    <div className="flex flex-col md:flex-row-reverse items-center gap-4" data-aos="fade-right">
                         <DropItem
                           question="Ambassadors"
                           answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are vital members of the community and  play an important  role in promoting the project and bringing meaningful content  from all corners of the world to our platform. Interested individuals must apply to participate in and complete the <strong> Tokens Ambassadors Program </strong> to become ambassadors.</p>}
