@@ -22,7 +22,7 @@ const Subscribe = (props) => {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [nationality, setNationality] = useState('');
-    const serverUlr = 'https://kinera-server-929f90d052fc.herokuapp.com'
+    const serverUlr = 'http://89.117.59.204:4000/'
     const theme = createTheme({
         components: {
             MuiInputLabel: {
