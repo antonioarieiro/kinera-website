@@ -1,4 +1,4 @@
-import token from '../../assets/images/token.png';
+import token from '../../assets/images/token3.png';
 import kinexBack from '../../assets/images/kinexBack.png';
 
 const Kine = () => {

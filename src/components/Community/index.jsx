@@ -5,13 +5,13 @@ import DropInfo from '../DropInfo'
 import comuBack from '../../assets/images/comuBack.png'
 import fundBack from '../../assets/images/fundBack.png'
 import asset06 from '../../assets/images/asset06.png'
-import asset07 from '../../assets/images/asset07.png'
-import asset08 from '../../assets/images/asset08.png'
-import asset09 from '../../assets/images/asset09.png'
+import asset07 from '../../assets/images/asset07.png?v=1' // Add query parameter for Cache Bustin
+import asset08 from '../../assets/images/asset08.png?v=1' // Add query parameter
+import asset09 from '../../assets/images/asset09.png?v=1' // Add query parameter
 
 const Community = () => {
-    const [selectedImage, setSelectedImage] = useState(asset06);
-    const [showAnswer1, setShowAnswer1] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(asset07);
+    const [showAnswer1, setShowAnswer1] = useState(true);
     const [showAnswer2, setShowAnswer2] = useState(false);
     const [showAnswer3, setShowAnswer3] = useState(false);
     const [showAnswer4, setShowAnswer4] = useState(false);
@@ -22,7 +22,7 @@ const Community = () => {
                 setShowAnswer2(false);
                 setShowAnswer3(false);
                 setShowAnswer4(false);
-                setSelectedImage(asset06);
+                setSelectedImage(asset07);
             }
         }
 
@@ -35,7 +35,7 @@ const Community = () => {
                 setShowAnswer1(false);
                 setShowAnswer3(false);
                 setShowAnswer4(false);
-                setSelectedImage(asset07);
+                setSelectedImage(asset06);
             }
         }
 
@@ -81,14 +81,14 @@ const Community = () => {
             <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-32 pb-20" data-aos="fade-right">
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
-                        question="1. The community of participants is the backbone of Kinera."
-                        answer="Kinera is a decentralised platform aiming to revolutionise the way we make, classify and consume media. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund audio-visual projects of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favourite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
+                        question="1. Decentralization is a core feature of Kinera "
+                        answer="Every action taken on the platform contributes to the network's growth. Our goal is to bring together social and technological communities to create a better understanding of the complex world we live in. We aim to develop a platform that leverages the strength of decentralised networks as coordination systems to free the media from external influences, namely from the control of major corporations and  institutional manipulation."
                         onClick={() => { setShowAnswer1(!showAnswer1) }}
                         showAnswer={showAnswer1}
                     />
                     <DropInfo
-                        question="2. Decentralization is a core feature of Kinera "
-                        answer="Every action taken on the platform contributes to the network's growth. Our goal is to bring together social and technological communities to create a better understanding of the complex world we live in. We aim to develop a platform that leverages the strength of decentralised networks as coordination systems to free the media from external influences, namely from the control of major corporations and  institutional manipulation."
+                        question="2. The community of participants is the backbone of Kinera."
+                        answer="Kinera is a decentralised platform aiming to revolutionise the way we make, classify and consume media. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund audio-visual projects of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favourite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
                         onClick={() => { setShowAnswer2(!showAnswer2) }}
                         showAnswer={showAnswer2}
                     />

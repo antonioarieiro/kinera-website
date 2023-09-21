@@ -19,7 +19,7 @@ const Blog = () => {
 
                 <div className="w-full flex justify-center flex-wrap gap-10">
                     <a 
-                        href='https://main--incredible-wisp-737646.netlify.app/blog/' 
+                        href='https://main--incredible-wisp-737646.netlify.app/blog' 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="
