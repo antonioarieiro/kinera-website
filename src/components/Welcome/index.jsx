@@ -4,7 +4,7 @@ import Header from "../Header";
 
 import './style.css';
 
-import Banner from '../../assets/images/kinera-banner-new.png';
+import Banner from '../../assets/images/kinera-banner-final.png';
 
 const Welcome = () => {
     return (
@@ -14,7 +14,7 @@ const Welcome = () => {
                 <div className="content-wrapper">
                     <h1 className="kinera-title">THE KINERA PLATFORM</h1>
 
-                    <div className="logo-section mt-10">
+                    <div className="logo-section mt-5">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
                     </div>
 
