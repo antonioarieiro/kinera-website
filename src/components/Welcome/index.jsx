@@ -8,7 +8,7 @@ import Banner from '../../assets/images/kinera-banner-final.png';
 
 const Welcome = () => {
     return (
-        <div className="w-full mb-25 text-[#F3F6FB]" id="home">
+        <div className="w-full mb-10 text-[#F3F6FB]" id="home">
             <Header />
             <div className="main-content">
                 <div className="content-wrapper">
@@ -35,13 +35,7 @@ const Welcome = () => {
                     </p>
                 </div>
 
-                <div className="button-wrapper ">
-                    <a className="info-button" href="/#about">
-                        <AiOutlineCaretDown className="icon" />
-                        <p>Know more</p>
-                        <AiOutlineCaretDown className="icon" />
-                    </a>
-                </div>
+
             </div>
         </div>
     );
