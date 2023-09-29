@@ -46,7 +46,7 @@
 }
 
 .logo-img {
-    width: 40rem; /* You'll adjust this value for different screen sizes */
+    width: 45rem; /* You'll adjust this value for different screen sizes */
     max-width: 100%; /* This will ensure the image never exceeds the container width */
     height: auto;
     margin-top: -2rem;
