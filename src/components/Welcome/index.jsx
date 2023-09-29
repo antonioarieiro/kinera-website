@@ -4,7 +4,7 @@ import Header from "../Header";
 
 import './style.css';
 
-import Banner from '../../assets/images/kinera-banner-final.png';
+import Banner from '../../assets/images/kinera-menor.png';
 
 const Welcome = () => {
     return (
@@ -12,9 +12,9 @@ const Welcome = () => {
             <Header />
             <div className="main-content">
                 <div className="content-wrapper">
-                    <h1 className="kinera-title">THE KINERA PLATFORM</h1>
+                    <h1 className="kinera-title">KINERA</h1>
 
-                    <div className="logo-section mt-5">
+                    <div className="logo-section mt-1">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
                     </div>
 
@@ -24,12 +24,12 @@ const Welcome = () => {
                         from public repositories and from other media networks on the Internet.
                     </p>
 
-                    <p className="text-[19px] text-center mt-5">
+                    <p className="text-[19px] text-center mt-6">
                         The process of rank and curation leads to a set of public lists with relevant content that,<br />
                         in a second interaction, will be used to create television channels.
                     </p>
 
-                    <p className="text-[19px] text-center mt-5">
+                    <p className="text-[19px] text-center mt-6">
                         Kineras' mission is to harness the wisdom of the crowd to bring into focus new media narratives,<br />
                         pieces from creators that mirror the complexity and creativity of the world we live in.
                     </p>

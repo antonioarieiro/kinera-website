@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 
-import { BsDiscord, BsYoutube, BsLinkedin, BsMedium } from 'react-icons/bs'
+import { BsDiscord, BsYoutube, BsTwitter, BsTelegram } from 'react-icons/bs'
 import { IoMail } from 'react-icons/io5'
 
-import socialBack from "../../assets/images/socialBack.png";
+import socialBack from "../../assets/images/socialBack2.png";
 
 const Social = () => {
     return (
@@ -18,10 +18,10 @@ const Social = () => {
                 
             }}
         >
-            <div className="min-h-[30vh] flex flex-col items-center md:px-20 px-2 gap-y-20" data-aos="fade-left">
+            <div className="w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="fade-left">
                 <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-4">SOCIAL</h1>
 
-                <div className="-mt-10 w-full flex justify-center flex-wrap gap-10">
+                <div className="w-full flex justify-center flex-wrap gap-10">
                     <a href='https://discord.gg/VxhMApAGMn' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <BsDiscord color='#333333' />
                         <span>Discord</span>
@@ -30,17 +30,17 @@ const Social = () => {
                         <BsYoutube color='#333333' />
                         <span>Youtube</span>
                     </a>
-                    <a href='https://medium.com/@kine.newsletter' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
-                        <BsMedium color='#333333' />
-                        <span>Medium</span>
+                    <a href='https://t.me/winners' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <BsTelegram color='#333333' />
+                        <span>Telegram - Winners</span>
                     </a>
-                    <a href='https://linkedin' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
-                        <BsLinkedin color='#333333' />
-                        <span>Linkedin</span>
+                    <a href='https://t.me/news' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                        <BsTelegram color='#333333' />
+                        <span>Telegram - News</span>
                     </a>
-                    <a href='newsletter@kinera.network' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                    <a href='https://twitter.com' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <IoMail color='#333333' />
-                        <span>Mail</span>
+                        <span>Twitter - X</span>
                     </a>
                 </div>
             </div>
