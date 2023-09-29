@@ -4,21 +4,21 @@ import Header from "../Header";
 
 import './style.css';
 
-import Banner from '../../assets/images/kinera-menor.png';
+import Banner from '../../assets/images/kinera-banner-final.png';
 
 const Welcome = () => {
     return (
-        <div className="w-full mb-10 text-[#F3F6FB]" id="home">
+        <div className=" w-full mb-10 text-[#F3F6FB]" id="home">
             <Header />
             <div className="main-content">
-                <div className="content-wrapper">
+                <div className="content-wrapper mt-6">
                     <h1 className="kinera-title">KINERA</h1>
 
-                    <div className="logo-section mt-1">
+                    <div className="logo-section mt-7">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
                     </div>
 
-                    <p className="text-[19px] text-center">
+                    <p className="mt-8 text-[19px] text-center">
                         <span className="glitch">We are</span> a decentralised media platform where users and creators publish<br />
                         their content; help rank and curate videos and films<br />
                         from public repositories and from other media networks on the Internet.
