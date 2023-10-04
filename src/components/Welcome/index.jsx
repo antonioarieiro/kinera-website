@@ -1,10 +1,10 @@
 import { AiOutlineCaretDown } from "react-icons/ai";
-import missionImg3 from '../../assets/images/estrelas5.png';
+import missionImg3 from '../../assets/images/estrelas6.png';
 import Header from "../Header";
 
 import './style.css';
 
-import Banner from '../../assets/images/kinera-banner-final.png';
+import Banner from '../../assets/images/kinera-banner-ultimo.png';
 
 const Welcome = () => {
     return (
@@ -19,7 +19,7 @@ const Welcome = () => {
                 <div className="content-wrapper mt-6">
                     <h1 className="kinera-title">KINERA</h1>
 
-                    <div className="logo-section mt-7">
+                    <div className="logo-section mt-20">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
                     </div>
 
