@@ -1,5 +1,5 @@
 import { AiOutlineCaretDown } from "react-icons/ai";
-import missionImg3 from '../../assets/images/estrelas6.png';
+import missionImg3 from '../../assets/images/estrelas7.png';
 import Header from "../Header";
 
 import './style.css';
@@ -17,7 +17,7 @@ const Welcome = () => {
             <div className="background-image" style={{backgroundImage: `url(${missionImg3})`}} />
             <div className='global-mobile'>
                 <div className="content-wrapper mt-6">
-                    <h1 className="kinera-title">KINERA</h1>
+                    <h1 className="kinera-title mt-9">KINERA</h1>
 
                     <div className="logo-section mt-20">
                         <img src={Banner} alt='BigK02' className="logo-img pulse" />
