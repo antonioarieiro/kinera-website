@@ -45,7 +45,7 @@ const App = () => {
     }, []);
 
     return(
-        <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-[#1D1D20] font-medium">
+        <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-[#0b0d17] font-medium">
             <progress value={progressValue} max="100" className="fixed bottom-0 w-full"></progress>
 
             <Welcome />

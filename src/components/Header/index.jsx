@@ -8,7 +8,7 @@ const Header = () => {
     const [showDropDownMenu, setShowDropDownMenu] = useState(false);
 
     return (
-        <header className="flex flex-col lg:flex-row items-center justify-center w-full px-10 py-2 border-b border-white bg-[#1D1D20] text-[#F3F6FB]">
+        <header className="flex flex-col lg:flex-row items-center justify-center w-full px-10 py-2 border-b border-white bg-[#0b0d17] text-[#F3F6FB]">
     <div className="flex justify-between items-center w-full lg:w-auto min-h-[70px]">
         
         <GiHamburgerMenu
