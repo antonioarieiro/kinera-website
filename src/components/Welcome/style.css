@@ -36,6 +36,7 @@
     font-size: 130px;
     font-weight: bold;
     text-align: center;
+    margin-top: 10rem; /* This is now defined in the CSS */
 }
 
 .logo-section {
@@ -43,13 +44,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 10rem; /* This is now defined in the CSS */
 }
 
 .logo-img {
-    width: 51rem; /* You'll adjust this value for different screen sizes */
-    max-width: 100%; /* This will ensure the image never exceeds the container width */
+    width: 51rem;
+    max-width: 100%;
     height: auto;
-    margin-top: -2rem;
 }
 
 /* This is for tablets and smaller laptops */
@@ -113,4 +114,16 @@
 .icon {
     color: pink;
     font-size: 1rem;
+}
+
+.background-image2 {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: cover;
+    background-position: center center;
 }
