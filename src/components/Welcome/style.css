@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    margin-top: -1rem; /* Add negative margin */
+    margin-top: -1rem;
 }
 
 .content-wrapper {
@@ -36,7 +36,7 @@
     font-size: 130px;
     font-weight: bold;
     text-align: center;
-    margin-top: 3rem; /* This is now defined in the CSS */
+    margin-top: 3rem;
 }
 
 .logo-section {
@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 14rem; /* This is now defined in the CSS */
+    margin-top: 14rem;
 }
 
 .logo-img {
@@ -53,24 +53,38 @@
     height: auto;
 }
 
-/* This is for tablets and smaller laptops */
-@media (max-width: 1024px) {
+/* Desktop Styles */
+@media (min-width: 769px) {
+    /* Specific styles for desktop if needed */
+}
+
+/* Tablet and Small Laptop Styles */
+@media (max-width: 1024px) and (min-width: 769px) {
     .logo-img {
-        width: 60rem; /* Adjust this value based on your design preference */
+        width: 60rem; /* Adjust based on design preference */
     }
 }
 
-/* This is for smartphones and tablets in portrait mode */
+/* Mobile Styles */
 @media (max-width: 768px) {
-    .logo-img {
-        width: 40rem; /* Adjust this value based on your design preference */
+    .global-mobile .logo-section .logo-img {
+        width: 120%; /* Adjusted width for mobile */
+        margin: 0 auto; /* Center the logo */
+    }
+
+    .kinera-title {
+        font-size: 72px; /* Adjust font size for mobile */
+    }
+
+    .content-wrapper p {
+        font-size: 16px; /* Adjust text size for mobile */
     }
 }
 
-/* This is for smaller smartphones */
+/* Smaller Smartphone Styles */
 @media (max-width: 480px) {
     .logo-img {
-        width: 30rem; /* Adjust this value based on your design preference */
+        width: 30rem; /* Adjust for smaller smartphones */
     }
 }
 
