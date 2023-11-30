@@ -14,7 +14,7 @@ const Kine = () => {
             
             <div className="-mt-2 container mx-auto flex flex-col md:flex-row mt-16 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
                 <div className="w-full md:w-1/2 flex justify-center">
-                <img src={token} alt="claquete" className="w-[80%] object-contain animate-pulse" />
+                <img src={token} alt="claquete" className="w-[50%] object-contain animate-pulse" />
                 </div>
                 
                 <div className="w-full md:w-1/2 flex flex-col justify-center" data-aos="fade-left">
