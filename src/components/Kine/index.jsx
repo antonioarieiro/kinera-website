@@ -12,7 +12,7 @@ const Kine = () => {
         >
             <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE KINEX</h1>
             
-            <div className="-mt-2 container mx-auto flex flex-col md:flex-row mt-16 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
+            <div className="-mt-2 container mx-auto flex flex-col md:flex-row mt-0 md:px-20 px-4 justify-center" style={{ gap: '5rem' }}>
                 <div className="w-full md:w-1/2 flex justify-center">
                 <img src={token} alt="claquete" className="w-[50%] object-contain animate-pulse" />
                 </div>
