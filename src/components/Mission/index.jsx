@@ -1,5 +1,5 @@
 import missionImg from '../../assets/images/missionImg.png';
-import missionImg3 from '../../assets/images/missionImg3.png';
+import missionImg3 from '../../assets/images/missionImg4.png';
 import './mission.css'
 
 const Mission = () => {
