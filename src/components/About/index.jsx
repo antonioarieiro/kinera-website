@@ -1,5 +1,5 @@
 import backAbout01 from '../../assets/images/backAbout01.png';
-
+import './about.css';
 
 const About = () => {
     return (

@@ -76,6 +76,11 @@
         font-size: 72px; /* Adjust font size for mobile */
     }
 
+    .logo-img {
+        width: 80%; /* Adjust logo size for mobile */
+        margin: 0 auto; /* Center the logo */
+    }
+
     .content-wrapper p {
         font-size: 16px; /* Adjust text size for mobile */
     }
@@ -142,18 +147,3 @@
     background-position: center center;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .kinera-title {
-        font-size: 72px; /* Adjust font size for mobile */
-    }
-
-    .logo-img {
-        width: 80%; /* Adjust logo size for mobile */
-        margin: 0 auto; /* Center the logo */
-    }
-
-    .content-wrapper p {
-        font-size: 16px; /* Adjust text size for mobile */
-    }
-}
