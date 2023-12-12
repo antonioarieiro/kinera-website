@@ -22,9 +22,9 @@ const About = () => {
 
                         <p className="text-[19px] text-center mt-10" data-aos="fade-right">The result of the process is a set of lists with relevant content. On top of these lists, the community can build television channels that reflect their interests and culture. The channels can use different subscription models to finance themselves or be open to everyone.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><span class="glitch">Kinera's media platform </span> is the place to nurture, empower, and give voice to people from different cultural and political backgrounds.</p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><span class="glitch">Kinera's </span> media platform is the place to nurture, empower, and give voice to people from different cultural and political backgrounds.</p>
 
-                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><span class="glitch">Content moderation </span> is made by the community and reinforced by a platform design that drives the users to forms of participation according to the community rules. In this way, members can choose their level of engagement in an environment aligned with their values.</p>
+                        <p className="text-[19px] text-center mt-10" data-aos="fade-right"><b>Content moderation </b> is made by the community and reinforced by a platform design that drives the users to forms of participation according to the community rules. In this way, members can choose their level of engagement in an environment aligned with their values.</p>
 
                         <p className="text-[19px] text-center mt-10" data-aos="fade-right">We aim to become the first global content creation and distribution network where the same content is available everywhere.</p>
 

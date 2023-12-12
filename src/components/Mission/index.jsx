@@ -18,9 +18,9 @@ const Mission = () => {
 
                     <div className="w-full mt-10 px-2" >
                         <div className="sm:w-[55%] w-full md:pl-28 pl-0 mt-50">
-                            <p className="text-[19px] sm:text-left text-center -mt-2 "data-aos="fade-right"> We propose <span className="glitch"> to create an open and resilient curation ecosystem </span> that unites a diverse community of viewers and nonconformist media creators.</p>
-                            <p className="text-[19px] sm:text-left text-center mt-10 "data-aos="fade-right">  We aim <span className="glitch"> to challenge existing social media and streaming platforms </span> by realigning important questions about accessibility, funding, and content distribution while giving a wider audience the films, videos, and ideas that aren't yet in mainstream media.</p>
-                            <p className="text-[19px] sm:text-left text-center mt-10 "data-aos="fade-right">  We aim <span className="glitch"> to deliver a solution </span> that puts the relation creator/curator/viewer at the centre of a process where their active participation in the ecosystem aligns with a set of predictable token rewards.</p>
+                            <p className="text-[19px] sm:text-left text-center -mt-2 "data-aos="fade-right"> <span className="glitch">We propose </span>  to create an open and resilient curation ecosystem that unites a diverse community of viewers and nonconformist media creators.</p>
+                            <p className="text-[19px] sm:text-left text-center mt-10 "data-aos="fade-right">  <span className="glitch"> We aim </span> to challenge existing social media and streaming platforms by realigning important questions about accessibility, funding, and content distribution while giving a wider audience the films, videos, and ideas that aren't yet in mainstream media.</p>
+                            <p className="text-[19px] sm:text-left text-center mt-10 "data-aos="fade-right">  <span className="glitch"> We aim </span> to deliver a solution that puts the relation creator/curator/viewer at the centre of a process where their active participation in the ecosystem aligns with a set of predictable token rewards.</p>
                         </div>
                     </div>
                 </div>
