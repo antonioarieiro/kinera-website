@@ -18,13 +18,13 @@ const Welcome = () => {
                                 <img src={Banner} alt='BigK02' className="logo-img pulse" />
                             </div>
                             <p className="mt-6 text-base text-center" style={{ zIndex: 1 }}>
-                                <span className="glitch">We are</span> a decentralised media platform where users and creators publish their content; help rank and curate videos and films from public repositories and from other media networks on the Internet.
+                                <span className="glitch">We are</span> a decentralised media platform where users and creators publish their content; help rank and curate videos and films from public repositories and other media networks on the Internet.
                             </p>
                             <p className="text-base text-center mt-6" style={{ zIndex: 1 }}>
-                                The process of rank and curation leads to a set of public lists with relevant content that, in a second interaction, will be used to create television channels.
+                                The process of rank and curation leads to a set of public lists with relevant content that participants will use to create television channels. 
                             </p>
                             <p className="text-base text-center mt-6" style={{ zIndex: 1 }}>
-                                Kineras' mission is to harness the wisdom of the crowd to bring into focus new media narratives, pieces from creators that mirror the complexity and creativity of the world we live in.
+                                Kineras' mission is to harness the wisdom of the crowd to bring focus into new media narratives, where creators can mirror the complexity and creativity of people's interactions in the world we live in.
                             </p>
                         </div>
                     </div>

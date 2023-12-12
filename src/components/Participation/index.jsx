@@ -16,12 +16,12 @@ const Participation = () => {
         >
             <div className="container mx-auto px-4">
                 <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center mb-5" data-aos="fade-left">
-                    TYPES OF PARTICIPATION
+                    HOW TO PARTICIPATE
                 </h1>
 
                 <div className="w-full flex justify-center mt-10">
                 <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[25px] text-center">Join the Kinera platform and become an active member of the ecosystem as a Curator, Creator, Moderator and Ambassador:</p>
+                    <p className="text-[25px] text-center">Join the Kinera platform and become an active  member  of the ecosystem as a Curator, Moderator Ambassador and or Creator:</p>
                 </div>
                 </div>
 
@@ -29,28 +29,28 @@ const Participation = () => {
                     <div className="flex flex-col md:flex-row items-center gap-4" data-aos="fade-left">
                         <DropItem
                           question="Curators"
-                          answer={<p style={{ fontSize: '20px' }}><strong>CURATORS</strong> are organized within a social network, engaging in activities such as discovering films and videos from the internet or decentralised platforms, creating competitions, and voting for the best channels. They are key to the platform's content curation.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>CURATORS</strong> have a central role; they are responsible for discovering and organising our constellations. Their activities include searching the internet and decentralised networks for top-tier content, organising competitions, and voting for the best channels. </p>}
                         />
                         <img src={curators01} alt="curators01" className="w-[50%] md:w-[230px]" />
                     </div>
                     <div className="flex flex-col md:flex-row-reverse items-center gap-4" data-aos="fade-right">
                         <DropItem
                           question="Creators"
-                          answer={<p style={{ fontSize: '20px' }}><strong>CREATORS</strong> submit their own original work or select films and videos from curated lists and rankings to create television channels, which can be enhanced with interviews and live feed events. Their creativity drives the platform's content diversity.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>CREATORS</strong> are the members who craft distinctive and captivating content from our curated lists to create streaming channels. These channels may be further enhanced with interviews and live events, providing a comprehensive viewing experience.</p>}
                         />
                         <img src={creators01} alt="creators01" className="w-[50%] md:w-[230px]" />
                     </div>
                     <div className="flex flex-col md:flex-row items-center gap-4" data-aos="fade-left">
                         <DropItem
                           question="Moderators"
-                          answer={<p style={{ fontSize: '20px' }}><strong>MODERATORS</strong> play an important role in the governance of the platform, resolving content disputes and ensuring adherence to guidelines on the platform. This is a voluntary role. Moderators need to apply for this role and deposit tokens as collateral. They ensure a safe and respectful environment.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>MODERATORS</strong> are the volunteers who maintain the platform's high quality and safety standards. They report and resolve content disputes and ensure that all users follow guidelines.  You can set your moderation flag on if your reputation is in the top 80%. If so, report content, use your tokens to vote the decisions, and win tokens back from voting according to the rules. Kinex token rewards the individual's expertise and commitment to carry out the role with knowledge and depth.</p>}
                         />
                         <img src={moderators01} alt="moderators01" className="w-[50%] md:w-[230px]" />
                     </div>
                     <div className="flex flex-col md:flex-row-reverse items-center gap-4" data-aos="fade-right">
                         <DropItem
                           question="Ambassadors"
-                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are vital members of the community and play an important role in promoting the project and bringing meaningful content from all corners of the world to our platform. Interested individuals must apply to participate in and complete the <strong>Tokens Ambassadors Program</strong> to become ambassadors. They bridge the platform with diverse communities.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> help build a strong community that works together to make a meaningful platform. Individuals interested in this role must apply and complete the Tokens Ambassadors Program to become an ambassador.</p>}
                         />
                         <img src={ambassadors01} alt="ambassadors01" className="w-[50%] md:w-[230px]" />
                     </div>

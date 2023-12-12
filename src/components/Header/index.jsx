@@ -30,7 +30,7 @@ const Header = () => {
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#kine">Kine Token</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#struct">Kinera Structure</a></li>
                             <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="/#participation">Types of Participation</a></li>
-                            <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="https://drive.google.com/file/d/1zoowL-_N_BlzWLCeMEqmjDXY3JZ6HDQL/view?usp=share_link">Lightpaper</a></li>
+                            <li><a className="block px-4 py-2 hover:bg-[#FF0A78]" href="https://drive.google.com/file/d/1zoowL-_N_BlzWLCeMEqmjDXY3JZ6HDQL/view?usp=share_link" target="_blank">Lightpaper</a></li>
                         </ul>
                     </div>
                 </div>

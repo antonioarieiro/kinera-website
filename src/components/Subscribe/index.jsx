@@ -30,7 +30,7 @@ const Subscribe = (props) => {
                     root: {
                         color: 'white',
                         fontSize: '1.2rem',
-                        fontWeight: 500,
+                        fontWeight: 800, // Changed from 500 to 800 for bold
                     },
                 },
             },

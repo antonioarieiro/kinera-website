@@ -9,6 +9,8 @@ import asset07 from '../../assets/images/asset07.png?v=1' // Add query parameter
 import asset08 from '../../assets/images/asset08.png?v=1' // Add query parameter
 import asset09 from '../../assets/images/asset09.png?v=1' // Add query parameter
 
+import ReactMarkdown from 'react-markdown'
+
 const Community = () => {
     const [selectedImage, setSelectedImage] = useState(asset07);
     const [showAnswer, setShowAnswer] = useState(1);
@@ -45,26 +47,26 @@ const Community = () => {
             <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-32 pb-20" data-aos="fade-right">
                 <div className="md:w-3/5 w-full gap-10">
                     <DropInfo
-                        question="1. Decentralization is a core feature of Kinera."
-                        answer="Every action taken on the platform contributes to the network's growth. Our goal is to bring together social and technological communities to create a better understanding of the complex world we live in. We aim to develop a platform that leverages the strength of decentralised networks as coordination systems to free the media from external influences, namely from the control of major corporations and  institutional manipulation."
+                        question="1. Decentralisation is a core feature of Kinera."
+                        answer={<ReactMarkdown>{"***Every action taken on the platform contributes to the network's growth***. Our goal is to bring together social and technological communities to create a better understanding of the complex world we live in. We aim to develop a platform that ***leverages the strength of decentralised networks*** as coordination systems to free the media from external influences, namely from the control of major corporations and institutional manipulation."}</ReactMarkdown>}
                         onClick={() => setShowAnswer(1)}
                         showAnswer={showAnswer === 1}
                     />
                     <DropInfo
                         question="2. The community of participants is the backbone of Kinera."
-                        answer="Kinera is a decentralised platform aiming to revolutionise the way we make, classify and consume media. Its primary purpose is to classify and curate public videos from popular platforms, create television channels, and fund audio-visual projects of all sizes. The platform incentivizes participation through Kinex token rewards for actions such as creating video contests, curating content, creating television channels, or simply watching and voting on favourite videos. The strength of Kinera lies in its community-driven approach, where every participant plays an important role in its success."
+                        answer={<ReactMarkdown>{"***Kinera is a decentralised platform aiming to revolutionise how we make, classify and consume media***. Its primary purpose is to categorise and rank the best videos from popular platforms, create subscription channels, and fund audio-visual projects proposed by the users. The platform ***incentivises participation through Kinex tokens***, rewarding participants for making video competitions, curating content, creating television channels, or simply watching and voting on their favourite videos. The strength of Kinera lies in its ***community-driven approach***, where every participant plays a role in its success."}</ReactMarkdown>}
                         onClick={() => setShowAnswer(2)}
                         showAnswer={showAnswer === 2}
                     />
                     <DropInfo
-                        question="3. Token airdrops to reward engagement."
-                        answer="The Kinera platform uses blockchain technology to provide the conditions for media content that can  enhance  collective actions, create social value and align  online communities. To facilitate this, we have various offers to the community, including token airdrops."
+                        question="3. Token airdrops"
+                        answer={<ReactMarkdown>{"***The Kinera platform*** uses blockchain technology to provide the conditions for media content that can enhance collective actions, create social value and align online communities. To facilitate this, we have various ***offers to the community, including token airdrops***."}</ReactMarkdown>}
                         onClick={() => setShowAnswer(3)}
                         showAnswer={showAnswer === 3}
                     />
                     <DropInfo
                         question="4. Register as a curator and be creative."
-                        answer="To kickstart the platform and build a  strong and diverse community of curators, we will implement a series of incentives in the form of contests. These contests will reward participants who submit meaningful and high-quality content with Kinex tokens. This initiative aims to encourage the creation of constellations aligned with the platform's objectives. If you're interested in participating, you can register to receive our newsletter for updates on future contests that may lead to airdrops."
+                        answer={<ReactMarkdown>{"***To kickstart the platform*** and build a  strong and diverse community of curators, we will implement a series of incentives in the form of contests. These contests will ***reward participants submitting meaningful, high-quality content with Kinex tokens***. This initiative aims to encourage the creation of constellations aligned with the platform's goals. ***If you're interested in participating, you can register to receive our newsletter for updates on future contests that may lead to airdrops.***"}</ReactMarkdown>}
                         onClick={() => setShowAnswer(4)}
                         showAnswer={showAnswer === 4}
                     />

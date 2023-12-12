@@ -26,7 +26,7 @@ const Struct = () => {
 
             <div className="w-full flex justify-center mt-10">
                 <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[25px] text-center">Kinera's architecture is composed of <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    <p className="text-[25px] text-center">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
                 </div>
             </div>
 
@@ -43,21 +43,21 @@ const Struct = () => {
                     title="Constellations"
                     imgUrl={asset02}
                     icon={<AiOutlineStar className="text-6xl my-[30px]" />}
-                    backDesc={<ReactMarkdown>{"***Constellations*** within Kinera act as the second layer for curation . In this competition arena, curators can vote for their favourite choices, competing directly with other users. This platform allows curators to showcase their knowledge and preferences in cinema, giving lesser-known gems an opportunity to shine while aligning with the collective judgement of the community."}</ReactMarkdown>}
+                    backDesc={<ReactMarkdown>{"***Constellations*** within Kinera act as the second layer for curation. Curators can vote for their favourite choices in this competition arena, competing directly with other users. This platform allows curators to showcase their knowledge and preferences in cinema, allowing lesser-known gems to shine while aligning with the community's collective judgement."}</ReactMarkdown>}
                 />
                 <FlipCard
                     id='post3_img'
                     title="TVChain SEE"
                     imgUrl={asset03}
                     icon={<FiMonitor className="text-6xl my-[50px]" />}
-                    backDesc={<ReactMarkdown>{"***SEE TVChain*** is a protocol that enables the creation of television channels from curated materials, sourced from Rankings and Constellations. These channels can be freely accessible or require a subscription fee to protect copyrights."}</ReactMarkdown>}
+                    backDesc={<ReactMarkdown>{"***SEE TVChain*** is a protocol that enables the creation of television channels from curated materials sourced from Rankings and Constellations. These channels can be freely accessible or require a subscription fee to protect copyrights."}</ReactMarkdown>}
                 />
                 <FlipCard
                     id='post4_img'
                     title="Kine Makers"
                     imgUrl={asset04}
                     icon={<BsPlusLg className="text-6xl my-[50px]" />}
-                    backDesc={<ReactMarkdown>{"***Kine Makers*** is a crowdfunding platform for audio-visual  projects where patrons purchase tokens representing film rights and receive rewards whenever their projects generate revenue. Implementation of this feature will comply with International Securities Laws."}</ReactMarkdown>}
+                    backDesc={<ReactMarkdown>{"***Kine Makers*** is a crowdfunding platform for audio-visual projects where patrons purchase tokens representing film rights and receive rewards whenever their projects generate revenue. Implementation of this feature will comply with International Securities Laws."}</ReactMarkdown>}
                 />
             </div>
         </div>

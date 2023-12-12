@@ -18,8 +18,9 @@ const Kine = () => {
                 </div>
                 
                 <div className="w-full md:w-1/2 flex flex-col justify-center" data-aos="fade-left">
-                    <p className="text-[19px] md:text-left text-center my-10 text-[#35012B]"><span class="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks, leveraging the networks' interoperability features and ability to outsource task resolution to other parachains.</p>
-                    <p className="text-[19px] md:text-left text-center my-10 text-[#35012B]"><strong> The Kinex token </strong> serves multiple purposes within the platform. The token can be used to <strong> stake in ranking lists with film and video content as well as the curation of constellation games and the support and moderation of SEE TV channels. </strong> The tokens can also be used in voting on platform <strong> governance proposals. </strong></p>
+                    <p className="text-[19px] md:text-left text-center my-10 text-[#35012B]"><span class="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks. This way, we gain the power of network interoperability and the ability to outsource task resolution and achieve top security levels. </p>
+                    <p className="text-[19px] md:text-left text-center my-5 text-[#35012B]"><span class="glitch">Kinera </span> is a substrate-based infrastructure built in the Kusama and Polkadot networks, with its shared security, interoperability, and ability to outsource task resolution. </p>
+                    <p className="text-[19px] md:text-left text-center my-5 text-[#35012B]">Our token has multiple purposes within the platform: stake while signalling the best content in <span class="glitch"> ranking lists </span>, curate <span class="glitch"> constellations </span>, support and moderate <span class="glitch"> SEE TV channels </span> , and propose and vote <span class="glitch"> governance proposals </span>.</p>
                 </div>
             </div>
         </div>
