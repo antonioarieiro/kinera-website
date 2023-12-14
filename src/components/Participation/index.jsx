@@ -21,7 +21,7 @@ const Participation = () => {
 
                 <div className="w-full flex justify-center mt-10">
                 <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[25px] text-center">Join the Kinera platform and become an active  member  of the ecosystem as a Curator, Moderator Ambassador and or Creator:</p>
+                    <p className="text-[25px] text-center">Join the Kinera platform and become an active member of the ecosystem as a <strong>Curator</strong>, <strong>Moderator</strong>, <strong>Ambassador</strong> and or <strong> Creator</strong>:</p>
                 </div>
                 </div>
 
@@ -50,7 +50,7 @@ const Participation = () => {
                     <div className="flex flex-col md:flex-row-reverse items-center gap-4" data-aos="fade-right">
                         <DropItem
                           question="Ambassadors"
-                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> help build a strong community that works together to make a meaningful platform. Individuals interested in this role must apply and complete the Tokens Ambassadors Program to become an ambassador.</p>}
+                          answer={<p style={{ fontSize: '20px' }}><strong>AMBASSADORS</strong> are volunteers who wish to see the growth and success of the community. They play a crucial role as mediators, advocates, and guardians of the ecosystem, fostering its expansion and protection and organising or promoting initiatives that strengthen the ecosystem. </p>}
                         />
                         <img src={ambassadors01} alt="ambassadors01" className="w-[50%] md:w-[230px]" />
                     </div>

@@ -18,10 +18,9 @@ const Foundation = () => {
                     <img src={fundation01} alt="foundation" className="w-full md:w-[100%] mx-auto my-auto" data-aos="fade-right"/>
                 </div>
                 <div className="md:w-1/2 w-full" data-aos="fade-left">
-                    <p className="text-[19px] md:text-left text-center my-10"><span class="glitch"> The Kine Foundation</span> is a non-profit organisation in the process of being established. The foundation is responsible for implementing the specifications in the Kinera White Paper. The foundation is responsible for implementing the specifications in the <b> Kinera White Paper </b>.</p>
-                    <p className="text-[19px] md:text-left text-center my-10">It aims to transform traditional approaches to video and film curation, exhibition, production, and audience engagement by embracing a new paradigm.</p>
-                    <p className="text-[19px] md:text-left text-center my-10">With Kinera, the Kine Foundation is committed to promoting  active audience engagement by embracing a new paradigm. </p>
-                    <p className="text-[19px] md:text-left text-center my-10"><span class="glitch"> Kinera,</span> the platform developed by the Kine Foundation, operates as a community-governed ecosystem where the community's vision and decisions will evolve from representative democracy to futarchy and other processes that combine reputation, token value and curation markets. This ensures that the platform remains aligned with its mission and its users have a voice in its ongoing development and evolution.</p>
+                    <p className="text-[19px] md:text-left text-center my-10"><span class="glitch"> The Kine Foundation</span> is the legal structure committed to building and supporting <b>Kinera-related technologies</b> and the <b>Kinex token</b>. </p>
+                    <p className="text-[19px] md:text-left text-center my-10">By embracing a new paradigm, we aim to transform traditional approaches to video and film curation, exhibition, production, and audience engagement.</p>
+                    <p className="text-[19px] md:text-left text-center my-10">Kinera operates as a community-governed ecosystem where the community's vision and decisions will evolve from representative democracy to futarchy and other processes that combine reputation, token value and curation markets. These technologies ensure that the platform remains aligned with its mission and its users have a voice in its ongoing development and evolution. </p>
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ const Welcome = () => {
                                 <span className="glitch">We are</span> a decentralised media platform where users and creators publish their content; help rank and curate videos and films from public repositories and other media networks on the Internet.
                             </p>
                             <p className="text-base text-center mt-6" style={{ zIndex: 1, fontSize: '19px' }}>
-                                The process of rank and curation leads to a set of public lists with relevant content that participants will use to create television channels. 
+                            The process of rank and curation produces publicly accessible lists filled with relevant content that participants can remix to create Streaming Channels.
                             </p>
                             <p className="text-base text-center mt-6" style={{ zIndex: 1, fontSize: '19px'  }}>
                                 <b> Kineras' mission is to harness the wisdom of the crowd to</b> bring focus into new media narratives, where creators can mirror the complexity and creativity of people's interactions in the world we live in.
