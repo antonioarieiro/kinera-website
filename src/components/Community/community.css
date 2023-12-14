@@ -1,19 +1,19 @@
-.background-overlay2 {
+.background-overlay3 {
     position: relative;
 }
 
-.background-overlay2::before {
+.background-overlay3::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(188, 163, 201, 0.6); /* 10% black */
+    background: rgba(150, 42, 89, 0.248); /* 10% black */
     z-index: 1;
 }
 
-.background-overlay2 > * {
+.background-overlay3 > * {
     position: relative;
     z-index: 2;
 }

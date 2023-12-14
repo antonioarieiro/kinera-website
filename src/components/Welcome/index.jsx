@@ -24,7 +24,7 @@ const Welcome = () => {
                                 The process of rank and curation leads to a set of public lists with relevant content that participants will use to create television channels. 
                             </p>
                             <p className="text-base text-center mt-6" style={{ zIndex: 1, fontSize: '19px'  }}>
-                                Kineras' mission is to harness the wisdom of the crowd to bring focus into new media narratives, where creators can mirror the complexity and creativity of people's interactions in the world we live in.
+                                <b> Kineras' mission is to harness the wisdom of the crowd to</b> bring focus into new media narratives, where creators can mirror the complexity and creativity of people's interactions in the world we live in.
                             </p>
                         </div>
                     </div>

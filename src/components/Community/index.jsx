@@ -11,6 +11,8 @@ import asset09 from '../../assets/images/asset09.png?v=1' // Add query parameter
 
 import ReactMarkdown from 'react-markdown'
 
+import './community.css';
+
 const Community = () => {
     const [selectedImage, setSelectedImage] = useState(asset07);
     const [showAnswer, setShowAnswer] = useState(1);
@@ -36,7 +38,7 @@ const Community = () => {
 
     return (
         <div
-            className="w-full flex flex-col pt-20 pb-10 bg-center bg-cover bg-no-repeat bg-fixed text-white" 
+            className="background-overlay3 w-full flex flex-col pt-20 pb-10 bg-center bg-cover bg-no-repeat bg-fixed text-white" 
             style={{
                 backgroundImage: `url(${comuBack})`
             }}

@@ -4,7 +4,7 @@ import './about.css';
 const About = () => {
     return (
         <div
-            className="w-full min-h-[85vh] bg-center bg-cover bg-fixed bg-no-repeat text-black py-20"
+            className="background-overlay2 w-full min-h-[85vh] bg-center bg-cover bg-fixed bg-no-repeat text-black py-20"
             id="about"
             style={{
                 backgroundImage: `url(${backAbout01})`

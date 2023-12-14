@@ -1,10 +1,12 @@
 import token from '../../assets/images/token4.png';
 import kinexBack from '../../assets/images/kinexBack.png';
 
+import './kine.css';
+
 const Kine = () => {
     return (
         <div
-            className="w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black bg-fixed py-20"
+            className="background-overlay4 w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black bg-fixed py-20"
             id="kinex"
             style={{
                 backgroundImage: `url(${kinexBack})`
