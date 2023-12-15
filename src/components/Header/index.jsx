@@ -38,7 +38,7 @@ const Header = () => {
                 <a href="https://main--incredible-wisp-737646.netlify.app/blog" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
                 <a href="/#social" className="text-base hover:text-[#FF0A78]">Social</a>
                 {/* New Button Added */}
-                <a href="https://app-dev.kinera.network/" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#FF0A78] hover:bg-[#FF0A78]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>
+                <a href="https://drive.google.com/file/d/1zoowL-_N_BlzWLCeMEqmjDXY3JZ6HDQL/view?usp=share_link" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#FF0A78] hover:bg-[#FF0A78]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>
             </nav>
         </header>
     );
