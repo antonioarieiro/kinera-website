@@ -2,21 +2,18 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoIosArrowDown } from 'react-icons/io';
 
-import LOGO from '../../assets/images/logo.png';
-
 const Header = () => {
     const [showDropDownMenu, setShowDropDownMenu] = useState(false);
 
     return (
         <header className="flex flex-col lg:flex-row items-center justify-center w-full px-10 py-2 border-b border-white bg-[#0b0d17] text-[#F3F6FB]">
-    <div className="flex justify-between items-center w-full lg:w-auto min-h-[70px]">
-        
-        <GiHamburgerMenu
-            className="lg:hidden cursor-pointer w-10 h-10"
-            onClick={() => setShowDropDownMenu(!showDropDownMenu)}
-        />
-    </div>
-            <nav className={`flex flex-col lg:flex-row gap-4 lg:gap-8 mt-6 lg:mt-0 ${showDropDownMenu ? 'block' : 'lg:block hidden'} lg:flex`}>
+            <div className="flex justify-between items-center w-full lg:w-auto min-h-[70px]">
+                <GiHamburgerMenu
+                    className="lg:hidden cursor-pointer w-10 h-10"
+                    onClick={() => setShowDropDownMenu(!showDropDownMenu)}
+                />
+            </div>
+            <nav className={`flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-6 lg:mt-0 ${showDropDownMenu ? 'block' : 'lg:block hidden'} lg:flex`}>
                 <a href="/#home" className="text-base hover:text-[#FF0A78]">Home</a>
                 <div className="group relative z-10">
                     <button className="flex items-center gap-2 text-white group-hover:text-[#FF0A78] text-base">
@@ -40,6 +37,8 @@ const Header = () => {
                 <a href="/#newsletter" className="text-base hover:text-[#FF0A78]">Newsletter</a>
                 <a href="https://main--incredible-wisp-737646.netlify.app/blog" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
                 <a href="/#social" className="text-base hover:text-[#FF0A78]">Social</a>
+                {/* New Button Added */}
+                <a href="https://app-dev.kinera.network/" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#FF0A78] hover:bg-[#FF0A78]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>
             </nav>
         </header>
     );
