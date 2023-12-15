@@ -7,7 +7,7 @@ const Blog = () => {
     const [posts] = useState(blogPosts);
 
     return (
-        <div id='blog' className="blog-background background-overlay5">
+        <div id='blog' className="blog-background background-overlay5 bg-fixed">
             <div className="blog-container">
                 <h1 className="blog-title">READ OUR BLOG</h1> {/* Removed -mt-8 */}
                 <div className="blog-posts">

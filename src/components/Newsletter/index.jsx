@@ -4,7 +4,7 @@ const Newsletter = (props) => {
     const {setOpenModal,openModal}=props
     return (
         <div
-            className="w-full bg-fixed bg-center py-16"
+            className="w-full bg-center py-16"
             id="newsletter"
             style={{
                 backgroundImage: `url(${backNews})`
