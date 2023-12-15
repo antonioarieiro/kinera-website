@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import blogPosts from './blogPosts';
-import Fundo04 from "../../assets/images/fundoblog.png";
+
 import './blog.css'; // Import the CSS file
 
 const Blog = () => {
     const [posts] = useState(blogPosts);
 
     return (
-        <div id='blog' className="blog-background">
+        <div id='blog' className="blog-background background-overlay5">
             <div className="blog-container">
                 <h1 className="blog-title">READ OUR BLOG</h1> {/* Removed -mt-8 */}
                 <div className="blog-posts">
