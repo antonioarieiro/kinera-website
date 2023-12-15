@@ -49,47 +49,43 @@
 
 .logo-img {
     width: 51rem;
-    max-width: 100%;
     height: auto;
 }
 
 /* Desktop Styles */
 @media (min-width: 769px) {
-    /* Specific styles for desktop if needed */
+    .logo-img {
+        width: 58.65rem; /* Original width 51rem * 1.15 */
+    }
 }
 
 /* Tablet and Small Laptop Styles */
 @media (max-width: 1024px) and (min-width: 769px) {
     .logo-img {
-        width: 60rem; /* Adjust based on design preference */
+        width: 69rem; /* Original width 60rem * 1.15 */
     }
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
-    .global-mobile .logo-section .logo-img {
-        width: 120%; /* Adjusted width for mobile */
-        margin: 0 auto; /* Center the logo */
-    }
-
     .kinera-title {
         font-size: 72px; /* Adjust font size for mobile */
-    }
-
-    .logo-img {
-        width: 80%; /* Adjust logo size for mobile */
-        margin: 0 auto; /* Center the logo */
     }
 
     .content-wrapper p {
         font-size: 16px; /* Adjust text size for mobile */
     }
+
+    .logo-img {
+        width: 34.5rem; /* Adjusted width for mobile */
+        margin: 0 auto; /* Center the logo */
+    }
 }
 
-/* Smaller Smartphone Styles */
+/* Additional styles for very small screens, if necessary */
 @media (max-width: 480px) {
     .logo-img {
-        width: 30rem; /* Adjust for smaller smartphones */
+        width: 29rem; /* Adjust for smaller smartphones */
     }
 }
 

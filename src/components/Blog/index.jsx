@@ -1,45 +1,32 @@
-import { useState, useEffect } from 'react'
-import { BsMedium } from 'react-icons/bs'
+import { useState } from 'react';
+import blogPosts from './blogPosts';
 import Fundo04 from "../../assets/images/fundoblog.png";
+import './blog.css'; // Import the CSS file
 
 const Blog = () => {
-    return (
-        <div
-            id='blog'
-            className="w-full bg-fixed bg-center py-16"
-            style={{
-                backgroundImage: `url(${Fundo04})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-            }}
-        >
-            <div className="w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="zoom in">
-                <h1 className="sm:text-[64px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-8">READ OUR BLOG</h1>
+    const [posts] = useState(blogPosts);
 
-                <div className="w-full flex justify-center flex-wrap gap-10">
-                    <a 
-                        href='https://main--incredible-wisp-737646.netlify.app/blog' 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="
-                        bg-white hover:bg-[#FF0A78]
-                        duration-500 text-[#101111] hover:text-white
-                        text-lg font-bold px-3 py-2 rounded-3xl min-w-1/2
-                        text-center
-                        "
-                        style={{ width: '250px' }}
-                    >
-                        <span>Blog</span>
-                    </a>
+    return (
+        <div id='blog' className="blog-background">
+            <div className="blog-container">
+                <h1 className="blog-title">READ OUR BLOG</h1> {/* Removed -mt-8 */}
+                <div className="blog-posts">
+                    {posts.map(post => (
+                        <a key={post.id} href={post.url} target="_blank" rel="noopener noreferrer" className="blog-post-card">
+                            <img src={post.thumbnail} alt={post.title} className="blog-post-image" />
+                            <div className="blog-post-content">
+                                <h2 className="blog-post-title">{post.title}</h2>
+                                <p className="blog-post-excerpt">{post.excerpt}</p>
+                            </div>
+                        </a>
+                    ))}
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Blog
-
+export default Blog;
 
 
 /*

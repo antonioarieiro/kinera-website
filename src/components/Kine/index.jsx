@@ -20,9 +20,9 @@ const Kine = () => {
                 </div>
                 
                 <div className="w-full md:w-1/2 flex flex-col justify-center" data-aos="fade-left">
-                    <p className="text-[19px] md:text-left text-center my-10 text-[#35012B]"><span class="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks. This way, we gain the power of network interoperability and the ability to outsource task resolution and achieve top security levels. </p>
-                    <p className="text-[19px] md:text-left text-center my-5 text-[#35012B]"><span class="glitch">Kinera </span> is a substrate-based infrastructure built in the Kusama and Polkadot networks, with its shared security, interoperability, and ability to outsource task resolution. </p>
-                    <p className="text-[19px] md:text-left text-center my-5 text-[#35012B]">Our token has multiple purposes within the platform: stake while signalling the best content in <b> ranking lists </b>, curate <b> constellations </b>, support and moderate <b> SEE TV channels </b> , and propose and vote <b> governance proposals </b>.</p>
+                    <p className="text-[19px] md:text-left text-center my-5 text-[#35012B]"><span class="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks. This way, we gain the power of network interoperability and the ability to outsource task resolution and achieve top security levels. </p>
+                    <p className="text-[19px] md:text-left text-center my-3 text-[#35012B]"><span class="glitch">Kinera </span> is a substrate-based infrastructure built in the Kusama and Polkadot networks, with its shared security, interoperability, and ability to outsource task resolution. </p>
+                    <p className="text-[19px] md:text-left text-center my-3 text-[#35012B]">Our token has multiple purposes within the platform: stake while signalling the best content in <b> ranking lists </b>, curate <b> constellations </b>, support and moderate <b> SEE TV channels </b> , and propose and vote <b> governance proposals </b>.</p>
                 </div>
             </div>
         </div>
