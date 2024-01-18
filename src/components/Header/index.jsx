@@ -6,14 +6,14 @@ const Header = () => {
     const [showDropDownMenu, setShowDropDownMenu] = useState(false);
 
     return (
-        <header className="flex flex-col lg:flex-row items-center justify-center w-full px-10 py-2 border-b border-white bg-[#0b0d17] text-[#F3F6FB]">
-            <div className="flex justify-between items-center w-full lg:w-auto min-h-[70px]">
+        <header className="flex flex-col items-center justify-center w-full px-10 py-2 border-b border-white bg-[#0b0d17] text-[#F3F6FB]">
+            <div className="flex justify-between items-center w-full">
                 <GiHamburgerMenu
-                    className="lg:hidden cursor-pointer w-10 h-10"
+                    className="cursor-pointer w-10 h-10 lg:hidden"
                     onClick={() => setShowDropDownMenu(!showDropDownMenu)}
                 />
             </div>
-            <nav className={`flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-6 lg:mt-0 ${showDropDownMenu ? 'block' : 'lg:block hidden'} lg:flex`}>
+            <nav className={`flex flex-col items-center gap-4 mt-2 ${showDropDownMenu ? 'block' : 'hidden'} lg:flex lg:flex-row lg:gap-8 lg:mt-0 lg:justify-center lg:w-full`}>
                 <a href="/#home" className="text-base hover:text-[#FF0A78]">Home</a>
                 <div className="group relative z-10">
                     <button className="flex items-center gap-2 text-white group-hover:text-[#FF0A78] text-base">
@@ -37,9 +37,14 @@ const Header = () => {
                 <a href="/#newsletter" className="text-base hover:text-[#FF0A78]">Newsletter</a>
                 <a href="https://main--incredible-wisp-737646.netlify.app/blog" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
                 <a href="/#social" className="text-base hover:text-[#FF0A78]">Social</a>
-                {/* New Button Added */}
-                <a href="https://app-dev.kinera.network/" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#FF0A78] hover:bg-[#FF0A78]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>
+                <a href="https://drive.google.com/file/d/1zoowL-_N_BlzWLCeMEqmjDXY3JZ6HDQL/view?usp=share_link" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#FF0A78] hover:bg-[#FF0A78]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>
             </nav>
+            {/* New Text Added Under Menu Items */}
+            <div className="text-center mt-3 w-full">
+                <span className="text-base">
+                    16CkbzjYiDyDouGZn1y5diYLueqqNQHScFEA7XkK4Mmcj2Mx
+                </span>
+            </div>
         </header>
     );
 }
