@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .blog-title {
@@ -34,17 +35,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 180px;
+    gap: 30px;
 }
 
 .blog-post-card {
-    width: 350px;
+    width: 30%;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    min-width: 300px;
 }
 
 .blog-post-card:hover {
