@@ -12,8 +12,14 @@ const blogPosts = [
       excerpt: "The Social Media Paradox When a new wave of technology...",
       url: "https://incredible-wisp-737646.netlify.app/(part%202)",
       thumbnail: "https://main--incredible-wisp-737646.netlify.app//images/kinera-blog-3.png"
+    },
+    {
+      id: 3,
+      title: "The Kinera Platform: Empowering Video Distribution and Streaming through Token Curation",
+      excerpt: "Presenting Kinera’s Minimum Viable Product [MVP] on testnet...",
+      url: "https://incredible-wisp-737646.netlify.app/Kinera%20Platform",
+      thumbnail: "https://incredible-wisp-737646.netlify.app/images/kinera-blog-5.png"
     }
-    // Add more posts as needed
   ];
   
   export default blogPosts;
