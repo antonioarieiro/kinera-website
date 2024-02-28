@@ -58,9 +58,11 @@ const Subscribe = (props) => {
         const data = {
             email: email,
             name: name,
-            videosToWeb3: videosToWeb3,
-            participate: participate,
-            nationality: nationality,
+            videosToWeb3: videosToWeb3, //If you had a way to earn tokens, would you move your videos to a web3 environment?
+            participate: participate, //Would you want to become a Kinera Ambassador?
+            nationality: nationality, 
+            website: website,
+            wallet: wallet
         };
         
         try {
