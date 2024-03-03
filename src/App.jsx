@@ -54,8 +54,8 @@ const App = () => {
             <Kine />
             <Struct />
             <Participation />
-            <Foundation />
             <Community />
+            <Foundation />
             <Funding />
             <Blog />
             <div className="relative w-full flex items-center justify-center">

@@ -1,32 +1,12 @@
-.background-overlay2 {
-    position: relative;
-}
-
-.background-overlay2::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(252, 173, 218, 0.558); /* 10% black */
-    z-index: 1;
-}
-
-.background-overlay2 > * {
-    position: relative;
-    z-index: 2;
-}
-
-.card-container {
+  .card-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
 }
 
-.card {
-    background-color: rgba(255, 255, 255, 0.8);
+.card-structure {
+    background-color: rgba(242, 234, 238, 0.313);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -41,8 +21,13 @@
     box-sizing: border-box;
     min-height: 100px; /* Altura mínima do card */
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
+    transition: background-color 0.3s ease; /* Suaviza a transição da cor de fundo */
 }
 
 .card:first-of-type {
     margin-top: 0;
+}
+
+.card-structure:hover {
+  background-color: rgba(247, 74, 166, 0.321); /* Muda a cor de fundo ao passar o mouse */
 }

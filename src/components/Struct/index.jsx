@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown'
 
 import FlipCard from '../FlipCard';
 
-import kineraStructure03 from '../../assets/images/kineraStructure03.png';
+import kineraStructure03 from '../../assets/images/kineraStructure04.png';
 import asset01 from '../../assets/images/asset01.png';
 import asset02 from '../../assets/images/asset02.png';
 import asset03 from '../../assets/images/asset03.png';
@@ -19,14 +19,16 @@ const Struct = () => {
             className="w-full min-h-screen flex flex-col py-20 bg-center bg-cover bg-no-repeat text-black"
             id='struct'
             style={{
-                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(${kineraStructure03})`
+                backgroundImage: `url(${kineraStructure03})`
             }}
         >
             <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
             <div className="w-full flex justify-center mt-10">
-                <div className="w-[80%]" data-aos="zoom-in">
-                    <p className="text-[25px] text-center">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                <div className="w-[85%]" data-aos="zoom-in">
+                    <div className="card-mission" data-aos="fade-left">
+                    <p className="text-[25px] text-center text-white">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    </div>
                 </div>
             </div>
 
