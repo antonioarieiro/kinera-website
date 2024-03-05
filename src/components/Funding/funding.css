@@ -1,25 +1,25 @@
-.background-overlay4 {
+.background-overlay {
     position: relative;
 }
 
-.background-overlay4::before {
+.background-overlay::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(245, 211, 230, 0.558); /* 10% black */
+    background: rgba(0, 0, 0, 0.743); /* 40% black */
     z-index: 1;
 }
 
-.background-overlay4 > * {
+.background-overlay > * {
     position: relative;
     z-index: 2;
 }
 
-.card-kine {
-    background-color: rgba(150, 75, 104, 0.631);
+.card-funding {
+    background-color: rgba(150, 75, 104, 0.351);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -36,10 +36,10 @@
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
 }
 
-.card-kine:first-of-type {
+.card-funding:first-of-type {
     margin-top: 0;
 }
 
-.card-kine:hover {
-    background-color: rgba(52, 7, 72, 0.448); /* Muda a cor de fundo ao passar o mouse */
+.card-funding:hover {
+    background-color: rgba(206, 185, 196, 0.321); /* Muda a cor de fundo ao passar o mouse */
   }

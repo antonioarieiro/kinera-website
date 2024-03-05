@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import DropInfo from '../DropInfo'
 
 import comuBack from '../../assets/images/comuBack.png'
-import fundBack from '../../assets/images/fundBack.png'
+import fundBack from '../../assets/images/fundBack1.png'
 import asset06 from '../../assets/images/asset06.png'
 import asset07 from '../../assets/images/asset07.png?v=1' // Add query parameter for Cache Busting
 import asset08 from '../../assets/images/asset08.png?v=1' // Add query parameter

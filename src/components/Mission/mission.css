@@ -65,7 +65,7 @@
 }
 
 .card-mission {
-    background-color: rgba(254, 147, 204, 0.178);
+    background-color: rgba(254, 147, 204, 0.261);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -88,5 +88,5 @@
 }
 
 .card-mission:hover {
-  background-color: rgba(247, 74, 166, 0.321); /* Muda a cor de fundo ao passar o mouse */
+  background-color: rgba(234, 18, 133, 0.321); /* Muda a cor de fundo ao passar o mouse */
 }

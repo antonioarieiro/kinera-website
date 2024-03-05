@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* 40% black */
+    background: rgba(0, 0, 0, 0.743); /* 40% black */
     z-index: 1;
 }
 
@@ -17,3 +17,29 @@
     position: relative;
     z-index: 2;
 }
+
+.card-foundation {
+    background-color: rgba(150, 75, 104, 0.631);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+    width: auto;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100px; /* Altura mínima do card */
+    flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
+}
+
+.card-foundation:first-of-type {
+    margin-top: 0;
+}
+
+.card-foundation:hover {
+    background-color: rgba(52, 7, 72, 0.448); /* Muda a cor de fundo ao passar o mouse */
+  }

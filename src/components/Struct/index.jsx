@@ -13,6 +13,8 @@ import asset02 from '../../assets/images/asset02.png';
 import asset03 from '../../assets/images/asset03.png';
 import asset04 from '../../assets/images/asset04.png';
 
+import './structure.css'
+
 const Struct = () => {
     return (
         <div
@@ -22,12 +24,12 @@ const Struct = () => {
                 backgroundImage: `url(${kineraStructure03})`
             }}
         >
-            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-[#FF0A78]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
+            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-black" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
             <div className="w-full flex justify-center mt-10">
                 <div className="w-[85%]" data-aos="zoom-in">
-                    <div className="card-mission" data-aos="fade-left">
-                    <p className="text-[25px] text-center text-white">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    <div className="card-structure" data-aos="fade-left">
+                    <p className="text-[25px] text-center text-black">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
                     </div>
                 </div>
             </div>
