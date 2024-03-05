@@ -1,4 +1,4 @@
-import kineraFund03 from '../../assets/images/kineraFund03.png'
+import kineraFund03 from '../../assets/images/kineraFund04.png'
 import fundation01 from '../../assets/images/fundation02.png'
 import './foundation.css';
 

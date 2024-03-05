@@ -2,24 +2,13 @@
     position: relative;
 }
 
-.background-overlay::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.743); /* 40% black */
-    z-index: 1;
-}
-
 .background-overlay > * {
     position: relative;
     z-index: 2;
 }
 
 .card-funding {
-    background-color: rgba(150, 75, 104, 0.351);
+    background-color: rgba(241, 13, 100, 0.436);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -41,5 +30,5 @@
 }
 
 .card-funding:hover {
-    background-color: rgba(206, 185, 196, 0.321); /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgba(38, 5, 54, 0.516); /* Muda a cor de fundo ao passar o mouse */
   }

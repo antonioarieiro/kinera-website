@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(245, 211, 230, 0.558); /* 10% black */
+    background: rgba(255, 245, 250, 0.459); /* 10% black */
     z-index: 1;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .card-kine {
-    background-color: rgba(150, 75, 104, 0.631);
+    background-color: rgba(214, 59, 137, 0.455);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;

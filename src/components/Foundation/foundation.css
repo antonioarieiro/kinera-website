@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.743); /* 40% black */
+    background: rgba(61, 4, 34, 0.234); /* 40% black */
     z-index: 1;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .card-foundation {
-    background-color: rgba(150, 75, 104, 0.631);
+    background-color: rgba(209, 54, 113, 0.384);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
