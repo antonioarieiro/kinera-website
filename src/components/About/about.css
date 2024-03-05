@@ -46,3 +46,7 @@
 .card:first-of-type {
     margin-top: 0;
 }
+
+.card:hover {
+    background-color: rgba(234, 18, 133, 0.321); /* Muda a cor de fundo ao passar o mouse */
+  }
