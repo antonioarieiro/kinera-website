@@ -19,7 +19,7 @@
 }
 
 .card-foundation {
-    background-color: rgba(209, 54, 113, 0.384);
+    background-color: rgba(246, 205, 226, 0.382);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -41,5 +41,5 @@
 }
 
 .card-foundation:hover {
-    background-color: rgba(52, 7, 72, 0.448); /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgba(183, 47, 121, 0.448); /* Muda a cor de fundo ao passar o mouse */
   }

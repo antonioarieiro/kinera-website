@@ -19,12 +19,14 @@
 }
 
 .card-kine {
-    background-color: rgba(214, 59, 137, 0.455);
+    background-color: rgba(216, 102, 159, 0.455);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
     max-width: 1200px;
+    margin-right: 80px;
+    margin-left: -50px;
     width: auto;
     display: flex;
     justify-content: center; /* Centraliza horizontalmente o conteúdo */
@@ -41,5 +43,5 @@
 }
 
 .card-kine:hover {
-    background-color: rgba(52, 7, 72, 0.448); /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgba(87, 31, 111, 0.448); /* Muda a cor de fundo ao passar o mouse */
   }

@@ -14,11 +14,11 @@ const Mission = () => {
                 backgroundImage: `url(${missionImg})`
             }}
         >
-                    <div className="w-full mt-10 px-2 mt-20" >
-                        <div className="sm:w-[55%] w-full md:pl-28 pl-0 -mt-40">
-                            <h1 className="-mt-8 py-10 sm:text-[75px] text-[38px] font-bold text-center text-white" data-aos="fade-left">MISSION</h1>
-                                <div className="card-container w-[100%]">
-                                    <div className="card-mission" data-aos="fade-left">
+                    <div className="w-full mt-10 mt-20">
+  <div className="w-full -mt-40">
+    <h1 className="-mt-8 py-10 sm:text-[75px] text-[38px] font-bold text-center text-white" data-aos="fade-left">MISSION</h1>
+    <div className="card-container w-[100%]">
+      <div className="card-mission" data-aos="fade-left">
                                         <p className="text-[19px] text-white sm:text-left text-center mt-0 "data-aos="fade-right"> <span className="glitch">We propose </span>  to create an open and resilient curation ecosystem that unites a diverse community of viewers and nonconformist media creators.</p>
                                     </div>
                                     <div className="card-mission" data-aos="fade-left">

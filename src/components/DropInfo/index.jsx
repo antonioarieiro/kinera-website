@@ -15,7 +15,7 @@ const DropInfo = ({ answer, question, onClick, showAnswer }) => {
                 { showAnswer ? ( <AiFillEyeInvisible size={26} /> ) : ( <AiFillEye size={26} /> ) }
             </div>
 
-            <div className={`w-full text-black text-[20px] mt-5 px-5 py-4 origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56 mb-5' : 'opacity-0 pointer-events-none h-0'}`}>
+            <div className={`w-full bg-[rgba(255,10,120,0.18)] text-black text-[20px] mt-5 px-5 py-4 origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56 mb-5' : 'opacity-0 pointer-events-none h-0'}`}>
                 {answer}
             </div>
         </div>

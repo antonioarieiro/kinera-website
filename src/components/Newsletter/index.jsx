@@ -1,10 +1,11 @@
 import backNews from '../../assets/images/backNews.png';
+import './newsletter.css';
 
 const Newsletter = (props) => {
     const {setOpenModal,openModal}=props
     return (
         <div
-            className="w-full bg-center py-16"
+            className="w-full bg-center py-16 background-overlayNews"
             id="newsletter"
             style={{
                 backgroundImage: `url(${backNews})`

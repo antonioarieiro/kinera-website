@@ -8,11 +8,12 @@
 }
 
 .card-funding {
-    background-color: rgba(241, 13, 100, 0.436);
+    background-color: rgba(255, 10, 120, 0.446);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
+    margin-left: -40px;
     max-width: 1200px;
     width: auto;
     display: flex;
@@ -30,5 +31,5 @@
 }
 
 .card-funding:hover {
-    background-color: rgba(38, 5, 54, 0.516); /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgba(75, 22, 99, 0.516); /* Muda a cor de fundo ao passar o mouse */
   }
