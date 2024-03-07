@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 245, 250, 0.459); /* 10% black */
+    background: rgba(255, 245, 250, 0.459);
     z-index: 1;
 }
 
@@ -25,17 +25,17 @@
     padding: 20px;
     margin-top: 20px;
     max-width: 1200px;
-    margin-right: 80px;
-    margin-left: -50px;
+    margin-right: auto; /* Changed for better alignment */
+    margin-left: auto; /* Changed for better alignment */
     width: auto;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    align-items: center;
     text-align: center;
     flex-direction: column;
     box-sizing: border-box;
-    min-height: 100px; /* Altura mínima do card */
-    flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
+    min-height: 100px;
+    flex-grow: 1;
 }
 
 .card-kine:first-of-type {
@@ -43,5 +43,24 @@
 }
 
 .card-kine:hover {
-    background-color: rgba(87, 31, 111, 0.181); /* Muda a cor de fundo ao passar o mouse */
-  }
+    background-color: rgba(87, 31, 111, 0.181);
+}
+
+@media (max-width: 640px) {
+    .card-kine {
+        margin: 20px 0; /* Consistent margin for top and eliminates side margins */
+        padding: 20px; /* Consistent padding */
+        width: 100%; /* Ensures card stretches to full width of its container */
+        max-width: none; /* Removes max-width constraint */
+    }
+
+    /* If there's a .card-kine-container class being used */
+    .card-kine-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 5%; /* Adjusting for consistent padding without affecting width */
+    }
+}

@@ -49,7 +49,7 @@ const Subscribe = (props) => {
 
     const handleSubmit = async () => {
         // validate email before submitting the form
-        console.log('dsadsasadsdadsasda:', serverUlr);
+        console.log('working!:', serverUlr);
         if (!validateEmail(email)) {
             alert('Please enter a valid email address.');
             return;

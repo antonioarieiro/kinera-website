@@ -37,6 +37,10 @@
       background-position: right bottom 50vh;
     }
 
+    .background {
+    background-image: none !important; /* Hide the desktop background image */
+  }
+
     .is-mobile-version {
       display: block !important; /* Mostra a versão mobile */
       position: relative; /* Necessário para z-index funcionar */
@@ -57,12 +61,13 @@
     }
   }
   
-  .card-container {
+  .card-mission-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
-    padding-left: 90px; /* Remove o preenchimento à esquerda se existir */
+    padding-left: 0px; /* Remove o preenchimento à esquerda se existir */
+    margin-left: 60px;
 }
 
 .card-mission {
@@ -90,4 +95,26 @@
 
 .card-mission:hover {
   background-color: rgba(234, 18, 133, 0.27); /* Muda a cor de fundo ao passar o mouse */
+}
+
+@media (max-width: 640px) {
+  .card-mission-container, .card-mission {
+    max-width: 100%; /* Ensures max-width does not exceed viewport */
+    box-sizing: border-box; /* Includes padding and border in the element's total width */
+  }
+
+  .card-mission-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Maintains a single column layout */
+    gap: 20px; /* Keeps the gap between cards */
+    width: 90%; /* Adjusted to provide some padding from the viewport edges */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 0 5%; /* Adjusts horizontal padding to ensure it's within the width */
+  }
+
+  .card-mission {
+    margin-top: 20px; /* Maintains top margin */
+    padding: 20px; /* Maintains padding for content inside */
+    width: 100%; /* Ensures the card fills its container */
+  }
 }

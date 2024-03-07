@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(245, 194, 217, 0.493); /* 10% black */
+    background: rgba(247, 205, 224, 0.493); /* 10% black */
     z-index: 1;
 }
 
@@ -18,13 +18,22 @@
     z-index: 2;
 }
 
+.card-funding-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .card-funding {
-    background-color: rgba(228, 149, 185, 0.689);
+    background-color: rgba(226, 106, 160, 0.572);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
-    margin-left: -40px;
+    margin: 0 auto; /* This centers the content */
     max-width: 1200px;
     width: auto;
     display: flex;
@@ -42,5 +51,5 @@
 }
 
 .card-funding:hover {
-    background-color: rgba(75, 22, 99, 0.516); /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgba(90, 26, 119, 0.559); /* Muda a cor de fundo ao passar o mouse */
   }

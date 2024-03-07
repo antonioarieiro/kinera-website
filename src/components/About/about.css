@@ -18,19 +18,22 @@
     z-index: 2;
 }
 
-.card-container {
+.card-about-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.card {
+.card-about {
     background-color: rgba(255, 255, 255, 0.234);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
+    margin: 0 auto; /* This centers the content */
     max-width: 1200px;
     width: auto;
     display: flex;
@@ -43,10 +46,10 @@
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
 }
 
-.card:first-of-type {
+.card-about:first-of-type {
     margin-top: 0;
 }
 
-.card:hover {
+.card-about:hover {
     background-color: rgba(205, 77, 145, 0.269); /* Muda a cor de fundo ao passar o mouse */
   }

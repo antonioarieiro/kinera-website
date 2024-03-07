@@ -5,17 +5,17 @@ import './funding.css';
 const Funding = () => {
     return (
         <div
-        className="background-overlayFunding w-full flex flex-col pt-20 pb-10 bg-center bg-cover bg-no-repeat bg-fixed text-white" 
+        className="background-overlayFunding w-full flex flex-col pt-20 pb-20 bg-center bg-cover bg-no-repeat bg-fixed text-white" 
         style={{
             backgroundImage: `url(${fundBack})`
         }}
             id='funding'
         >
-            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-[#1a081c] mt-10" data-aos="zoom-in">FUNDING</h1>
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#1a081c] -mt-8" data-aos="zoom-in">FUNDING</h1>
            
             
-            <div className="w-full flex justify-center mt-10" data-aos="fade-left">
-            <div className="card-container w-[80%]">
+            <div className="w-full flex justify-center mt-10">
+            <div className="card-funding-container w-[100vk]">
                     <div className="card-funding" data-aos="fade-left">
                         <p className="text-center text-black hover:text-white text-[19px]">
                             <span class="glitch">Blockchain technology </span>can potentially disrupt and overcome many challenges inherent in startup financing. The widespread adoption of cryptocurrencies can largely be credited to Ethereum's open-to-all financing model and Bitcoin's permissionless mining approach.
