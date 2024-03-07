@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import fundBack from '../../assets/images/fundBack1.png';
+import fundBack from '../../assets/images/fundBack2.png';
 import './funding.css';
 
 const Funding = () => {
