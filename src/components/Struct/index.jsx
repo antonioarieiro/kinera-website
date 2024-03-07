@@ -24,12 +24,12 @@ const Struct = () => {
                 backgroundImage: `url(${kineraStructure03})`
             }}
         >
-            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-black" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
+            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-[#2c0d2b]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
             <div className="w-full flex justify-center mt-10">
                 <div className="w-[85%]" data-aos="zoom-in">
                     <div className="card-structure" data-aos="fade-left">
-                    <p className="text-[25px] text-center text-black">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    <p className="text-[25px] text-center text-[#2c0d2b]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
                     </div>
                 </div>
             </div>
