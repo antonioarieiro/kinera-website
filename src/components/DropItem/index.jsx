@@ -20,7 +20,7 @@ const DropItem = ({ answer, question }) => {
                 { showAnswer ? ( <AiOutlineMinus size={26} /> ) : ( <AiOutlinePlus size={26} /> ) }
             </div>
 
-            <div className={`w-full bg-[rgba(255,10,120,0.27)] text-white mt-5 px-5 py-4 shadow-xl origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56' : 'opacity-0 pointer-events-none h-0'}`}>
+            <div className={`w-full bg-[rgba(148,48,132,0.55)] text-white mt-5 px-5 py-4 shadow-xl origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56' : 'opacity-0 pointer-events-none h-0'}`}>
                 {answer}
             </div>
         </div>

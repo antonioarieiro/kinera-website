@@ -1,14 +1,25 @@
-.background-overlay {
+.background-overlayFunding {
     position: relative;
 }
 
-.background-overlay > * {
+.background-overlayFunding::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(245, 194, 217, 0.493); /* 10% black */
+    z-index: 1;
+}
+
+.background-overlayFunding > * {
     position: relative;
     z-index: 2;
 }
 
 .card-funding {
-    background-color: rgba(255, 10, 120, 0.446);
+    background-color: rgba(228, 149, 185, 0.689);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
