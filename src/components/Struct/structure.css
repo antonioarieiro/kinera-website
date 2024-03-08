@@ -1,28 +1,44 @@
-
-
 .card-structure {
-    background-color: rgba(217, 86, 156, 0.321);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-top: 20px;
-    max-width: 1200px;
-    width: auto;
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
-    text-align: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    min-height: 100px; /* Altura mínima do card */
-    flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
-    transition: background-color 0.3s ease; /* Suaviza a transição da cor de fundo */
+  background-color: rgba(217, 86, 156, 0.321);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: 100px;
+  flex-grow: 1;
 }
 
 .card:first-of-type {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .card-structure:hover {
-  background-color: rgba(191, 45, 118, 0.321); /* Muda a cor de fundo ao passar o mouse */
+background-color: rgba(191, 45, 118, 0.321);
+}
+
+.grid-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 45px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Ajustes para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .grid-cards-container {
+    gap: 0px;
+  }
+
+  
 }

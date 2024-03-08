@@ -18,12 +18,22 @@
     z-index: 2;
 }
 
-.card-foundation {
+.card-kinefund-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-kinefund {
     background-color: rgba(246, 205, 226, 0.382);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
+    margin: 0 auto; /* This centers the content */
     max-width: 1200px;
     width: auto;
     display: flex;
@@ -36,10 +46,11 @@
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
 }
 
-.card-foundation:first-of-type {
+
+.card-kinefund:first-of-type {
     margin-top: 0;
 }
 
-.card-foundation:hover {
+.card-kinefund:hover {
     background-color: rgba(220, 96, 164, 0.794); /* Muda a cor de fundo ao passar o mouse */
   }

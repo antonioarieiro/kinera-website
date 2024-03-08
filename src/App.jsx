@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 import About from "./components/About";
 import Community from "./components/Community";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import Foundation from "./components/Foundation";
 import Kine from "./components/Kine";
 import Mission from "./components/Mission";
@@ -63,7 +63,6 @@ const App = () => {
                 {openModal && <Subscribe openModal={openModal} setOpenModal={setOpenModal}/>}
             </div>
             <Social />
-            <Footer />
         </div>
     )
 }

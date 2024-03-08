@@ -43,6 +43,10 @@ const Social = () => {
                         <span>Twitter - X</span>
                     </a>
                 </div>
+                <div className="w-full mt-0 flex sm:flex-row flex-col sm:justify-between justify-center items-center" style={{ marginBottom: '-70px' }}>
+                <p className="text-center">Kinera© 2024.</p>
+                <p className="text-center">Developed by: <a href="https://www.invisiblehandlab.org" target="_blank">Invisible Hand Lab</a>.</p>
+            </div>
             </div>
         </div>
     )
