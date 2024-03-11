@@ -35,7 +35,7 @@ const Header = () => {
                 <a href="/#community" className="text-base hover:text-[#FF0A78]">Community</a>
                 <a href="/#funding" className="text-base hover:text-[#FF0A78]">Funding</a>
                 <a href="/#newsletter" className="text-base hover:text-[#FF0A78]">Newsletter</a>
-                <a href="https://incredible-wisp-737646.netlify.app/blog/" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
+                <a href="https://blog.kinera.network/blog" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#FF0A78]">Blog</a>
                 <a href="/#social" className="text-base hover:text-[#FF0A78]">Social</a>
                 {/* New Button Added */}
                 <a href="https://d-app.kinera.network/" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#FF0A78] hover:bg-[#FF0A78]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>

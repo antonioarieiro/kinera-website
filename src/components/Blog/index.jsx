@@ -16,7 +16,7 @@ const Blog = () => {
                             <img src={post.thumbnail} alt={post.title} className="blog-post-image" />
                             <div className="blog-post-content">
                                 <h2 className="blog-post-title">{post.title}</h2>
-                                <p className="blog-post-excerpt">{post.excerpt}</p>
+                                {/*<p className="blog-post-excerpt">{post.excerpt}</p>*/}
                             </div>
                         </a>
                     ))}
