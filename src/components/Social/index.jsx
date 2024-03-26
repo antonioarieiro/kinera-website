@@ -26,21 +26,17 @@ const Social = () => {
                         <BsDiscord color='#333333' />
                         <span>Discord</span>
                     </a>
-                    <a href='https://youtube.com' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                    <a href='https://youtube.com/kinera' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <BsYoutube color='#333333' />
                         <span>Youtube</span>
                     </a>
-                    <a href='https://t.me/winners' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                    <a href='https://t.me/+VtO6KM3aNgNjYmRh' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <BsTelegram color='#333333' />
                         <span>Telegram - Winners</span>
                     </a>
-                    <a href='https://t.me/news' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
-                        <BsTelegram color='#333333' />
-                        <span>Telegram - News</span>
-                    </a>
-                    <a href='https://twitter.com' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
+                    <a href='https://twitter.com/kinera_winners' className="flex items-center gap-2 bg-white hover:bg-[#FF0A78] hover:scale-105 duration-500 text-[#101111] hover:text-white px-4 py-1 rounded-2xl">
                         <IoMail color='#333333' />
-                        <span>Twitter - X</span>
+                        <span>X - Winners</span>
                     </a>
                 </div>
                 <div className="w-full mt-0 flex sm:flex-row flex-col sm:justify-between justify-center items-center" style={{ marginBottom: '-70px' }}>
