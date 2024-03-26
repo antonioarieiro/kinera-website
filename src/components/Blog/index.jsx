@@ -1,22 +1,30 @@
 import { useState } from 'react';
 import blogPosts from './blogPosts';
-
 import './blog.css'; // Import the CSS file
 
 const Blog = () => {
     const [posts] = useState(blogPosts);
 
+    // Função para manipular o título e quebrar a última palavra
+    const formatTitle = (title, id) => {
+        if (id === 3) {
+            const words = title.split(' ');
+            const lastWord = words.pop(); // Remove e guarda a última palavra
+            return (<>{words.join(' ')} <span className="last-word">{lastWord}</span></>);
+        }
+        return title;
+    };
+
     return (
         <div id='blog' className="blog-background background-overlay5 bg-fixed ">
             <div className="blog-container">
-                <h1 className="blog-title">READ OUR BLOG</h1> {/* Removed -mt-8 */}
+                <h1 className="blog-title">READ OUR BLOG</h1>
                 <div className="blog-posts">
                     {posts.map(post => (
                         <a key={post.id} href={post.url} target="_blank" rel="noopener noreferrer" className="blog-post-card">
                             <img src={post.thumbnail} alt={post.title} className="blog-post-image" />
                             <div className="blog-post-content">
-                                <h2 className="blog-post-title">{post.title}</h2>
-                                {/*<p className="blog-post-excerpt">{post.excerpt}</p>*/}
+                                <h2 className="blog-post-title">{formatTitle(post.title, post.id)}</h2>
                             </div>
                         </a>
                     ))}

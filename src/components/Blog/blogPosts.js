@@ -15,7 +15,7 @@ const blogPosts = [
     },
     {
       id: 3,
-      title: "Presenting Kinera’s Minimum Viable Product [MVP]",
+      title: "Presenting Kinera’s Minimum Viable Product",
       excerpt: "After two years of study and development, the InvisibleHandLab...",
       url: "https://blog.kinera.network/Kinera%20Platform",
       thumbnail: "https://blog.kinera.network/images/kinera-blog-5.png"
