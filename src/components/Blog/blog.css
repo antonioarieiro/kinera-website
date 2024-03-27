@@ -95,3 +95,7 @@
     position: relative;
     z-index: 2;
 }
+
+.last-word {
+    display: block; /* Força a última palavra a começar em uma nova linha */
+}
