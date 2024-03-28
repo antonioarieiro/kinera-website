@@ -1,25 +1,33 @@
-name: Build and Test
+name: Node.js CI
 
 on:
   push:
-    branches:
-      - main  # Altere para a branch principal do seu repositório
+    branches: [ "master" ]
 
 jobs:
   build:
-    runs-on: self-hosted  # O runner que você configurou
+
+    runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Stop kinera-blog with PM2
+      run: pm2 stop kinera-network
+    - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.18.1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
+    - run: npm install --legacy-peer-deps
 
-      - name: Build the app
-        run: npm run build
+    - run: npm run build
 
+    - name: Start kinera-blog with PM2
+      run: pm2 start kinera-network
