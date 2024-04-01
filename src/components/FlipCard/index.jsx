@@ -14,7 +14,7 @@ const FlipCard = ({ title, backDesc, imgUrl, icon, id }) => {
                     <div className="w-full flex justify-center -mb-4 icon-container mt-icon">
                         {icon}
                     </div>
-                    <p className="text-center text-lg md:text-lg mb-auto">{backDesc}</p>
+                    <div className="text-center text-lg md:text-lg mb-auto">{backDesc}</div>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import backNews from '../../assets/images/backNews.png';
+import backNews from '../../assets/images/backNews.webp';
 import './newsletter.css';
 
 const Newsletter = (props) => {

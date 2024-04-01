@@ -7,11 +7,11 @@ import ReactMarkdown from 'react-markdown'
 
 import FlipCard from '../FlipCard';
 
-import kineraStructure03 from '../../assets/images/kineraStructureVersion2.png';
-import asset01 from '../../assets/images/asset01.png';
-import asset02 from '../../assets/images/asset02.png';
-import asset03 from '../../assets/images/asset03.png';
-import asset04 from '../../assets/images/asset04.png';
+import kineraStructure03 from '../../assets/images/kineraStructureVersion2.webp';
+import asset01 from '../../assets/images/asset01.webp';
+import asset02 from '../../assets/images/asset02.webp';
+import asset03 from '../../assets/images/asset03.webp';
+import asset04 from '../../assets/images/asset04.webp';
 
 import './structure.css'
 

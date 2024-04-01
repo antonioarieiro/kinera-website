@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { BsDiscord, BsYoutube, BsTwitter, BsTelegram } from 'react-icons/bs';
 import { IoMail } from 'react-icons/io5';
 
-import socialBack from "../../assets/images/socialBack2.png";
+import socialBack from "../../assets/images/socialBack2.webp";
 
 const Social = () => {
     return (

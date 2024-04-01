@@ -40,7 +40,7 @@ export default Blog;
 /*
 
   import React, { useState, useEffect } from 'react';
-  import Fundo04 from "../../assets/images/fundoblog.png";
+  import Fundo04 from "../../assets/images/fundoblog.webp";
 
   const Blog = () => {
     const [posts, setPosts] = useState([]);

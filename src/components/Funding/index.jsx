@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import fundBack from '../../assets/images/fundBack2.png';
+import fundBack from '../../assets/images/fundBack2.webp';
 import './funding.css';
 
 const Funding = () => {
@@ -18,7 +18,7 @@ const Funding = () => {
             <div className="card-funding-container w-[100vk]">
                     <div className="card-funding" data-aos="fade-left">
                         <p className="text-center text-black hover:text-white text-[19px]">
-                            <span class="glitch">Blockchain technology </span>can potentially disrupt and overcome many challenges inherent in startup financing. The widespread adoption of cryptocurrencies can largely be credited to Ethereum's open-to-all financing model and Bitcoin's permissionless mining approach.
+                            <span className="glitch">Blockchain technology </span>can potentially disrupt and overcome many challenges inherent in startup financing. The widespread adoption of cryptocurrencies can largely be credited to Ethereum's open-to-all financing model and Bitcoin's permissionless mining approach.
                         </p>
                     </div>
                     <div className="card-funding" data-aos="fade-left">
@@ -33,7 +33,7 @@ const Funding = () => {
                     </div>
                     <div className="card-funding" data-aos="fade-left">
                         <p className="text-center text-black hover:text-white text-[19px]">
-                        <span class="glitch">The Kinex token </span>and curation markets create a gamified environment to classify information at scale. Because Kinera has no entry barriers and the token has practical purposes in social life, we expect it to emerge with the same capacity to capture people's imagination as NFTs.
+                        <span className="glitch">The Kinex token </span>and curation markets create a gamified environment to classify information at scale. Because Kinera has no entry barriers and the token has practical purposes in social life, we expect it to emerge with the same capacity to capture people's imagination as NFTs.
                         </p>
                     </div>
                     <div className="card-funding" data-aos="fade-left">
@@ -48,7 +48,7 @@ const Funding = () => {
                     </div>
                     <div className="card-funding" data-aos="fade-left">
                         <p className="text-center text-black hover:text-white text-[19px]">
-                        <span class="glitch">Subscribe to our newsletter</span> if you wish to participate and receive regular information about the project or our funding rounds.
+                        <span className="glitch">Subscribe to our newsletter</span> if you wish to participate and receive regular information about the project or our funding rounds.
                         </p>
                     </div>
             </div>

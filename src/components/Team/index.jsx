@@ -1,6 +1,6 @@
 import { BsLinkedin } from "react-icons/bs";
 
-import fundo07 from '../../assets/images/fundo08.png'
+import fundo07 from '../../assets/images/fundo08.webp'
 
 const TeamCard = ({ imageUrl, name, jobTitle, url }) => {
     return (

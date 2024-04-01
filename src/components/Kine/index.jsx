@@ -1,5 +1,5 @@
-import token from '../../assets/images/token4.png';
-import kinexBack from '../../assets/images/kinexBack2.png';
+import token from '../../assets/images/token4.webp';
+import kinexBack from '../../assets/images/kinexBack2.webp';
 
 import './kine.css';
 
@@ -22,10 +22,10 @@ const Kine = () => {
                 
                 <div className="card-mission-container w-[100%]">
                     <div className="card-kine" data-aos="fade-left">
-                        <p className="text-[19px] md:text-left text-center my-0 text-[#000000]"><span class="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks. This way, we gain the power of network interoperability and the ability to outsource task resolution and achieve top security levels. </p>
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#000000]"><span className="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks. This way, we gain the power of network interoperability and the ability to outsource task resolution and achieve top security levels. </p>
                     </div>
                     <div className="card-kine" data-aos="fade-left">
-                        <p className="text-[19px] md:text-left text-center my-0 text-[#000000]"><span class="glitch">Kinera </span> is a substrate-based infrastructure built in the Kusama and Polkadot networks, with its shared security, interoperability, and ability to outsource task resolution. </p>
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#000000]"><span className="glitch">Kinera </span> is a substrate-based infrastructure built in the Kusama and Polkadot networks, with its shared security, interoperability, and ability to outsource task resolution. </p>
                     </div>
                     <div className="card-kine" data-aos="fade-left">
                         <p className="text-[19px] md:text-left text-center my-0 text-[#000000]">Our token has multiple purposes within the platform: stake while signalling the best content in <b> ranking lists </b>, curate <b> constellations </b>, support and moderate <b> SEE TV channels </b> , and propose and vote <b> governance proposals </b>.</p>

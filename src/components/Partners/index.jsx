@@ -1,6 +1,6 @@
-import asset10 from '../../assets/images/asset10.png'
-import asset11 from '../../assets/images/asset11.png'
-import asset12 from '../../assets/images/asset12.png'
+import asset10 from '../../assets/images/asset10.webp'
+import asset11 from '../../assets/images/asset11.webp'
+import asset12 from '../../assets/images/asset12.webp'
 
 const Partners = () => {
     return (

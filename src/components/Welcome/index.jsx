@@ -1,8 +1,8 @@
 import { AiOutlineCaretDown } from "react-icons/ai";
-import missionImg3 from '../../assets/images/cosmos8.png';
+import missionImg3 from '../../assets/images/cosmos8.webp';
 import Header from "../Header";
 import './style.css';
-import Banner from '../../assets/images/kinera-banner2.png';
+import Banner from '../../assets/images/kinera-banner2.webp';
 
 const Welcome = () => {
     return (

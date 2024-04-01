@@ -7,7 +7,7 @@ import {
 import countries from 'countries-list';
 import axios from 'axios';
 
-import fundo07 from '../../assets/images/fundo07.png';
+import fundo07 from '../../assets/images/fundo07.webp';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 

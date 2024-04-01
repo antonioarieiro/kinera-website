@@ -1,8 +1,8 @@
-import fundo03 from '../../assets/images/fundo03.png'
-import creators01 from '../../assets/images/creators02.png'
-import curators01 from '../../assets/images/curators02.png'
-import moderators01 from '../../assets/images/moderators02.png'
-import ambassadors01 from '../../assets/images/ambassadors02.png'
+import fundo03 from '../../assets/images/fundo03.webp'
+import creators01 from '../../assets/images/creators02.webp'
+import curators01 from '../../assets/images/curators02.webp'
+import moderators01 from '../../assets/images/moderators02.webp'
+import ambassadors01 from '../../assets/images/ambassadors02.webp'
 import DropItem from '../DropItem'
 
 const Participation = () => {
