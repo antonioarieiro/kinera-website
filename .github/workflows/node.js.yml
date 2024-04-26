@@ -1,16 +1,19 @@
-name: Node.js CI
+name: Deploy to Vercel
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build:
+  deploy:
+    runs-on: ubuntu-latest
 
-    runs-on: self-hosted
-
-  
     steps:
-    - name: Vercel
-      run: vercel
-   
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install Vercel CLI
+      run: npm install -g vercel
+
+    - name: Deploy to Vercel
+      run: vercel --prod
