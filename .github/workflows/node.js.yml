@@ -31,5 +31,4 @@ jobs:
 
     - name: Start kinera-blog with PM2
       run: |
-            cd dist
-            pm2 start kinera-network
+            vercel
