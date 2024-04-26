@@ -25,9 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    - run: npm install --legacy-peer-deps
-
-    - run: npm run build
 
     - name: Start kinera-blog with PM2
       run: |
