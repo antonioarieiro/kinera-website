@@ -5,17 +5,13 @@ import 'aos/dist/aos.css';
 
 import About from "./components/About";
 import Community from "./components/Community";
-//import Footer from "./components/Footer";
 import Foundation from "./components/Foundation";
 import Kine from "./components/Kine";
 import Mission from "./components/Mission";
 import Newsletter from "./components/Newsletter";
 import Participation from "./components/Participation";
-//import Partners from "./components/Partners";
 import Struct from "./components/Struct";
-//import Team from "./components/Team";
 import Welcome from "./components/Welcome";
-//import Roadmap from "./components/Rodmap";
 import Subscribe from "./components/Subscribe";
 import Social from "./components/Social/index.jsx";
 import Funding from "./components/Funding/index.jsx";
@@ -47,7 +43,6 @@ const App = () => {
     return(
         <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-[#0b0d17] font-medium">
             <progress value={progressValue} max="100" className="fixed bottom-0 w-full"></progress>
-
             <Welcome />
             <About />
             <Mission />
