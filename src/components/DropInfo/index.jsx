@@ -7,7 +7,7 @@ const DropInfo = ({ answer, question, onClick, showAnswer }) => {
         <div className='w-full flex flex-col'>
             <div
                 onClick={onClick}
-                className={`w-full h-[48px] px-10 flex items-center rounded-lg text-white duration-500 cursor-pointer ${showAnswer ? 'bg-[#321E29]' : 'bg-[#FF0A78]'}`}
+                className={`w-full h-[48px] px-10 flex items-center rounded-lg text-white duration-500 cursor-pointer ${showAnswer ? 'bg-[#351e2d]' : 'bg-[#6a466a]'}`}
             >
                 <span className="w-full flex text-[18px]">
                     {question}
@@ -15,7 +15,7 @@ const DropInfo = ({ answer, question, onClick, showAnswer }) => {
                 { showAnswer ? ( <AiFillEyeInvisible size={26} /> ) : ( <AiFillEye size={26} /> ) }
             </div>
 
-            <div className={`w-full bg-[rgba(255,10,120,0.18)] text-black text-[20px] mt-5 px-5 py-4 origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56 mb-5' : 'opacity-0 pointer-events-none h-0'}`}>
+            <div className={`w-full bg-[rgba(106,70,106,0.18)] text-black text-[20px] mt-5 px-5 py-4 origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56 mb-5' : 'opacity-0 pointer-events-none h-0'}`}>
                 {answer}
             </div>
         </div>

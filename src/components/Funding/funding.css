@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(247, 205, 224, 0.493); /* 10% black */
+    background: rgba(255, 255, 255, 0.6);
     z-index: 1;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .card-funding {
-    background-color: rgba(229, 114, 183, 0.598);
+    background-color: rgba(208, 193, 208, 0.7);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -51,7 +51,7 @@
 }
 
 .card-funding:hover {
-    background-color: rgba(90, 26, 119, 0.559); /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgba(172, 150, 183, 0.559); /* Muda a cor de fundo ao passar o mouse */
   }
 
   

@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 245, 250, 0.459);
+    background: rgba(255, 245, 250, 0.0);
     z-index: 1;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .card-kine {
-    background-color: rgba(230, 194, 212, 0.321);
+    background-color: rgba(53, 30, 45, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -43,7 +43,7 @@
 }
 
 .card-kine:hover {
-    background-color: rgba(87, 31, 111, 0.181);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 640px) {

@@ -7,11 +7,11 @@ import ReactMarkdown from 'react-markdown'
 
 import FlipCard from '../FlipCard';
 
-import kineraStructure03 from '../../assets/images/kineraStructureVersion2.webp';
-import asset01 from '../../assets/images/asset01.webp';
-import asset02 from '../../assets/images/asset02.webp';
-import asset03 from '../../assets/images/asset03.webp';
-import asset04 from '../../assets/images/asset04.webp';
+import kineraStructure03 from '../../assets/images/kineraStructureVersion2.png';
+import asset01 from '../../assets/images/asset001.png';
+import asset02 from '../../assets/images/asset002.png';
+import asset03 from '../../assets/images/asset003.png';
+import asset04 from '../../assets/images/asset004.png';
 
 import './structure.css'
 
@@ -24,7 +24,7 @@ const Struct = () => {
                 backgroundImage: `url(${kineraStructure03})`
             }}
         >
-            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text[#2c0d2b]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#2c0d2b]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
             <div className="w-full flex justify-center mt-10">
                 <div className="w-[85%]" data-aos="zoom-in">

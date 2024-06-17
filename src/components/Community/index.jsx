@@ -1,39 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import DropInfo from '../DropInfo'
 
-import comuBack from '../../assets/images/comuBack.webp'
-import asset06 from '../../assets/images/asset06.webp'
-import asset07 from '../../assets/images/asset07.webp?v=1' // Add query parameter for Cache Busting
-import asset08 from '../../assets/images/asset08.webp?v=1' // Add query parameter
-import asset09 from '../../assets/images/asset09.webp?v=1' // Add query parameter
+import comuBack from '../../assets/images/comuBack.png'
 
 import ReactMarkdown from 'react-markdown'
 
 import './community.css';
 
 const Community = () => {
-    const [selectedImage, setSelectedImage] = useState(asset07);
     const [showAnswer, setShowAnswer] = useState(1);
-
-    useEffect(() => {
-        switch(showAnswer) {
-            case 1:
-                setSelectedImage(asset07);
-                break;
-            case 2:
-                setSelectedImage(asset06);
-                break;
-            case 3:
-                setSelectedImage(asset08);
-                break;
-            case 4:
-                setSelectedImage(asset09);
-                break;
-            default:
-                setSelectedImage(asset07);
-        }
-    }, [showAnswer]);
 
     return (
         <div
@@ -43,7 +19,7 @@ const Community = () => {
             }}
             id='community'
         >
-            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center -mb-20 text-[#FF0A78]" data-aos="fade-left">COMMUNITY</h1>
+            <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center -mb-20 text-[#351e2d]" data-aos="fade-left">COMMUNITY</h1>
             
             <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-32 pb-20" data-aos="fade-right">
                 <div className="md:w-3/5 w-full gap-10">
@@ -71,20 +47,6 @@ const Community = () => {
                         onClick={() => setShowAnswer(4)}
                         showAnswer={showAnswer === 4}
                     />
-                </div>
-
-                <div className="md:w-1/5 w-full flex flex-col items-center justify-center">
-                    <img src={selectedImage} alt="asset00" className="duration-500 origin-top md:w-auto w-1/3" />
-
-                    <div className="flex flex-col items-center justify-center mt-4">
-                        {[1, 2, 3, 4].map(num => (
-                            <button
-                                key={num}
-                                className={`mb-2 rounded-full w-5 h-5 ${showAnswer === num ? 'bg-[#FF0083]': 'bg-black'}`}
-                                onClick={() => setShowAnswer(num)}
-                            />
-                        ))}
-                    </div>
                 </div>
             </div>
         </div>

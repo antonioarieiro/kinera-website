@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import fundBack from '../../assets/images/fundBack2.webp';
+import fundBack from '../../assets/images/fund_back.png';
 import './funding.css';
 
 const Funding = () => {
@@ -11,13 +11,13 @@ const Funding = () => {
         }}
             id='funding'
         >
-            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#1a081c] -mt-8" data-aos="zoom-in">FUNDING</h1>
+            <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#351e2d] -mt-8" data-aos="zoom-in">FUNDING</h1>
            
             
             <div className="w-full flex justify-center mt-10">
             <div className="card-funding-container w-[100vk]">
                     <div className="card-funding" data-aos="fade-left">
-                        <p className="text-center text-black hover:text-white text-[19px]">
+                        <p className="text-center hover:text-white text-[19px] text-[#351e2d]">
                             <span className="glitch">Blockchain technology </span>can potentially disrupt and overcome many challenges inherent in startup financing. The widespread adoption of cryptocurrencies can largely be credited to Ethereum's open-to-all financing model and Bitcoin's permissionless mining approach.
                         </p>
                     </div>
