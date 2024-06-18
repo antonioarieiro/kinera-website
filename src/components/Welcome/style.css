@@ -31,7 +31,7 @@
 }
 
 .kinera-title {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: bold;
     text-align: center;
     margin-top: 0rem;
@@ -53,7 +53,7 @@
 /* Desktop Styles */
 @media (min-width: 769px) {
     .logo-img {
-        width: 58.65rem; /* Original width 51rem * 1.15 */
+        width: 42rem; /* Original width 51rem * 1.15 */
     }
 }
 
@@ -67,7 +67,7 @@
 /* Mobile Styles */
 @media (max-width: 768px) {
     .kinera-title {
-        font-size: 72px; /* Adjust font size for mobile */
+        font-size: 55px; /* Adjust font size for mobile */
     }
 
     .content-wrapper p {
