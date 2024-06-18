@@ -31,7 +31,7 @@
 }
 
 .kinera-title {
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
     text-align: center;
     margin-top: 0rem;
@@ -157,3 +157,36 @@
         /* Outros estilos específicos para monitores maiores aqui, se necessário */
     }
 }
+
+
+.card-about-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 100%;
+
+
+
+}
+
+.card-home {
+    background-color: rgba(255, 255, 255, 0.02);
+    margin: 0 auto; /* This centers the content */
+    max-width: 900px;
+    width: 1000px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: flex-start; /* Centraliza verticalmente o conteúdo */
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100px; /* Altura mínima do card */
+    flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
+}
+
+.card-home:first-of-type {
+    margin-top: 0;
+}
+
+.card-home:hover {
+    background-color: rgba(205, 77, 145, 0.0); /* Muda a cor de fundo ao passar o mouse */
+  }
