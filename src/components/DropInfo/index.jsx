@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
+import './DropInfo.css';
 
 const DropInfo = ({ answer, question, onClick, showAnswer }) => {
     
     return (
-        <div className='w-full flex flex-col'>
+        <div className='drop-info'>
             <div
                 onClick={onClick}
-                className={`w-full h-[48px] px-10 flex items-center rounded-lg text-white duration-500 cursor-pointer ${showAnswer ? 'bg-[#351e2d]' : 'bg-[#6a466a]'}`}
+                className={`drop-info-header ${showAnswer ? 'active' : 'inactive'}`}
             >
                 <span className="w-full flex text-[18px]">
                     {question}
@@ -15,7 +16,7 @@ const DropInfo = ({ answer, question, onClick, showAnswer }) => {
                 { showAnswer ? ( <AiFillEyeInvisible size={26} /> ) : ( <AiFillEye size={26} /> ) }
             </div>
 
-            <div className={`w-full bg-[rgba(106,70,106,0.18)] text-[#351e2d] text-[20px] mt-5 px-5 py-4 origin-bottom duration-500 ease-in-out ${showAnswer ? 'opacity-100 min-h-56 mb-5' : 'opacity-0 pointer-events-none h-0'}`}>
+            <div className={`drop-info-answer ${showAnswer ? 'active' : 'inactive'}`}>
                 {answer}
             </div>
         </div>

@@ -14,7 +14,7 @@ const About = () => {
                 <h1 className="-mt-8 sm:text-[75px] text-[38px] font-bold text-center text-white" data-aos="fade-left">ABOUT</h1>
 
 
-                <div className="w-full flex justify-center mt-10">
+                <div className="w-full flex justify-center mt-10 pb-20">
                       <div className="card-about-container w-[100vk]">
                         <div className="card-about" data-aos="fade-left">
                         <p className="text-[19px] text-[#FFFFFF] text-center -mt-0" data-aos="fade-left"><span className="glitch">Kinera</span> is the home for the best audiovisual media content in the Web3 environment. </p>

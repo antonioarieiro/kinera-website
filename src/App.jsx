@@ -5,9 +5,9 @@ import 'aos/dist/aos.css';
 
 import About from "./components/About";
 import Community from "./components/Community";
-import Foundation from "./components/Foundation";
+//import Foundation from "./components/Foundation";
 import Kine from "./components/Kine";
-import Mission from "./components/Mission";
+//import Mission from "./components/Mission";
 import Newsletter from "./components/Newsletter";
 import Participation from "./components/Participation";
 import Struct from "./components/Struct";

@@ -1,5 +1,4 @@
 import kinexBack from '../../assets/images/kineraFund_kinex.png';
-
 import './kine.css';
 
 const Kine = () => {
@@ -11,20 +10,43 @@ const Kine = () => {
                 backgroundImage: `url(${kinexBack})`
             }}
         >
+            <h1 className="-mt-12 sm:text-[75px] text-[38px] font-bold text-center text-[#351e2d] py-10" data-aos="zoom-in">KINEX</h1>
             
-            <h1 className="-mt-12 sm:text-[75px] text-[38px] font-bold text-center text-[#351e2d] py-10" data-aos="zoom-in">THE KINEX</h1>
-            
-            <div className="w-full flex justify-center mt-10">
-            <div className="card-funding-container w-[100vk]">
-                    
+            <div className="w-full flex justify-center mt-10 pb-20">
+                <div className="card-funding-container w-[100vk]">
                     <div className="card-kine" data-aos="fade-left">
-                        <p className="text-[19px] md:text-left text-center my-0 text-[#FFFFFF]"><span className="glitch">Kinex, </span> our token, is developed using a Substrate-based infrastructure built in the Kusama and Polkadot networks. This way, we gain the power of network interoperability and the ability to outsource task resolution and achieve top security levels. </p>
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#351e2d]">
+                            Kinex, the platform token, was developed using the Substrate language, from which Kusama and Polkadot were built. This way, we gain the power of network interoperability and the ability to outsource task resolution in a shared security environment.
+                        </p>
                     </div>
                     <div className="card-kine" data-aos="fade-left">
-                        <p className="text-[19px] md:text-left text-center my-0 text-[#FFFFFF]"><span className="glitch">Kinera </span> is a substrate-based infrastructure built in the Kusama and Polkadot networks, with its shared security, interoperability, and ability to outsource task resolution. </p>
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#351e2d]">
+                            Kinex has multiple purposes: stake while signalling the best content in ranking lists, curate constellations, support and moderate streaming channels, and propose and vote governance proposals.
+                        </p>
                     </div>
                     <div className="card-kine" data-aos="fade-left">
-                        <p className="text-[19px] md:text-left text-center my-0 text-[#FFFFFF]">Our token has multiple purposes within the platform: stake while signalling the best content in <b> ranking lists </b>, curate <b> constellations </b>, support and moderate <b> SEE TV channels </b> , and propose and vote <b> governance proposals </b>.</p>
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#351e2d]">
+                            <strong>Kinex - Functions of the token:</strong>
+                            <ul className="list-disc list-inside">
+                                <li>Stake while signalling the best content in ranking lists.</li>
+                                <li>Create and curate content games to find the best videos in a list of categories.</li>
+                                <li>Vote on the new SEE channels staking.</li>
+                                <li>Propose and vote on governance proposals.</li>
+                                <li>Be used as a collateral deposit within the moderation system.</li>
+                                <li>Be a security deposit to ensure published content adheres to community norms and guidelines.</li>
+                                <li>Validate the transactions in the network.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className="card-kine" data-aos="fade-left">
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#351e2d]">
+                            <strong>The initial number of tokens:</strong> 2 billion.
+                        </p>
+                    </div>
+                    <div className="card-kine" data-aos="fade-left">
+                        <p className="text-[19px] md:text-left text-center my-0 text-[#351e2d]">
+                            <strong>Token Distribution:</strong> The Kinex Tokens assigned to investors is 45%. To the Kine Foundation 35%. To the community: 15%. To core contributors (the team, future team and seed advisors) 5%.
+                        </p>
                     </div>
                 </div>
             </div>

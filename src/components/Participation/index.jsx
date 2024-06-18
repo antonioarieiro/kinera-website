@@ -25,7 +25,7 @@ const Participation = () => {
                 </div>
                 </div>
 
-                <div className="my-20 flex flex-col gap-10">
+                <div className="my-20 flex flex-col gap-20">
                     <div className="flex flex-col md:flex-row items-center gap-4" data-aos="fade-left">
                         <DropItem
                           question="Curators"

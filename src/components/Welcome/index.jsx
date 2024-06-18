@@ -4,7 +4,7 @@ import Banner from '../../assets/images/kinera-banner2.png';
 
 const Welcome = () => {
     return (
-        <div className="w-full mb-10 text-[#F3F6FB]" id="home">
+        <div className="w-full mb-20 text-[#F3F6FB]" id="home">
             <Header />
             <div className="mission-container">
                 <div className="main-content">

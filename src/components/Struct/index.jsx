@@ -26,7 +26,7 @@ const Struct = () => {
         >
             <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#2c0d2b]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
-            <div className="w-full flex justify-center mt-10">
+            <div className="w-full flex justify-center mt-20">
                 <div className="w-[85%]" data-aos="zoom-in">
                     <div className="card-structure" data-aos="fade-left">
                     <p className="text-[25px] text-center text-[#2c0d2b]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
@@ -34,7 +34,7 @@ const Struct = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center mt-20">
+            <div className="flex flex-col items-center justify-center mt-20 py-10">
                 <div className="grid-cards-container">
                     <FlipCard
                         id='post1_img'
