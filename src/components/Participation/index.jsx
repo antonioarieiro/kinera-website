@@ -31,21 +31,21 @@ const Participation = () => {
                     <div className="text-justify dropitem-container flex flex-col md:flex-row items-center gap-4" data-aos="">
                         <DropItem
                           question="Curators"
-                          answer={<p style={{ fontSize: '20px', color: '#351e2d' }}><strong>CURATORS</strong> have a central role; they are responsible for discovering and organising our constellations. Their activities include searching the internet and decentralised networks for top-tier content, organising competitions, and voting for the best channels. </p>}
+                          answer={<p style={{ fontSize: '16px', color: '#351e2d' }}><strong>CURATORS</strong> have a central role; they are responsible for discovering and organising our constellations. Their activities include searching the internet and decentralised networks for top-tier content, organising competitions, and voting for the best channels. </p>}
                         />
                         <img src={curators01} alt="curators01" className="w-[50%] md:w-[230px]" />
                     </div>
                     <div className="text-justify dropitem-container flex flex-col md:flex-row-reverse items-center gap-4" data-aos="">
                         <DropItem
                           question="Creators"
-                          answer={<p style={{ fontSize: '20px', color: '#351e2d' }}><strong>CREATORS</strong> are the members who craft distinctive and captivating content from our curated lists to create streaming channels. These channels may be further enhanced with interviews and live events, providing a comprehensive viewing experience.</p>}
+                          answer={<p style={{ fontSize: '16px', color: '#351e2d' }}><strong>CREATORS</strong> are the members who craft distinctive and captivating content from our curated lists to create streaming channels. These channels may be further enhanced with interviews and live events, providing a comprehensive viewing experience.</p>}
                         />
                         <img src={creators01} alt="creators01" className="w-[50%] md:w-[230px]" />
                     </div>
                     <div className="text-justify dropitem-container flex flex-col md:flex-row items-center gap-4" data-aos="">
                         <DropItem
                           question="Moderators"
-                          answer={<p style={{ fontSize: '20px', color: '#351e2d' }}><strong>MODERATORS</strong> are the volunteers who maintain the platform's high quality and safety standards. They report and resolve content disputes and ensure that all users follow guidelines.  You can set your moderation flag on if your reputation is in the top 80%. If so, report content, use your tokens to vote the decisions, and win tokens back from voting according to the rules. Kinex token rewards the individual's expertise and commitment to carry out the role with knowledge and depth.</p>}
+                          answer={<p style={{ fontSize: '16px', color: '#351e2d' }}><strong>MODERATORS</strong> are the volunteers who maintain the platform's high quality and safety standards. They report and resolve content disputes and ensure that all users follow guidelines.  You can set your moderation flag on if your reputation is in the top 80%. If so, report content, use your tokens to vote the decisions, and win tokens back from voting according to the rules. Kinex token rewards the individual's expertise and commitment to carry out the role with knowledge and depth.</p>}
                         />
                         <img src={moderators01} alt="moderators01" className="w-[50%] md:w-[230px]" />
                     </div>
@@ -59,7 +59,7 @@ const Participation = () => {
                     <div className="text-justify dropitem-container flex flex-col md:flex-row-reverse items-center gap-4" data-aos="">
                         <DropItem
                           question="Users"
-                          answer={<p style={{ fontSize: '20px', color: '#351e2d' }}><strong>USERS</strong> shape the culture and direction of the network. At any time they can change roles and become creative, taking part, creating new communities, or being active members of the governance. Users have the power to influence and drive change, to shape the platform into something that reflects their values and interests. The more active and engaged the users are, the more vibrant and successful Kinera becomes.</p>}
+                          answer={<p style={{ fontSize: '16px', color: '#351e2d' }}><strong>USERS</strong> shape the culture and direction of the network. At any time they can change roles and become creative, taking part, creating new communities, or being active members of the governance. Users have the power to influence and drive change, to shape the platform into something that reflects their values and interests. The more active and engaged the users are, the more vibrant and successful Kinera becomes.</p>}
                         />
                         <img src={users01} alt="users01" className="w-[50%] md:w-[230px]" />
                     </div>

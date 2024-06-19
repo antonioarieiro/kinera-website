@@ -16,8 +16,8 @@ const Welcome = () => {
                                 <img src={Banner} alt='BigK02' className="logo-img pulse" />
                             </div>
                             <h1 className="kinera-title " style={{ zIndex: 1, color: "#351e2d" }}>KINERA</h1>
-                            <div className="card-home" data-aos="">
-                            <p className="mt-6 text-base text-justify" style={{ zIndex: 1, fontSize: '16px', color: "#351e2d"  }}>
+                            <div className="card-home mt-6" data-aos="">
+                            <p className="mt-0 text-base text-justify" style={{ zIndex: 1, fontSize: '16px', color: "#351e2d"  }}>
                                 <span className="glitch">Kinera</span> is a media portal for transformative ideas and social progress, an open and resilient curation ecosystem that unites a diverse community of viewers and nonconformist media creators.
                             </p>
                             </div>

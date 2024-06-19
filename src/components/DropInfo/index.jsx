@@ -12,7 +12,7 @@ const DropInfo = ({ question, answer, onClick, showAnswer }) => {
         <span className="w-full flex text-[18px]">
           {question}
         </span>
-        {showAnswer ? <AiFillEyeInvisible size={26} /> : <AiFillEye size={26} />}
+        {showAnswer ? <AiFillEyeInvisible size={20} /> : <AiFillEye size={20} />}
       </div>
 
       <div className={`drop-info-answer ${showAnswer ? 'active' : 'inactive'}`}>
