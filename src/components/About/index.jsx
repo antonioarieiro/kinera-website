@@ -17,22 +17,19 @@ const About = () => {
                 <div className="w-full flex justify-center mt-10 pb-20">
                       <div className="card-about-container w-[100vk]">
                         <div className="card-about" data-aos="">
-                        <p className="text-[16px] text-[#FFFFFF] text-justify -mt-0" data-aos=""><span className="glitch">Kinera</span> is the home for the best audiovisual media content in the Web3 environment. </p>
+                        <p className="text-[16px] text-[#FFFFFF] text-justify -mt-0" data-aos=""><span className="glitch">Kinera</span> is a socio-economic decentralised autonomous organisation <span className="glitch">(📈DAO)</span>. The relationship between creators, curators, moderators, and viewers is central and they are connected by active participation in the ecosystem which includes a set of predictable token rewards. </p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos="">With a set of tools built upon a system of tokenised incentives, users can create film and video competitions and rankings where the values and interests of the community can emerge.</p>
+                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos="">We aim to combine video creation tools, collective wisdom, and user token incentives to create media narratives that reflect the complexity of human interaction.</p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos="">The result of the process is a set of lists with relevant content. On top of these lists, the community can build television channels that reflect their interests and culture. The channels can use different subscription models to finance themselves or be open to everyone.</p>
+                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos="">Through ranking and curation processes Kinera builds public lists with relevant content. Groups and individuals can remix, organise and distribute content for free or through different subscription models. </p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos=""><span className="glitch">Kinera's </span> media platform is the place to nurture, empower, and give voice to people from different cultural and political backgrounds.</p>
+                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos=""> At <span className="glitch">Kinera's </span> moderation is made by the community and reinforced by the platform design. Here an organic process allows users to access different features and functionalities according to their level of engagement.</p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos=""><b>Content moderation </b> is made by the community and reinforced by a platform design that drives the users to forms of participation according to the community rules. In this way, members can choose their level of engagement in an environment aligned with their values.</p>
-                        </div>
-                        <div className="card-about" data-aos="">
-                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos="">We aim to become the first global content creation and distribution network where the same content is available everywhere.</p>
+                        <p className="text-[16px] text-[#FFFFFF] text-justify mt-0" data-aos="">Our services have no fees, do not aim for profit and are free from advertising. Kinera doesn't employ algorithms to manipulate your experience. We are not in a battle for human attention.</p>
                         </div>
                     </div>
                 </div>
