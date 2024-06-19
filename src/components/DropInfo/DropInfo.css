@@ -17,23 +17,23 @@
     display: flex;
     align-items: center;
     border-radius: 0.5rem;
-    color: white;
+    color: #351e2d;
     cursor: pointer;
     transition: background-color 0.5s;
     padding: 0 20px; /* Adicionando padding */
   }
   
   .drop-info-header.active {
-    background-color: #351e2d;
+    background-color: #977797B3;
   }
   
   .drop-info-header.inactive {
-    background-color: #6a466a;
+    background-color: #d0c1d0B3;
   }
   
   .drop-info-answer {
     width: 100%;
-    background-color: rgba(106, 70, 106, 0.18);
+    background-color: rgba(249, 249, 249, 0.67);
     color: #351e2d;
     font-size: 20px;
     margin-top: 5px;

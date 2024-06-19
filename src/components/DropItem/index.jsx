@@ -12,7 +12,7 @@ const DropItem = ({ answer, question }) => {
         <div className='sm:w-2/3 w-full flex flex-col'>
             <div
                 onClick={toggleAnswer}
-                className={`w-full h-[72px] px-10 flex items-center rounded-lg text-white duration-500 cursor-pointer ${showAnswer ? 'bg-[#837a87]' : 'bg-[#6a466a]'}`}
+                className={`w-full h-[56px] px-10 flex items-center rounded-lg text-[#351e2d] duration-500 cursor-pointer ${showAnswer ? 'bg-[#d0c1d0B3]' : 'bg-[#6a466a]'}`}
             >
                 <span className="w-full flex justify-center md:text-[28px] text-[19px]">
                     {question}

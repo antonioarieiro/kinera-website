@@ -159,27 +159,31 @@
 }
 
 
-.card-about-container {
+.card-home-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
     width: 100%;
-
-
-
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
 }
 
 .card-home {
     background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
     margin: 0 auto; /* This centers the content */
     max-width: 900px;
     width: 1000px;
     display: flex;
     justify-content: center; /* Centraliza horizontalmente o conteúdo */
     align-items: flex-start; /* Centraliza verticalmente o conteúdo */
+    text-align: justify;
     flex-direction: column;
     box-sizing: border-box;
-    min-height: 100px; /* Altura mínima do card */
+    min-height: 80px; /* Altura mínima do card */
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
 }
 
@@ -190,3 +194,10 @@
 .card-home:hover {
     background-color: rgba(205, 77, 145, 0.0); /* Muda a cor de fundo ao passar o mouse */
   }
+
+  /* Desktop Styles */
+@media (max-width: 768px) {
+    .card-home {
+        max-width: 400px;
+    }
+}

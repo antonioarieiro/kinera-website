@@ -17,7 +17,7 @@ const Social = () => {
                 backgroundPosition: "center",
             }}
         >
-            <div className="w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="fade-left">
+            <div className="w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="">
                 <h1 className="sm:text-[75px] text-[38px] font-bold text-center text-[#F3F6FB] -mt-4">SOCIAL</h1>
 
                 <div className="w-full flex justify-center flex-wrap gap-10">

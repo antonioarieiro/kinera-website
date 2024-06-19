@@ -43,7 +43,7 @@
     text-align: justify;
     flex-direction: column;
     box-sizing: border-box;
-    min-height: 100px; /* Altura mínima do card */
+    min-height: 80px; /* Altura mínima do card */
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
 }
 

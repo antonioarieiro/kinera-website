@@ -34,15 +34,15 @@
     padding: 20px;
     margin-top: 20px;
     margin: 0 auto; /* This centers the content */
-    max-width: 1200px;
-    width: auto;
+    max-width: 900px;
+    width: 1000px;
     display: flex;
     justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
-    text-align: center;
+    align-items: flex-start; /* Centraliza verticalmente o conteúdo */
+    text-align: justify;
     flex-direction: column;
     box-sizing: border-box;
-    min-height: 100px; /* Altura mínima do card */
+    min-height: 80px; /* Altura mínima do card */
     flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
 }
 
