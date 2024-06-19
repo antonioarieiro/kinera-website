@@ -63,3 +63,10 @@
         padding: 0 5%; /* Adjusting for consistent padding without affecting width */
     }
 }
+
+.chart-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
