@@ -40,6 +40,7 @@
     padding: 20px; /* Adicionando padding */
     transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
     overflow: hidden;
+    text-align: justify;
   }
   
   .drop-info-answer.active {

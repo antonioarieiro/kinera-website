@@ -2,7 +2,8 @@ import fundo03 from '../../assets/images/kineraStructureVersion2.png';
 import creators01 from '../../assets/images/creators002.png';
 import curators01 from '../../assets/images/curators002.png';
 import moderators01 from '../../assets/images/moderators002.png';
-import ambassadors01 from '../../assets/images/ambassadors002.png';
+//import ambassadors01 from '../../assets/images/ambassadors002.png';
+import users01 from '../../assets/images/users002.png';
 import DropItem from '../DropItem';
 import './participation.css';
 
@@ -16,13 +17,13 @@ const Participation = () => {
             id='participation'
         >
             <div className="container mx-auto px-4">
-                <h1 className="-mt-8 sm:text-[75px] text-[#351e2d] text-[38px] font-bold text-center mb-5" data-aos="fade-left">
+                <h1 className="-mt-8 sm:text-[75px] text-[#351e2d] text-[38px] font-bold text-center mb-5" data-aos="">
                     HOW TO PARTICIPATE
                 </h1>
 
                 <div className="w-full flex justify-center mt-10">
                     <div className="w-[80%]" data-aos="">
-                        <p className="text-[18px] text-center text-[#351e2d]">Join the Kinera platform and become an active member of the ecosystem as a <strong>Curator</strong>, <strong>Moderator</strong>, <strong>Ambassador</strong> and or <strong> Creator</strong>:</p>
+                        <p className="text-[18px] text-center text-[#351e2d]">Inside Kinera, you can be a <strong> Creator</strong>, a <strong>Curator</strong>, a <strong>Moderator</strong> or a <strong>User</strong>.</p>
                     </div>
                 </div>
 
@@ -48,12 +49,19 @@ const Participation = () => {
                         />
                         <img src={moderators01} alt="moderators01" className="w-[50%] md:w-[230px]" />
                     </div>
-                    <div className="text-justify dropitem-container flex flex-col md:flex-row-reverse items-center gap-4" data-aos="">
+                    {/*<div className="text-justify dropitem-container flex flex-col md:flex-row-reverse items-center gap-4" data-aos="">
                         <DropItem
                           question="Ambassadors"
                           answer={<p style={{ fontSize: '20px', color: '#351e2d' }}><strong>AMBASSADORS</strong> are volunteers who wish to see the growth and success of the community. They play a crucial role as mediators, advocates, and guardians of the ecosystem, fostering its expansion and protection and organising or promoting initiatives that strengthen the ecosystem. </p>}
                         />
                         <img src={ambassadors01} alt="ambassadors01" className="w-[50%] md:w-[230px]" />
+        </div>*/}
+                    <div className="text-justify dropitem-container flex flex-col md:flex-row-reverse items-center gap-4" data-aos="">
+                        <DropItem
+                          question="Users"
+                          answer={<p style={{ fontSize: '20px', color: '#351e2d' }}><strong>USERS</strong> shape the culture and direction of the network. At any time they can change roles and become creative, taking part, creating new communities, or being active members of the governance. Users have the power to influence and drive change, to shape the platform into something that reflects their values and interests. The more active and engaged the users are, the more vibrant and successful Kinera becomes.</p>}
+                        />
+                        <img src={users01} alt="users01" className="w-[50%] md:w-[230px]" />
                     </div>
                 </div>
             </div>
