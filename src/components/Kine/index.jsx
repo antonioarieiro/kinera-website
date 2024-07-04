@@ -50,10 +50,6 @@ const Kine = () => {
                             <strong>Token Distribution:</strong> The Kinex Tokens assigned to investors is 45%. To the Kine Foundation 35%. To the community: 15%. To core contributors (the team, future team and seed advisors) 5%.
                         </p>
                     </div>
-                    {/* Add the chart image */}
-                    <div className="card-kine" data-aos="">
-                        <img className="chart-image" src={tokenDistributionChart} alt="Kinex Token Distribution" />
-                    </div>
                 </div>
             </div>
         </div>
