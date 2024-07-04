@@ -181,4 +181,5 @@ button { cursor: pointer; }
 
 progress {
   height: 8px; /* Optional: Set a height for the progress bar */
+  z-index: 9999; /* Um valor alto para garantir que fique acima de outros elementos */
 }
