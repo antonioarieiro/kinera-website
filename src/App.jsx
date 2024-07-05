@@ -1,24 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Aos from "aos";
-
 import 'aos/dist/aos.css';
-
 import About from "./components/About";
 import Community from "./components/Community";
-//import Foundation from "./components/Foundation";
 import Kine from "./components/Kine";
-//import Mission from "./components/Mission";
 import Newsletter from "./components/Newsletter";
 import Participation from "./components/Participation";
 import Struct from "./components/Struct";
 import Welcome from "./components/Welcome";
-import Subscribe from "./components/Subscribe";
 import Social from "./components/Social/index.jsx";
 import Funding from "./components/Funding/index.jsx";
 import Blog from "./components/Blog";
+import NewsletterPage from './components/Newsletter/NewsletterPage';
 
 const App = () => {
-    const [openModal, setOpenModal] = React.useState(false);
     const [progressValue, setProgressValue] = useState(0);
 
     useEffect(() => {
@@ -41,25 +37,31 @@ const App = () => {
     }, []);
 
     return(
-        <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-[#FFFFFF] font-medium">
-            <progress value={progressValue} max="100" className="fixed bottom-0 w-full"></progress>
-            <Welcome />
-            <About />
-            {/*<Mission />*/}
-            <Struct />
-            <Participation />
-            <Community />
-            <Kine />
-            {/*<Foundation />*/}
-            <Funding />
-            <Blog />
-            <div className="relative w-full flex items-center justify-center">
-                <Newsletter openModal={openModal} setOpenModal={setOpenModal}/>
-                {openModal && <Subscribe openModal={openModal} setOpenModal={setOpenModal}/>}
+        <Router>
+            <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-[#FFFFFF] font-medium">
+                <progress value={progressValue} max="100" className="fixed bottom-0 w-full"></progress>
+                <Routes>
+                    <Route path="/" element={
+                        <>
+                            <Welcome />
+                            <About />
+                            <Struct />
+                            <Participation />
+                            <Community />
+                            <Kine />
+                            <Funding />
+                            <Blog />
+                            <div className="relative w-full flex items-center justify-center">
+                                <Newsletter />
+                            </div>
+                            <Social />
+                        </>
+                    } />
+                    <Route path="/newsletter" element={<NewsletterPage />} />
+                </Routes>
             </div>
-            <Social />
-        </div>
-    )
+        </Router>
+    );
 }
 
 export default App;
