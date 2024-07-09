@@ -40,16 +40,6 @@ const Kine = () => {
                             </ul>
                         </p>
                     </div>
-                    <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#351e2d]">
-                            <strong>The initial number of tokens:</strong> 2 billion.
-                        </p>
-                    </div>
-                    <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#351e2d]">
-                            <strong>Token Distribution:</strong> The Kinex Tokens assigned to investors is 45%. To the Kine Foundation 35%. To the community: 15%. To core contributors (the team, future team and seed advisors) 5%.
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>

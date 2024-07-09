@@ -38,7 +38,7 @@ const Participation = () => {
                     <div className="text-justify dropitem-container flex flex-col md:flex-row-reverse items-center gap-4" data-aos="">
                         <DropItem
                           question="Creators"
-                          answer={<p style={{ fontSize: '16px', color: '#351e2d' }}><strong>CREATORS</strong> are the members who craft distinctive and captivating content from our curated lists to create streaming channels. These channels may be further enhanced with interviews and live events, providing a comprehensive viewing experience.</p>}
+                          answer={<p style={{ fontSize: '16px', color: '#351e2d' }}><strong>CREATORS</strong> are members who craft distinctive and captivating content from our curated lists or create their videos with the <u>Producer's tools</u> to launch streaming channels.   These channels can also host recorded interviews and live events, providing a full viewing experience with a diverse range of content that caters to different viewers interests and preferences.</p>}
                         />
                         <img src={creators01} alt="creators01" className="w-[50%] md:w-[230px]" />
                     </div>

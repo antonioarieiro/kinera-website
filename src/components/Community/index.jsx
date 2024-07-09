@@ -13,9 +13,12 @@ const CustomLink = ({ href, children }) => (
 const Community = () => {
   const [showAnswer, setShowAnswer] = useState(1);
 
-  const markdown2 = `This is an invitation to collaborate. If you want to group test Kinera’s features or join the technical team coding the application, follow our [Socials](/#social) for updates and to engage with our community. Receive updates about new features by subscribing to the newsletter at the bottom of the page. Kinera is reaching out to social and technological communities, providing a platform where together we can reflect on understanding the complexities of the world we live in.`;
+  const markdown2 = `This is an invitation to collaborate.
+  If you want to group test Kinera’s features, join the Discord Channel [Kinera Community Testers](https://discord.gg/qCN64mNDU5).  You can also join the technical team coding the application or contributing with new ideas to shape the ecosystem. 
+  Follow our [X/Twitter](https://twitter.com/KineraNetwork)
+  Receive updates about new features: subscribe to the [Newsletter](https://www.kinera.network/newsletter) Kinera is reaching out to the social and technological communities and providing a platform where together we can reflect about the complexities of the world we live in, check our [Socials](/#social)`;
 
-  const markdown3 = `Ambassadors are volunteer community members who wish to see the growth and success of the community. They play a crucial role as mediators, advocates, and guardians, fostering its expansion and protection, and organising or promoting initiatives that strengthen the ecosystem. To volunteer as an ambassador fill out the form [here](https://example.com/ambassador-form).`;
+  const markdown3 = `Ambassadors are volunteer community members who wish to see the growth and success of the community. They play a crucial role as mediators, advocates, and guardians, fostering its expansion and protection, and organising or promoting initiatives that strengthen the ecosystem. To volunteer as an ambassador fill out the form [here](https://kine.foundation/applicants/project-grants/apply).`;
 
   const markdown4 = `At ***Kinera*** we create value through collective action. To promote and attract interested users to the platform, we will host special events with prizes and token airdrops. These incentives can come in the form of competitions that reward the most active participants, the users that submit meaningful, high-quality content, or the ones that promote the creation of constellations aligned with the platform's goals. Register for our newsletter with the updates if you're interested in participating.`;
 
@@ -38,7 +41,7 @@ const Community = () => {
             showAnswer={showAnswer === 1}
           />
           <DropInfo
-            question={<ReactMarkdown>{"***2. The community of participants is the backbone of Kinera.***"}</ReactMarkdown>}
+            question={<ReactMarkdown>{"***2. What can I do. How can I join?***"}</ReactMarkdown>}
             answer={
               <ReactMarkdown
                 components={{

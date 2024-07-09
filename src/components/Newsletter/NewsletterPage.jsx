@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 import countries from 'countries-list';
 import axios from 'axios';
-import fundo07 from '../../assets/images/fundo07.png';
+import fundo07 from '../../assets/images/fundo08-letter.png';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const NewsletterPage = () => {
@@ -72,7 +72,7 @@ const NewsletterPage = () => {
     };
 
     return (
-        <div className="w-full h-auto bg-white" style={{
+        <div className="w-full min-h-screen bg-white" style={{
             backgroundImage: `url(${fundo07})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -80,7 +80,7 @@ const NewsletterPage = () => {
             margin: 'auto',
             width: '83%',
         }}>
-            <div className="w-full h-auto bg-[#9d3d9d43] flex items-end py-32 md:px-20 sm:px-10 px-5">
+            <div className="w-full h-auto flex items-end py-32 md:px-20 sm:px-10 px-5">
                 <div className='flex flex-col gap-10 sm:w-1/1 w-full'>
                     <TextField
                         name="name"
@@ -90,11 +90,11 @@ const NewsletterPage = () => {
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         sx={{
-                            input: { color: "white", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
-                            label: { color: "pink", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            input: { color: "#351e2d", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            label: { color: "#6a466a", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
                             "& .MuiInputBase-root": {
-                                border: "2px solid white",
-                                boxShadow: "0 0 10px rgba(255,255,255,0.3)",
+                                border: "2px solid [#6a466a]",
+                                boxShadow: "0 0 5px rgba(106, 70, 106, 0.3)",
                             },
                         }}
                         style={{marginBottom: '10px' }}
@@ -107,11 +107,11 @@ const NewsletterPage = () => {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         sx={{
-                            input: { color: "white", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
-                            label: { color: "pink", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            input: { color: "#351e2d", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            label: { color: "#6a466a", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
                             "& .MuiInputBase-root": {
                                 border: "2px solid white",
-                                boxShadow: "0 0 10px rgba(255,255,255,0.3)",
+                                boxShadow: "0 0 5px rgba(106, 70, 106, 0.3)",
                             },
                         }}
                         style={{ marginTop: '-15px', marginBottom: '-10px' }}
@@ -121,10 +121,10 @@ const NewsletterPage = () => {
                             <InputLabel 
                                 id="nationality-label"
                                 sx={{ 
-                                    color: 'pink', 
+                                    color: '#6a466a',  // Change label color here
                                     fontSize: '1.2rem', 
                                     fontFamily: 'Poppins, sans-serif',
-                                    fontWeight: 500,
+                                    fontWeight: 300,
                                     position: 'absolute',
                                     left: '15px',
                                     top: 0,
@@ -149,12 +149,12 @@ const NewsletterPage = () => {
                                 label="Nationality"
                                 sx={{ 
                                     '& .MuiSelect-select': { 
-                                        color: 'white', 
+                                        color: '#6a466a', 
                                         fontSize: '1.2rem', 
                                         fontWeight: 300, 
                                         padding: '4px', 
                                         border: '2px solid white', 
-                                        boxShadow: '0 0 10px rgba(255,255,255,0.3)',
+                                        boxShadow: "0 0 5px rgba(106, 70, 106, 0.3)",
                                         borderRadius: '1px',
                                         '&:focus': { 
                                             backgroundColor: 'transparent',
@@ -174,60 +174,60 @@ const NewsletterPage = () => {
                             </Select>
                         </FormControl>
                     </ThemeProvider>
-                    <p style={{ color: 'white', fontSize: '1.5rem', fontWeight: 400, fontFamily: 'Poppins, sans-serif', marginTop: '15px'}}> Are you a video or cinema creator in any form? </p> 
+                    <p style={{ color: '#351e2d', fontSize: '1.5rem', fontWeight: 300, fontFamily: 'Poppins, sans-serif', marginTop: '15px'}}> Are you a video or cinema creator in any of its creative or technical forms? </p> 
                     <TextField
                         name="website"
-                        label="Website"  
+                        label="Website||Social||Portfolio"  
                         className="my-2 text-white"
                         variant="standard"
                         value={website}
                         onChange={(e) => setWebsite(e.target.value)}
                         sx={{
-                            input: { color: "white", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
-                            label: { color: "pink", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            input: { color: "#351e2d", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            label: { color: "#6a466a", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
                             "& .MuiInputBase-root": {
                                 border: "2px solid white",
-                                boxShadow: "0 0 10px rgba(255,255,255,0.3)",
+                                boxShadow: "0 0 5px rgba(106, 70, 106, 0.3)",
                             },
                         }}
                         style={{ marginTop: '-47px' }}
                     />
                     <FormControl component="fieldset">
-                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem', fontWeight: 400, fontFamily: 'Poppins, sans-serif'  }}>If you had a way to earn tokens, would you move your videos to a web3 environment?</FormLabel>
+                        <FormLabel component="legend" style={{ color: '#351e2d', fontSize: '1.5rem', fontWeight: 300, fontFamily: 'Poppins, sans-serif'  }}>Would you like to test Kinera features before they are released?</FormLabel>
                         <MuiRadioGroup row aria-label="videosToWeb3" name="videosToWeb3" value={videosToWeb3.toString()} onChange={(e) => setVideosToWeb3(e.target.value === 'true')}>
-                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
-                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#6a466a" }}  />} label={<span style={{ color: '#351e2d' }}>Yes</span>} />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#6a466a" }} />} label={<span style={{ color: '#351e2d' }}>No</span>} />
                         </MuiRadioGroup>
                     </FormControl>
-                    <p style={{ color: 'white', fontSize: '1.5rem' , marginTop: '-20px', fontWeight: 400, fontFamily: 'Poppins, sans-serif'}}> Do you have a polkadot wallet?  </p> 
+                    <p style={{ color: '#351e2d', fontSize: '1.5rem' , marginTop: '-20px', fontWeight: 300, fontFamily: 'Poppins, sans-serif'}}> Do you have a polkadot wallet?  </p> 
                     <TextField
                         name="wallet"
                         label="Polkadot wallet address"  
-                        className="my-2 text-white"
+                        className="my-2 text-[white]"
                         variant="standard"
                         value={wallet}
                         onChange={(e) => setWallet(e.target.value)}
                         sx={{
-                            input: { color: "white", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
-                            label: { color: "pink", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            input: { color: "#351e2d", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            label: { color: "#6a466a", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
                             "& .MuiInputBase-root": {
                                 border: "2px solid white",
-                                boxShadow: "0 0 10px rgba(255,255,255,0.3)",
+                                boxShadow: "0 0 5px rgba(106, 70, 106, 0.3)",
                             },
                         }}
                         style={{ marginTop: '-47px' }}
                     />
                     <FormControl component="fieldset">
-                        <FormLabel component="legend" style={{ color: 'white', fontSize: '1.5rem', fontWeight: 400, fontFamily: 'Poppins, sans-serif' }}>Would you want to become a Kinera Ambassador?</FormLabel>
+                        <FormLabel component="legend" style={{ color: '#351e2d', fontSize: '1.5rem', fontWeight: 300, fontFamily: 'Poppins, sans-serif' }}>Would you like to become a Kinera Ambassador?</FormLabel>
                         <MuiRadioGroup row aria-label="participate" name="participate" value={participate.toString()} onChange={(e) => setParticipate(e.target.value === 'true')}>
-                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#FF0084" }}  />} label="Yes"  />
-                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#FF0084" }} />} label="No" />
+                            <FormControlLabel value={'true'} control={<Radio sx={{ color: "#6a466a" }}  />} label={<span style={{ color: '#351e2d' }}>Yes</span>}  />
+                            <FormControlLabel value={'false'} control={<Radio sx={{ color: "#6a466a" }} />} label={<span style={{ color: '#351e2d' }}>No</span>} />
                         </MuiRadioGroup>
                     </FormControl>
                     <br/>
                     <div className='w-full flex justify-between'>
                         <button
-                            className='px-2 py-4 w-4/5 bg-white hover:bg-[#351e2d] hover:scale-105 duration-500 text-[#FF0A78] font-bold rounded-md'
+                            className='px-2 py-4 w-4/5 bg-[#351e2d] hover:bg-[#6a466a] hover:scale-105 duration-500 text-white font-bold rounded-md'
                             type='submit'
                             onClick={handleSubmit}
                         >

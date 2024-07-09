@@ -105,8 +105,8 @@ const Subscribe = (props) => {
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         sx={{
-                            input: { color: "white", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
-                            label: { color: "pink", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            input: { color: "#351e2d", fontSize: "1.2rem", fontWeight: 300, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
+                            label: { color: "#351e2d", fontSize: "1.2rem", fontWeight: 500, paddingLeft: '15px', fontFamily: 'Poppins, sans-serif' },
                             "& .MuiInputBase-root": {
                                 border: "2px solid white",
                                 boxShadow: "0 0 10px rgba(255,255,255,0.3)",
