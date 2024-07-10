@@ -29,7 +29,7 @@ const Struct = () => {
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[85%]" data-aos="zoom-in">
                     <div className="card-structure" data-aos="fade-left">
-                    <p className="text-[18px] text-center text-[#2c0d2b]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong>, <strong>SEE TVChain</strong> and <b>Kine Makers</b><strong>.</strong></p>
+                    <p className="text-[18px] text-center text-[#2c0d2b]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong> for curation, <strong>Producers Tools</strong> for video creation and <b>SEE</b> for content organisation and distribution.</p>
                     </div>
                 </div>
             </div>
@@ -41,28 +41,28 @@ const Struct = () => {
                         title="Rankings"
                         imgUrl={asset01}
                         icon={<FaTrophy className="text-6xl my-[50px]" />}
-                        backDesc={<ReactMarkdown>{"***Rankings*** are a combination of a staking system and curated lists. Users can assign Kinex tokens to their preferred film in a ranking list for a specified period and earn token rewards."}</ReactMarkdown>}
+                        backDesc={<ReactMarkdown>{"***Rankings*** are a combination of a staking mechanism and curated lists. Users can assign Kinex tokens to their preferred videos in a ranking list for a specified period and earn token rewards."}</ReactMarkdown>}
                     />
                     <FlipCard
                         id='post2_img'
                         title="Constellations"
                         imgUrl={asset02}
                         icon={<AiOutlineStar className="text-6xl my-[30px]" />}
-                        backDesc={<ReactMarkdown>{"***Constellations*** within Kinera act as the second layer for curation. Curators can vote for their favourite choices in this competition arena, competing directly with other users. This platform allows curators to showcase their knowledge and preferences in cinema, allowing lesser-known gems to shine while aligning with the community's collective judgement."}</ReactMarkdown>}
+                        backDesc={<ReactMarkdown>{"***Constellations*** are a second layer for curation.  In this competition arena, users vote for their favourite choices, competing directly with other users or AI. It allows professional curators to showcase their film festivals and different users to show their knowledge and preferences allowing lesser-known gems to shine and harness the power of their narratives in the real world. "}</ReactMarkdown>}
                     />
                     <FlipCard
                         id='post3_img'
-                        title="TVChain SEE"
-                        imgUrl={asset03}
+                        title="Producers Tools"
+                        imgUrl={asset04}
                         icon={<FiMonitor className="text-6xl my-[50px]" />}
-                        backDesc={<ReactMarkdown>{"***SEE TVChain*** is a protocol that enables the creation of television channels from curated materials sourced from Rankings and Constellations. These channels can be freely accessible or require a subscription fee to protect copyrights."}</ReactMarkdown>}
+                        backDesc={<ReactMarkdown>{"***Producers Tools*** This is Kinera's creation center. Users can access their public or private media and access various AI and video editing tools to create new content. They can also choose from different decentralised storage options to save their videos."}</ReactMarkdown>}
                     />
                     <FlipCard
                             id='post4_img'
-                            title="Kine Makers"
-                            imgUrl={asset04}
+                            title="SEE Chain"
+                            imgUrl={asset03}
                             icon={<BsPlusLg className="text-6xl my-[50px]" />}
-                            backDesc={<ReactMarkdown>{"***Kine Makers*** is a crowdfunding platform for audio-visual projects where patrons purchase tokens representing film rights and receive rewards whenever their projects generate revenue. Implementation of this feature will comply with International Securities Laws."}</ReactMarkdown>}
+                            backDesc={<ReactMarkdown>{"***SEE Chain*** is the platform where users and communities can launch subscription-based channels. These channels can be open to all or require an access fee. When a fee is paid, the channel promoter can use copyrighted content from other creators, who receive automated payments in return."}</ReactMarkdown>}
                         />
                 </div>
             </div>

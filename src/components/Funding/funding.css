@@ -54,4 +54,21 @@
     background-color: rgba(172, 150, 183, 0.559); /* Muda a cor de fundo ao passar o mouse */
   }
 
-  
+  @media (max-width: 640px) {
+    .card-funding {
+        margin: 20px 0; /* Consistent margin for top and eliminates side margins */
+        padding: 20px; /* Consistent padding */
+        width: 100%; /* Ensures card stretches to full width of its container */
+        max-width: none; /* Removes max-width constraint */
+    }
+
+    /* If there's a .card-kine-container class being used */
+    .card-funding-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 5%; /* Adjusting for consistent padding without affecting width */
+    }
+}
