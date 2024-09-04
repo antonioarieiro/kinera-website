@@ -50,7 +50,7 @@ const App = () => {
                             <Community />
                             <Kine />
                             <Funding />
-                            <Blog />
+                            {/*<Blog />*/}
                             <div className="relative w-full flex items-center justify-center">
                                 <Newsletter />
                             </div>
