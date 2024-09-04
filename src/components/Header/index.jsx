@@ -35,7 +35,7 @@ const Header = () => {
                 <a href="/#community" className="text-base hover:text-[#6a466a]">Community</a>
                 <a href="/#funding" className="text-base hover:text-[#6a466a]">Funding</a>
                 <a href="/#newsletter" className="text-base hover:text-[#F6a466aF0A78]">Newsletter</a>
-                <a href="https://blog.kinera.network/blog" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#6a466a]">Blog</a>
+                {/* <a href="https://blog.kinera.network/blog" target="_blank" rel="noopener noreferrer" className="text-base hover:text-[#6a466a]">Blog</a> */}
                 <a href="/#social" className="text-base hover:text-[#6a466a]">Social</a>
                 {/* New Button Added */}
                 <a href="https://alpha.kinera.network/" target="_blank" rel="noopener noreferrer" className="ml-4 px-4 py-2 bg-[#351e2d] hover:bg-[#6a466a]/80 transition duration-300 ease-in-out rounded text-white">Launch dAPP</a>
