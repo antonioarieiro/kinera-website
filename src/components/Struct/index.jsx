@@ -24,12 +24,12 @@ const Struct = () => {
                 backgroundImage: `url(${kineraStructure03})`
             }}
         >
-            <h1 className="sm:text-[70px] text-[38px] font-bold text-center text-[#2c0d2b]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
+            <h1 className="sm:text-[70px] text-[38px] font-bold text-center text-[#3c1e11]" data-aos="zoom-in">THE STRUCTURE OF KINERA</h1>
 
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[85%]" data-aos="zoom-in">
                     <div className="card-structure" data-aos="fade-left">
-                    <p className="text-[18px] text-center text-[#2c0d2b]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong> for curation, <strong>Producers Tools</strong> for video creation and <b>SEE</b> for content organisation and distribution.</p>
+                    <p className="text-[18px] text-center text-[#3c1e11]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong> for curation, <strong>Producers Tools</strong> for video creation and <b>SEE</b> for content organisation and distribution.</p>
                     </div>
                 </div>
             </div>
@@ -53,14 +53,14 @@ const Struct = () => {
                     <FlipCard
                         id='post3_img'
                         title="Producers Tools"
-                        imgUrl={asset04}
+                        imgUrl={asset03}
                         icon={<FiMonitor className="text-6xl my-[50px]" />}
                         backDesc={<ReactMarkdown>{"***Producers Tools*** This is Kinera's creation center. Users can access their public or private media and access various AI and video editing tools to create new content. They can also choose from different decentralised storage options to save their videos."}</ReactMarkdown>}
                     />
                     <FlipCard
                             id='post4_img'
                             title="SEE Chain"
-                            imgUrl={asset03}
+                            imgUrl={asset04}
                             icon={<BsPlusLg className="text-6xl my-[50px]" />}
                             backDesc={<ReactMarkdown>{"***SEE Chain*** is the platform where users and communities can launch subscription-based channels. These channels can be open to all or require an access fee. When a fee is paid, the channel promoter can use copyrighted content from other creators, who receive automated payments in return."}</ReactMarkdown>}
                         />
