@@ -25,12 +25,10 @@ const Community = () => {
   return (
     <div
       className="background-overlay3 w-full flex flex-col pt-20 pb-10 bg-center bg-cover bg-no-repeat bg-scroll text-white"
-      style={{
-        backgroundImage: `url(${comuBack})`
-      }}
+      
       id='community'
     >
-      <h1 className="mt-6 sm:text-[70px] text-[38px] font-bold text-center -mb-10 text-[#351e2d]" data-aos="">COMMUNITY</h1>
+      <h1 className="mt-6 sm:text-[70px] text-[38px] font-bold text-center -mb-10 text-[#3c1e11]" data-aos="">COMMUNITY</h1>
 
       <div className="w-full flex md:flex-row flex-col justify-center md:gap-40 gap-10 lg:px-10 px-5 mt-32 pb-20" data-aos="">
         <div className="md:w-3/5 w-full gap-10">

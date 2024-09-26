@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     border-radius: 0.5rem;
-    color: #351e2d;
+    color: #3c1e11;
     cursor: pointer;
     transition: background-color 0.5s;
     padding: 0 20px; /* Adicionando padding */
@@ -34,7 +34,7 @@
   .drop-info-answer {
     width: 100%;
     background-color: rgba(249, 249, 249, 0.67);
-    color: #351e2d;
+    color: #3c1e11;
     font-size: 16px;
     margin-top: 5px;
     padding: 20px; /* Adicionando padding */

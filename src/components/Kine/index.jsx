@@ -12,22 +12,22 @@ const Kine = () => {
                 backgroundImage: `url(${kinexBack})`
             }}
         >
-            <h1 className="-mt-12 sm:text-[70px] text-[38px] font-bold text-center text-[#351e2d] py-10" data-aos="">KINEX</h1>
+            <h1 className="-mt-12 sm:text-[70px] text-[38px] font-bold text-center text-[#3c1e11] py-10" data-aos="">KINEX</h1>
             
             <div className="w-full flex justify-center mt-10 pb-20">
                 <div className="card-funding-container w-[100vk]">
                     <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#351e2d]">
+                        <p className="text-[16px] md:text-left text-justify my-0 text-[#3c1e11]">
                             Kinex, the platform token, was developed using the Substrate language, from which Kusama and Polkadot were built. This way, we gain the power of network interoperability and the ability to outsource task resolution in a shared security environment.
                         </p>
                     </div>
                     <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#351e2d]">
+                        <p className="text-[16px] md:text-left text-justify my-0 text-[#3c1e11]">
                             Kinex has multiple purposes: stake while signalling the best content in ranking lists, curate constellations, support and moderate streaming channels, and propose and vote governance proposals.
                         </p>
                     </div>
                     <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#351e2d]">
+                        <p className="text-[16px] md:text-left text-justify my-0 text-[#3c1e11]">
                             <strong>Kinex - Functions of the token:</strong>
                             <ul className="list-disc list-inside">
                                 <li>Stake while signalling the best content in ranking lists.</li>

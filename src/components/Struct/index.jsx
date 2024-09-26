@@ -8,10 +8,10 @@ import ReactMarkdown from 'react-markdown'
 import FlipCard from '../FlipCard';
 
 import kineraStructure03 from '../../assets/images/kineraStructureVersion2.png';
-import asset01 from '../../assets/images/asset001.png';
-import asset02 from '../../assets/images/asset002.png';
-import asset03 from '../../assets/images/asset003.png';
-import asset04 from '../../assets/images/asset004.png';
+import asset01 from '../../assets/images/kinera1.png';
+import asset02 from '../../assets/images/kinera3.png';
+import asset03 from '../../assets/images/kinera2.png';
+import asset04 from '../../assets/images/kinera4.png';
 
 import './structure.css'
 
