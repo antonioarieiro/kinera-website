@@ -9,7 +9,7 @@ const Kine = () => {
             className="background-overlay4 w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black bg-fixed py-20"
             id="kinex"
             style={{
-                backgroundImage: `url(${kinexBack})`
+                backgroundImage: `url(${kinexBack})`, backgroundSize: '70%'
             }}
         >
             <h1 className="-mt-12 sm:text-[70px] text-[38px] font-bold text-center text-[#3c1e11] py-10" data-aos="">KINEX</h1>
