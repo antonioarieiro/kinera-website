@@ -1,6 +1,6 @@
 import Header from "../Header";
 import './style.css';
-import Banner from '../../assets/images/kinera_logo__.png';
+import Banner from '../../assets/images/kinera_logo_dapp.png';
 
 const Welcome = () => {
     return (
