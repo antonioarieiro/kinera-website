@@ -22,7 +22,17 @@
   }
   .flip-card-back {
     transform: rotateY(180deg);
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Isso vai centralizar o conteúdo verticalmente */
+    align-items: center;     /* Isso vai centralizar o conteúdo horizontalmente */
+    padding: 20px;           /* Ajuste conforme necessário para espaçamento interno */
+    box-sizing: border-box;  /* Garante que o padding seja considerado no tamanho total do elemento */
+}
+
+.flip-card-back .text-center {
+  margin: 0;               /* Remove qualquer margem do texto para não interferir no alinhamento */
+}
 
   #post1_img {
     width:100%;
@@ -73,7 +83,6 @@
 
 @media screen and (max-width: 768px) {
   .flip-card-container {
-    border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
     max-width: 350px;
@@ -87,7 +96,6 @@
     box-sizing: border-box;
     min-height: 100px;
     flex-grow: 1;
-
   }
 }
 
