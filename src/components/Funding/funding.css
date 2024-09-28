@@ -1,21 +1,6 @@
 .background-overlayFunding {
+    background-color: #f8cbe1; /* Define a cor de fundo */
     position: relative;
-}
-
-.background-overlayFunding::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.6);
-    z-index: 1;
-}
-
-.background-overlayFunding > * {
-    position: relative;
-    z-index: 2;
 }
 
 .card-funding-container {
@@ -28,22 +13,23 @@
 }
 
 .card-funding {
-    background-color: #fbe3f0;
+    background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
-    margin: 0 auto; /* This centers the content */
+    margin: 0 auto;
     max-width: 900px;
     width: 1000px;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    align-items: flex-start; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    align-items: flex-start;
     text-align: justify;
     flex-direction: column;
     box-sizing: border-box;
-    min-height: 80px; /* Altura mínima do card */
-    flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
+    min-height: 80px;
+    flex-grow: 1;
+    transition: all 3s ease !important; /* Alterei para "all" */
 }
 
 .card-funding:first-of-type {
@@ -51,24 +37,20 @@
 }
 
 .card-funding:hover {
-    background-color: rgba(172, 150, 183, 0.559); /* Muda a cor de fundo ao passar o mouse */
-  }
+    background-color: #FFCCE5;
+}
 
-  @media (max-width: 640px) {
+@media (max-width: 640px) {
     .card-funding {
-        margin: 20px 0; /* Consistent margin for top and eliminates side margins */
-        padding: 20px; /* Consistent padding */
-        width: 100%; /* Ensures card stretches to full width of its container */
-        max-width: none; /* Removes max-width constraint */
+        margin: 20px 0;
+        padding: 20px;
+        width: 100%;
+        max-width: none;
     }
 
-    /* If there's a .card-kine-container class being used */
     .card-funding-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
         width: 90%;
         margin: 0 auto;
-        padding: 0 5%; /* Adjusting for consistent padding without affecting width */
+        padding: 0 5%;
     }
 }

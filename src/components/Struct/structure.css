@@ -1,21 +1,21 @@
 .card-structure {
-  background-color: #fbe3f0;
+  background-color: #FFCCE5;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-top: 20px;
-  margin: 0 auto; /* This centers the content */
+  margin: 0 auto;
   max-width: 900px;
   width: 1000px;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente o conteúdo */
-  align-items: center; /* Centraliza verticalmente o conteúdo */
+  justify-content: center;
+  align-items: center;
   text-align: justify;
   flex-direction: column;
   box-sizing: border-box;
-  min-height: 80px; /* Altura mínima do card */
-  flex-grow: 1; /* Permite que o card cresça para ocupar o espaço disponível */
-  
+  min-height: 80px;
+  flex-grow: 1;
+  transition: all 3s ease !important; /* Alterei para "all" */
 }
 
 .card:first-of-type {
@@ -23,7 +23,7 @@
 }
 
 .card-structure:hover {
-background-color: rgba(255, 255, 255, 0.234);
+  background-color: rgba(205, 77, 145, 0.0); /* Mudei a cor de fundo de novo para rgba */
 }
 
 .grid-cards-container {
@@ -35,6 +35,7 @@ background-color: rgba(255, 255, 255, 0.234);
   max-width: 1200px;
   margin-bottom: 20px;
 }
+
 
 /* Ajustes para dispositivos móveis */
 @media screen and (max-width: 768px) {

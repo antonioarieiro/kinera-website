@@ -19,7 +19,7 @@
 }
 
 .card-kine {
-    background-color: #fbe3f0;
+    background-color: #FFCCE5;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -42,7 +42,7 @@
 }
 
 .card-kine:hover {
-    background-color: rgba(172, 150, 183, 0.559);
+    background-color: rgba(205, 77, 145, 0.0); /* Mudei a cor de fundo de novo para rgba */
 }
 
 @media (max-width: 640px) {

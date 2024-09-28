@@ -1,4 +1,4 @@
-import backAbout01 from '../../assets/images/fundo033_.png';
+import backAbout01 from '../../assets/images/fundo033__.png';
 import './about.css';
 
 const About = () => {
