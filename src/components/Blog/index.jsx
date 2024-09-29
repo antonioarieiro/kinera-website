@@ -16,7 +16,7 @@ const Blog = () => {
     };
 
     return (
-        <div id='blog' className="pb-10 blog-background background-overlay5 bg-fixed ">
+        <div id='blog' className="pb-10 blog-background background-overlay5 bg-scroll md:bg-fixed ">
             <div className="blog-container">
                 <h1 className="blog-title">READ OUR BLOG</h1>
                 <div className="blog-posts">

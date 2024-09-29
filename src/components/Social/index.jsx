@@ -1,20 +1,14 @@
-import { useState, useEffect } from 'react';
-
 import { BsDiscord, BsYoutube, BsTwitter, BsTelegram } from 'react-icons/bs';
 import { IoMail } from 'react-icons/io5';
-
 import socialBack from "../../assets/images/socialBack2.webp";
 
 const Social = () => {
     return (
         <div
             id='social'
-            className="w-full bg-fixed bg-center py-16"
+            className="w-full bg-scroll md:bg-fixed bg-center bg-no-repeat bg-cover py-16"
             style={{
                 backgroundImage: `url(${socialBack})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
             }}
         >
             <div className="w-full p-10 flex flex-col items-center justify-center gap-20" data-aos="">
