@@ -5,18 +5,25 @@ import './blog.css'; // Import the CSS file
 const Blog = () => {
     const [posts] = useState(blogPosts);
 
-    // Função para manipular o título e quebrar a última palavra
+    // Função para manipular o título e quebrar a última palavra ou ajustar o tamanho
     const formatTitle = (title, id) => {
-        if (id === 3) {
-            const words = title.split(' ');
-            const lastWord = words.pop(); // Remove e guarda a última palavra
-            return (<>{words.join(' ')} <span className="last-word">{lastWord}</span></>);
+        const maxLength = 11; // Defina o número máximo de caracteres para cada linha
+        if (title.length > maxLength) {
+            const firstPart = title.slice(0, maxLength);
+            const secondPart = title.slice(maxLength);
+            return (
+                <>
+                    {firstPart}
+                    <br />
+                    {secondPart}
+                </>
+            );
         }
         return title;
     };
 
     return (
-        <div id='blog' className="pb-10 blog-background background-overlay5 bg-scroll md:bg-fixed ">
+        <div id='blog' className="pb-10 blog-background background-overlay5 bg-scroll md:bg-fixed">
             <div className="blog-container">
                 <h1 className="blog-title">READ OUR BLOG</h1>
                 <div className="blog-posts">
