@@ -18,17 +18,17 @@ const Welcome = () => {
                             <h1 className="kinera-title mt-8" style={{ zIndex: 1, color: "#3c1e11" }}>KINERA</h1>
                             <div className="card-home mt-8" data-aos="">
                             <p className="mt-0 text-base text-justify" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11"  }}>
-                                <span className="glitch">Kinera</span> is a media portal for transformative ideas and social progress, an open and resilient curation ecosystem uniting a diverse community of viewers and nonconformist media creators.
+                                <span className="glitch">Kinera</span> is a media portal for transformative ideas and social progress - an open and resilient curation ecosystem that unites consumers with communities of innovative media creators.
                             </p>
                             </div>
                             <div className="card-home" data-aos="">
                             <p className="text-base text-justify -mt-0" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11" }}>
-                            We aim to stimulate the dialogue in media communities between those groups that are capable of addressing complex challenges and communicating them to vast audiences. Kinera promotes innovative methodologies and practices and it’s committed to continuous improvement and real-world problem-solving.   
+                            We aim to stimulate dialogue among participants and offer a space for collaborative work between media builders capable of addressing complex challenges and communicating them to vast audiences. Kinera promotes innovative methodologies and practices and is committed to continuously improving its tools and problem-solving capabilities.   
                             </p>
                             </div>
                             <div className="card-home" data-aos="">
                             <p className="text-base text-justify -mt-0" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11"  }}>
-                            Kinera has a visionary approach and the concepts of innovation and community at its core. We support a holistic vision of prosperity that serves both man and nature.   
+                            At our core, we embrace a visionary approach prioritising innovation and community engagement. This approach underpins a holistic vision of prosperity, which aims to serve both man and nature.  
                             </p>
                             </div>
                         </div>

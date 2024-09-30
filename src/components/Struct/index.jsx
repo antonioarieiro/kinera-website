@@ -12,6 +12,8 @@ import asset01 from '../../assets/images/kinera1.png';
 import asset02 from '../../assets/images/kinera3.png';
 import asset03 from '../../assets/images/kinera2.png';
 import asset04 from '../../assets/images/kinera4.png';
+import asset09 from '../../assets/images/kinera9.png';
+import asset10 from '../../assets/images/kinera10.png';
 
 import './structure.css'
 
@@ -29,7 +31,7 @@ const Struct = () => {
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[85%]" data-aos="zoom-in">
                     <div className="card-structure" data-aos="fade-left">
-                    <p className="text-[18px] text-center text-[#3c1e11]">Kinera's architecture comprises <strong>Rankings</strong>, <strong>Constellations</strong> for curation, <strong>Producers Tools</strong> for video creation and <b>SEE</b> for content organisation and distribution.</p>
+                    <p className="text-[18px] text-center text-[#3c1e11]">Kinera's architecture consists of several key components: <strong>Rankings</strong> and <strong>Constellations</strong> for content curation; <strong>Producers Tools</strong> for video creation; <strong>Communities</strong> that enable collaborative work and fractionalised ownership; <b>SEE Channels </b> for content distribution; and <b>Kine Makers</b> for crowdfunding content.</p>
                     </div>
                 </div>
             </div>
@@ -41,29 +43,43 @@ const Struct = () => {
                         title="Rankings"
                         imgUrl={asset01}
                         icon={<FaTrophy className="text-6xl my-[50px]" />}
-                        backDesc={<ReactMarkdown>{"***Rankings*** are a combination of a staking mechanism and curated lists. Users can assign Kinex tokens to their preferred videos in a ranking list for a specified period and earn token rewards."}</ReactMarkdown>}
+                        backDesc={<ReactMarkdown>{"***Rankings*** combine a staking mechanism with curated lists. Users stake Kinex tokens on their preferred videos or creators within the ranking lists for a specified period, earning token rewards in return. When users propose new entries, they receive tokens from other users who vote on their proposals."}</ReactMarkdown>}
                     />
                     <FlipCard
                         id='post2_img'
                         title="Constellations"
                         imgUrl={asset02}
                         icon={<AiOutlineStar className="text-6xl my-[30px]" />}
-                        backDesc={<ReactMarkdown>{"***Constellations*** are a second layer for curation.  In this competition arena, users vote for their favourite choices, competing directly with other users or AI. It allows professional curators to showcase their film festivals and different users to show their knowledge and preferences allowing lesser-known gems to shine and harness the power of their narratives in the real world. "}</ReactMarkdown>}
+                        backDesc={<ReactMarkdown>{"***Constellations*** are the second layer of curation inside Kinera. In this competition arena, the community tests its cinematic knowledge and tastes, spotlighting hidden gems and allowing personal convictions to intersect with the collective truth. At the same time, they will be powerful instruments to crowdsource fact-checking, to enable Artificial Intelligence agents to play against themselves or leave half played games for humans to finish. "}</ReactMarkdown>}
                     />
                     <FlipCard
                         id='post3_img'
                         title="Producers Tools"
                         imgUrl={asset03}
                         icon={<FiMonitor className="text-6xl my-[50px]" />}
-                        backDesc={<ReactMarkdown>{"***Producers Tools*** This is Kinera's creation center. Users can access their public or private media and access various AI and video editing tools to create new content. They can also choose from different decentralised storage options to save their videos."}</ReactMarkdown>}
+                        backDesc={<ReactMarkdown>{"***Producers Tools*** is Kinera's creation centre and provides users with free access to AI-powered creation and video editing tools. They can choose from various decentralised storage options or use their equipment to save their videos. These production tools can be used to create private content, collaborate within a community, or work inside a Decentralized Autonomous Organization (DAO)"}</ReactMarkdown>}
                     />
                     <FlipCard
                             id='post4_img'
                             title="SEE Chain"
                             imgUrl={asset04}
                             icon={<BsPlusLg className="text-6xl my-[50px]" />}
-                            backDesc={<ReactMarkdown>{"***SEE Chain*** is the platform where users and communities can launch subscription-based channels. These channels can be open to all or require an access fee. When a fee is paid, the channel promoter can use copyrighted content from other creators, who receive automated payments in return."}</ReactMarkdown>}
-                        />
+                            backDesc={<ReactMarkdown>{"***SEE Chain*** is the platform where users and communities can launch subscription-based channels. These channels can be open to everyone or require an access fee. When a fee is paid, the channel promoter can use copyrighted content from other creators, who receive automated payments in return."}</ReactMarkdown>}
+                    />
+                    <FlipCard
+                        id='post5_img'
+                        title="Communities"
+                        imgUrl={asset10}
+                        icon={<FiMonitor className="text-6xl my-[50px]" />}
+                        backDesc={<ReactMarkdown>{"***Communities*** are organisations where members develop and distribute media content. They can encompass different sorts of groups with common goals, such as informal groups, associations and Decentralized Autonomous Organizations (DAOs). These entities can be public or private and produce content in the form of text, images, audio, video or GPTs."}</ReactMarkdown>}
+                    />
+                    <FlipCard
+                        id='post6_img'
+                        title="Kine Makers"
+                        imgUrl={asset09}
+                        icon={<FiMonitor className="text-6xl my-[50px]" />}
+                        backDesc={<ReactMarkdown>{"***Kine Makers*** is the section on Kinera where creators, producers, and filmmakers can crowdfund financial support from the community for their media projects. This feature allows patrons (donors) to exchange Kinex tokens for tokens that generate revenue each time the supported content earns income."}</ReactMarkdown>}
+                    />
                 </div>
             </div>
         </div>

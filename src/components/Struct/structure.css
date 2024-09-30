@@ -43,3 +43,10 @@
     gap: 0px;
   }
 }
+
+/* Center the last row when there are fewer than 4 cards */
+.grid-cards-container > *:nth-last-child(2),
+.grid-cards-container > *:nth-last-child(1) {
+  grid-column: span 2; /* Make the two last cards span across two columns */
+  justify-self: center; /* Center the items */
+}
