@@ -1,6 +1,6 @@
 import Header from "../Header";
 import './style.css';
-import Banner from '../../assets/images/kinera_logo_dapp.png';
+import Banner from '../../assets/images/kinera_logo_dapp_.png';
 
 const Welcome = () => {
     return (
@@ -15,8 +15,8 @@ const Welcome = () => {
                             <div className="logo-section">
                                 <img src={Banner} alt='BigK02' className="logo-img pulse" />
                             </div>
-                            <h1 className="kinera-title mt-3" style={{ zIndex: 1, color: "#3c1e11" }}>KINERA</h1>
-                            <div className="card-home mt-6" data-aos="">
+                            <h1 className="kinera-title mt-8" style={{ zIndex: 1, color: "#3c1e11" }}>KINERA</h1>
+                            <div className="card-home mt-8" data-aos="">
                             <p className="mt-0 text-base text-justify" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11"  }}>
                                 <span className="glitch">Kinera</span> is a media portal for transformative ideas and social progress, an open and resilient curation ecosystem uniting a diverse community of viewers and nonconformist media creators.
                             </p>

@@ -6,7 +6,6 @@ import { BsPlusLg } from 'react-icons/bs'
 import ReactMarkdown from 'react-markdown'
 
 import FlipCard from '../FlipCard';
-import FlipCard2 from '../FlipCard2';
 
 import kineraStructure03 from '../../assets/images/kineraStructureVersion2.png';
 import asset01 from '../../assets/images/kinera1.png';
@@ -37,7 +36,7 @@ const Struct = () => {
 
             <div className="flex flex-col items-center justify-center mt-20 py-10">
                 <div className="grid-cards-container">
-                    <FlipCard2
+                    <FlipCard
                         id='post1_img'
                         title="Rankings"
                         imgUrl={asset01}

@@ -24,11 +24,11 @@
   }
   
   .drop-info-header.active {
-    background-color: #FFCCE5;
+    background-color: #fbdfed;
   }
   
   .drop-info-header.inactive {
-    background-color: #F8CDECCC;
+    background-color: #fbdfed;
   }
   
   .drop-info-answer {
