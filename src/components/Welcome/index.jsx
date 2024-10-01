@@ -15,19 +15,19 @@ const Welcome = () => {
                             <div className="logo-section">
                                 <img src={Banner} alt='BigK02' className="logo-img pulse" />
                             </div>
-                            <h1 className="kinera-title mt-8" style={{ zIndex: 1, color: "#3c1e11" }}>KINERA</h1>
-                            <div className="card-home mt-8" data-aos="">
-                            <p className="mt-0 text-base text-justify" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11"  }}>
+                            <h1 className="kinera-title mt-12" style={{ zIndex: 1, color: "#3c1e11" }}>KINERA</h1>
+                            <div className="card-home mt-12" data-aos="">
+                            <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
                                 <span className="glitch">Kinera</span> is a media portal for transformative ideas and social progress - an open and resilient curation ecosystem that unites consumers with communities of innovative media creators.
                             </p>
                             </div>
                             <div className="card-home" data-aos="">
-                            <p className="text-base text-justify -mt-0" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11" }}>
+                            <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
                             We aim to stimulate dialogue among participants and offer a space for collaborative work between media builders capable of addressing complex challenges and communicating them to vast audiences. Kinera promotes innovative methodologies and practices and is committed to continuously improving its tools and problem-solving capabilities.   
                             </p>
                             </div>
                             <div className="card-home" data-aos="">
-                            <p className="text-base text-justify -mt-0" style={{ zIndex: 1, fontSize: '16px', color: "#3c1e11"  }}>
+                            <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
                             At our core, we embrace a visionary approach prioritising innovation and community engagement. This approach underpins a holistic vision of prosperity, which aims to serve both man and nature.  
                             </p>
                             </div>

@@ -10,7 +10,6 @@ const Kine = () => {
             id="kinex"
             style={{
                 backgroundImage: `url(${kinexBack})`
-                // Removido backgroundSize: '100%'
             }}
         >
             <h1 className="-mt-12 sm:text-[70px] text-[38px] font-bold text-center text-[#3c1e11] py-10" data-aos="">KINEX</h1>
@@ -18,19 +17,19 @@ const Kine = () => {
             <div className="w-full flex justify-center mt-10 pb-20">
                 <div className="card-funding-container w-[100vk]">
                     <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#3c1e11]">
-                            Kinex, the platform token, was developed using the Substrate language, from which Kusama and Polkadot were built. This way, we gain the power of network interoperability and the ability to outsource task resolution in a shared security environment.
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                            <b style={{ fontWeight: '600' }}>Kinex</b>, the platform token, was developed using the Substrate language, from which Kusama and Polkadot were built. This way, we gain the power of network interoperability and the ability to outsource task resolution in a shared security environment.
                         </p>
                     </div>
                     <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#3c1e11]">
-                            Kinex has multiple purposes: stake while signalling the best content in ranking lists, curate constellations, support and moderate streaming channels, and propose and vote governance proposals.
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                            <b style={{ fontWeight: '600' }}>Kinex</b> has multiple purposes: stake while signalling the best content in ranking lists, curate constellations, support and moderate streaming channels, and propose and vote governance proposals.
                         </p>
                     </div>
                     <div className="card-kine" data-aos="">
-                        <p className="text-[16px] md:text-left text-justify my-0 text-[#3c1e11]">
-                            <strong>Kinex - Functions of the token:</strong>
-                            <ul className="list-disc list-inside">
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                            <strong><b style={{ fontWeight: '600' }}>Kinex - Functions of the token:</b></strong>
+                            <ul className="list-disc list-inside text-justify ">
                                 <li>Stake while signalling the best content in ranking lists.</li>
                                 <li>Create and curate content games to find the best videos in a list of categories.</li>
                                 <li>Vote on the new SEE channels staking.</li>

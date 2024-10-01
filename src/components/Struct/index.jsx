@@ -31,7 +31,14 @@ const Struct = () => {
             <div className="w-full flex justify-center mt-20">
                 <div className="w-[85%]" data-aos="zoom-in">
                     <div className="card-structure" data-aos="fade-left">
-                    <p className="text-[18px] text-center text-[#3c1e11]">Kinera's architecture consists of several key components: <strong>Rankings</strong> and <strong>Constellations</strong> for content curation; <strong>Producers Tools</strong> for video creation; <strong>Communities</strong> that enable collaborative work and fractionalised ownership; <b>SEE Channels </b> for content distribution; and <b>Kine Makers</b> for crowdfunding content.</p>
+                    <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+    Kinera's architecture consists of several key components: 
+    <b style={{ fontWeight: '600' }}> Rankings</b> and <strong> Constellations</strong> for content curation; 
+    <b style={{ fontWeight: '600' }}> Producers Tools</b> for video creation; 
+    <b style={{ fontWeight: '600' }}> Communities</b> that enable collaborative work and fractionalised ownership; 
+    <b style={{ fontWeight: '600' }}> SEE Channels</b> for content distribution; and 
+    <b style={{ fontWeight: '600' }}> Kine Makers</b> for crowdfunding content.
+</p>
                     </div>
                 </div>
             </div>

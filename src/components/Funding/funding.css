@@ -1,56 +1,62 @@
 .background-overlayFunding {
-    background-color: #fdeff4; /* Define a cor de fundo */
+    background-color: #fdeff4; /* Fundo suave */
     position: relative;
+    padding: 0 20px;
 }
 
 .card-funding-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 30px; /* Aumentar o espaçamento entre os cards */
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .card-funding {
     background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-top: 20px;
-    margin: 0 auto;
-    max-width: 900px;
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    border-radius: 15px; /* Bordas mais arredondadas */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* Sombra mais suave e maior */
+    padding: 25px;
     text-align: justify;
-    flex-direction: column;
-    box-sizing: border-box;
-    min-height: 80px;
-    flex-grow: 1;
-    transition: all 3s ease !important; /* Alterei para "all" */
-}
-
-.card-funding:first-of-type {
-    margin-top: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
 }
 
 .card-funding:hover {
-    background-color: #fbdfed;
+    transform: translateY(-10px); /* Efeito de elevação ao hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra mais profunda ao hover */
+    background-color: #FFCCE5;
 }
 
-@media (max-width: 640px) {
-    .card-funding {
-        margin: 20px 0;
-        padding: 20px;
-        width: 100%;
-        max-width: none;
-    }
+.card-funding p {
+    font-size: 18px;
+    line-height: 1.6; /* Melhor espaçamento entre linhas para leitura */
+}
 
-    .card-funding-container {
-        width: 90%;
-        margin: 0 auto;
-        padding: 0 5%;
+h1 {
+    letter-spacing: 1px; /* Mais espaçamento entre letras para modernidade */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c0392b; /* Mudança de cor ao hover */
+}
+
+/* Responsividade aprimorada */
+@media (max-width: 768px) {
+    .card-funding {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 48px; /* Reduz o tamanho do título em telas pequenas */
+    }
+    .card-funding {
+        padding: 15px;
+    }
+    .card-funding p {
+        font-size: 16px; /* Ajuste do tamanho do texto em telas menores */
     }
 }
