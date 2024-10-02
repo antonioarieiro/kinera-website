@@ -170,7 +170,7 @@
 }
 
 .card-home {
-    background-color: #fdeff4;
+    background-color: #ffe2ef;
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
@@ -192,12 +192,22 @@
 }
 
 .card-home:hover {
-    background-color: rgba(205, 77, 145, 0.0); /* Muda a cor de fundo ao passar o mouse */
+    background-color: #ffa8cf; /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-10px); /* Efeito de elevação ao hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra mais profunda ao hover */
   }
 
-  /* Desktop Styles */
+/* Ajustes para telas pequenas (mobile) */
 @media (max-width: 768px) {
     .card-home {
-        max-width: 400px;
+      padding: 15px; /* Reduz o padding para melhor ajuste em telas menores */
+      margin: 10px 0; /* Remove margens laterais e mantém espaçamento superior/inferior */
+      width: 100%; /* Garante que o card ocupe toda a largura disponível no container */
+      max-width: none; /* Remove a limitação de largura máxima para permitir que o card se expanda completamente */
     }
-}
+  
+    .card-home-container {
+      padding: 0 10px; /* Adiciona padding lateral ao container para evitar que o conteúdo encoste nas bordas da tela */
+      margin: 0 auto; /* Centraliza o container no mobile */
+    }
+  }

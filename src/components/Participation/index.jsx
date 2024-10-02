@@ -24,7 +24,7 @@ const Participation = () => {
                 <div className="w-full flex justify-center mt-10">
                     <div className="w-[80%]" data-aos="">
                         <p className="text-[18px] text-center text-[#3c1e11]">
-                            Inside Kinera, you can be a <strong>Creator</strong>, a <strong>Curator</strong>, a <strong>Moderator</strong> or a <strong>User</strong>.
+                            Inside Kinera, you can find the following roles: <strong>Creators</strong>, a <strong>Curators</strong>, a <strong>Moderators</strong> or a <strong>Users</strong>.
                         </p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const Participation = () => {
                         <DropItem
                             question="Curators"
                             answer={<p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                                <b style={{ fontWeight: '600' }}>CURATORS</b> have a central role; they are responsible for discovering and organising our constellations. Their activities include searching the internet and decentralised networks for top-tier content, organising competitions, and voting for the best channels.
+                                <b style={{ fontWeight: '600' }}>CURATORS</b> are responsible for discovering and organising constellations and feed rankings with the best videos. Their activities include searching the internet and decentralised networks for top-tier content, organising competitions, and voting for the best content, tools, and streaming channels. 
                             </p>}
                         />
                         <img src={curators01} alt="curators01" className="w-[50%] md:w-[230px]" />
@@ -43,7 +43,7 @@ const Participation = () => {
                         <DropItem
                             question="Creators"
                             answer={<p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                                <b style={{ fontWeight: '600' }}>CREATORS</b> are members who craft distinctive and captivating content from our curated lists or create their videos with the <u>Producer's tools</u> to launch streaming channels. These channels can also host recorded interviews and live events, providing a full viewing experience with a diverse range of content that caters to different viewers' interests and preferences.
+                                <b style={{ fontWeight: '600' }}>CREATORS</b> is a two-fold term. It is used by the members who craft captivating content from our curated lists to launch streaming channels and to refer to the individual or entity that produces and shares original material - such as text, images, audio, or video - using our tools. In this case, they can develop engaging, informative, or entertaining content to reach and interact with their audience. Their roles can include bloggers, vloggers, influencers, podcasters, journalists, artists, and educators who leverage media tools to produce and share their creations.
                             </p>}
                         />
                         <img src={creators01} alt="creators01" className="w-[50%] md:w-[230px]" />
@@ -52,7 +52,7 @@ const Participation = () => {
                         <DropItem
                             question="Moderators"
                             answer={<p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                                <b style={{ fontWeight: '600' }}>MODERATORS</b> are the volunteers who maintain the platform's high quality and safety standards. They report and resolve content disputes and ensure that all users follow guidelines. You can set your moderation flag on if your reputation is in the top 80%. If so, report content, use your tokens to vote the decisions, and win tokens back from voting according to the rules. Kinex token rewards the individual's expertise and commitment to carry out the role with knowledge and depth.
+                                <b style={{ fontWeight: '600' }}>MODERATORS</b> are volunteers who maintain the platform's high quality and safety standards. They report and resolve content disputes. Users can turn on their moderation flag if their reputation is in the top 80%. The Kinex token is used to vote on moderation decisions, and participants win tokens back from voting according to the rules. Kinex tokens reward the individual's expertise, commitment, and depth of knowledge that the function carried out in their role.
                             </p>}
                         />
                         <img src={moderators01} alt="moderators01" className="w-[50%] md:w-[230px]" />
@@ -61,7 +61,7 @@ const Participation = () => {
                         <DropItem
                             question="Users"
                             answer={<p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                                <b style={{ fontWeight: '600' }}>USERS</b> shape the culture and direction of the network. At any time they can change roles and become creative, taking part, creating new communities, or being active members of the governance. Users have the power to influence and drive change, to shape the platform into something that reflects their values and interests. The more active and engaged the users are, the more vibrant and successful Kinera becomes.
+                                <b style={{ fontWeight: '600' }}>USERS</b> shape the culture and direction of the network. They can change roles and become creative at any time, gather the best information, create new communities, or be active members of the governance. Users have the power to influence and drive the platform into something that reflects their values and interests. The more active and engaged they are, the more vibrant and successful Kinera becomes.
                             </p>}
                         />
                         <img src={users01} alt="users01" className="w-[50%] md:w-[230px]" />

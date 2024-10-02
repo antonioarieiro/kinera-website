@@ -52,12 +52,22 @@
 }
 
 .card-about:hover {
-    background-color: rgba(205, 77, 145, 0.0); /* Muda a cor de fundo ao passar o mouse */
+    background-color: #ffa8cf; /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-10px); /* Efeito de elevação ao hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra mais profunda ao hover */
   }
 
-  /* Desktop Styles */
+/* Ajustes para telas pequenas */
 @media (max-width: 768px) {
     .card-about {
-        max-width: 400px;
+      padding: 15px; /* Ajusta o padding para telas menores */
+      margin: 10px 0; /* Remove as margens laterais e mantém margem superior/inferior */
+      width: 100%; /* Garante que o card ocupe toda a largura do container */
+      max-width: none; /* Remove a limitação de largura máxima para que o card ocupe 100% */
     }
-}
+  
+    .card-about-container {
+      padding: 0 10px; /* Adiciona um pequeno padding nas laterais do container para evitar que o conteúdo encoste nas bordas */
+      margin: 0 auto; /* Centraliza o container no mobile */
+    }
+  }

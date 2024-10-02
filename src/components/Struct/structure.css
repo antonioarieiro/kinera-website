@@ -1,5 +1,5 @@
 .card-structure {
-  background-color: #fdeff4;
+  background-color: #fff3f9;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -23,9 +23,12 @@
 }
 
 .card-structure:hover {
-  background-color: rgba(205, 77, 145, 0.0); /* Mudei a cor de fundo de novo para rgba */
+  background-color: #ffa8cf; /* Mudei a cor de fundo de novo para rgba */
+  transform: translateY(-10px); /* Efeito de elevação ao hover */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra mais profunda ao hover */
 }
 
+/* Definindo comportamento padrão para a grid */
 .grid-cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -36,17 +39,59 @@
   margin-bottom: 20px;
 }
 
-
-/* Ajustes para dispositivos móveis */
-@media screen and (max-width: 768px) {
-  .grid-cards-container {
-    gap: 0px;
+/* Comportamento específico para desktop (telas maiores) */
+@media screen and (min-width: 1024px) {
+  /* Center the last row when there are fewer than 4 cards */
+  .grid-cards-container > *:nth-last-child(2),
+  .grid-cards-container > *:nth-last-child(1) {
+    grid-column: span 2; /* Faz os dois últimos cards ocuparem duas colunas */
+    justify-self: center; /* Centraliza os itens */
   }
 }
 
-/* Center the last row when there are fewer than 4 cards */
-.grid-cards-container > *:nth-last-child(2),
-.grid-cards-container > *:nth-last-child(1) {
-  grid-column: span 2; /* Make the two last cards span across two columns */
-  justify-self: center; /* Center the items */
+/* Comportamento específico para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .grid-cards-container {
+    grid-template-columns: 1fr; /* Coloca todos os cards em uma coluna no mobile */
+    gap: 20px; /* Ajusta o espaçamento entre os cards no mobile */
+  }
+
+  /* Remove o comportamento dos últimos dois cards para dispositivos móveis */
+  .grid-cards-container > *:nth-last-child(2),
+  .grid-cards-container > *:nth-last-child(1) {
+    grid-column: span 1; /* Garante que ocupem uma única coluna no mobile */
+    justify-self: stretch; /* Ajusta o alinhamento para ocupar toda a largura */
+  }
 }
+
+/* Para telas menores que 768px (mobile) */
+@media screen and (max-width: 768px) {
+  .flip-card-container h1 {
+    font-size: 18px; /* Reduz o tamanho da fonte */
+  }
+
+  .flip-card-container img {
+    width: 80%; /* Aumenta o tamanho da imagem */
+  }
+}
+
+/* Ajustes para dispositivos móveis (abaixo de 768px) */
+@media screen and (max-width: 768px) {
+  .card-structure {
+    padding: 15px; /* Ajusta o padding para que o conteúdo não fique cortado */
+    margin: 0 0px; /* Adiciona uma margin mínima para que o conteúdo não encoste nas bordas */
+    max-width: 100%; /* Define o max-width para 100% apenas no mobile */
+    width: 100%; /* Garante que a largura seja 100% no mobile */
+  }
+
+  h1 {
+    font-size: 24px; /* Diminui o tamanho da fonte no mobile */
+    padding: 0 10px; /* Adiciona padding lateral no mobile */
+  }
+
+  /* Ajustes no texto dentro do .text-center */
+  .text-center {
+    padding: 0 10px; /* Garante que o texto não fique cortado no mobile */
+  }
+}
+

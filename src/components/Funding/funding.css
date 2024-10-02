@@ -1,5 +1,5 @@
 .background-overlayFunding {
-    background-color: #fdeff4; /* Fundo suave */
+    background-color: #ffe2ef; /* Fundo suave */
     position: relative;
     padding: 0 20px;
 }
@@ -37,10 +37,7 @@ h1 {
     letter-spacing: 1px; /* Mais espaçamento entre letras para modernidade */
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #c0392b; /* Mudança de cor ao hover */
-}
+
 
 /* Responsividade aprimorada */
 @media (max-width: 768px) {

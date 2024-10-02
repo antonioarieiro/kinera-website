@@ -10,17 +10,37 @@ const Funding = () => {
             
             <div className="w-full flex justify-center mt-10">
                 <div className="card-funding-container">
-                    <div className="card-funding" data-aos="fade-up" data-aos-delay="100">
+                    <div className="card-funding" >
                         <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            Kinera has been financially supported by the dedicated individuals working on the project. Currently, we are actively seeking opportunities to showcase our project to potential investors by applying to relevant events and reaching out to them directly.
+                        <b style={{ fontWeight: '600' }}>Kinera’s </b> framework for digital communities thriving on positive interactions derives from the concept of kinship, where user engagement is rooted in human respect and accountability. In our co-designed environments, we want to nurture meaningful interactions among humans, animals, plants, their stories, and artificial intelligence.
                         </p>
                     </div>
-                    <div className="card-funding" data-aos="fade-up" data-aos-delay="200">
+                    <div className="card-funding" >
                         <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            Our team is focused on developing and releasing a product that showcases our most innovative features, while simultaneously building a community of interested users. We are also planning to launch an Initial Coin Offering (ICO) for the Kinex token by the end of the year or first quarter of 2025.
+                        To achieve this, we are committed to continuously enhancing problem-solving capabilities and promoting organic processes that connect users with tools and features tailored to their engagement and needs.
                         </p>
                     </div>
-                    <div className="card-funding" data-aos="fade-up" data-aos-delay="300">
+                    <div className="card-funding" >
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                        As a team, we prioritised developing a product that radiates innovation over securing financing. To date, Kinera has been financially supported by the passionate individuals working on the project.
+                        </p>
+                    </div>
+                    <div className="card-funding">
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                        The bridges between AI, blockchain and the media are settled. A group of engaged users is taking its first steps to push the limits of what we can do together when leaving the outdated legacy systems behind.
+                        </p>
+                    </div>
+                    <div className="card-funding" >
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                        With AI, blockchain, and media interconnected, a group of engaged users begins to push the boundaries beyond legacy systems. By participating in relevant events, It's time to present the project to potential investors or contact them directly. 
+                        </p>
+                    </div>
+                    <div className="card-funding" >
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                        Our plans include an initial coin offering (ICO) for the Kinex token. It can happen in the first quarter of 2025, before or after the mainnet release. 
+                        </p>
+                    </div>
+                    <div className="card-funding" >
                         <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
                         <a href="/#newsletter" className="text-base hover:text-[#6a466a] font-semibold underline">Subscribe to our Newsletter</a> for information about the project and future funding rounds.
                         </p>

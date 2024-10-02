@@ -18,17 +18,17 @@ const Welcome = () => {
                             <h1 className="kinera-title mt-12" style={{ zIndex: 1, color: "#3c1e11" }}>KINERA</h1>
                             <div className="card-home mt-12" data-aos="">
                             <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                                <span className="glitch">Kinera</span> is a media portal for transformative ideas and social progress - an open and resilient curation ecosystem that unites consumers with communities of innovative media creators.
+                                <span className="glitch">Kinera</span> is a new kind of social animal. We aim to redefine social platforms as media spaces and build new forms of sustainable economies by leveraging the cooperative potential of our members. 
                             </p>
                             </div>
                             <div className="card-home" data-aos="">
                             <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            We aim to stimulate dialogue among participants and offer a space for collaborative work between media builders capable of addressing complex challenges and communicating them to vast audiences. Kinera promotes innovative methodologies and practices and is committed to continuously improving its tools and problem-solving capabilities.   
+                            In our co-created decentralised environments, users can rank, create, and distribute media content as well as manage copyrights, archiving, and storage. Through technology-enforced business models and the formation of collectives and DAOs, we democratise access to cutting-edge media tools for content creation.
                             </p>
                             </div>
                             <div className="card-home" data-aos="">
                             <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            At our core, we embrace a visionary approach prioritising innovation and community engagement. This approach underpins a holistic vision of prosperity, which aims to serve both man and nature.  
+                            Kinera's tokenomics encourages active participation in the decision-making processes that govern our network. We embrace a visionary approach that prioritises innovation and community engagement, underpinning a holistic vision of prosperity aimed at serving both humans and nature.
                             </p>
                             </div>
                         </div>
