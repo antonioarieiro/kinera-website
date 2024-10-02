@@ -19,7 +19,7 @@
 }
 
 .card-kine {
-    background-color: #fdeff4;
+    background-color: #ffe2ef;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -42,7 +42,9 @@
 }
 
 .card-kine:hover {
-    background-color: rgba(205, 77, 145, 0.0); /* Mudei a cor de fundo de novo para rgba */
+    background-color: #ffa8cf; /* Mudei a cor de fundo de novo para rgba */
+    transform: translateY(-10px); /* Efeito de elevação ao hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra mais profunda ao hover */
 }
 
 @media (max-width: 640px) {
@@ -70,3 +72,32 @@
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .background-overlay4 {
+      background-size: contain; /* Faz a imagem de fundo se ajustar ao tamanho da tela no mobile */
+      background-position: center; /* Garante que a imagem esteja centralizada */
+      background-attachment: scroll; /* Remove o efeito de fixação no mobile */
+      background-size: 300%;
+    }
+  }
+
+  /* Ajustes para os .card-kine em dispositivos móveis */
+@media (max-width: 768px) {
+    .card-kine {
+      padding: 15px; /* Reduz o padding dos cards no mobile */
+      margin: 10px 0; /* Elimina margens laterais e ajusta a margem superior/inferior */
+      width: 100%; /* Garante que o card ocupe 100% da largura disponível */
+      max-width: none; /* Remove a restrição de largura máxima no mobile */
+    }
+  
+    .card-funding-container {
+      padding: 0 10px; /* Adiciona padding lateral para evitar que os cards encostem nas bordas da tela */
+    }
+  
+    /* Para o chart */
+    .chart-image {
+      width: 100%; /* Garante que a imagem do gráfico ocupe toda a largura no mobile */
+      height: auto; /* Mantém a proporção da imagem */
+    }
+  }

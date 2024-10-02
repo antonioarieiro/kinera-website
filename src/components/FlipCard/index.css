@@ -1,7 +1,9 @@
-.flip-card-container {
-    perspective: 1000px;
-    
-  }
+.grid-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 20px; 
+    justify-items: center; /* Centraliza os itens */
+}
   .flip-card {
     position: auto;
     width: 100%;
@@ -108,7 +110,7 @@
     padding: 20px;
     margin: 0 auto;
     max-width: 350px;
-    max-height: 350px;
+    max-height: 450px;
     width: auto;
     display: flex;
     justify-content: center;
@@ -134,7 +136,7 @@
   }
 
   .flip-card-container p {
-      font-size: 12px; 
+      font-size: 15px; 
       margin-top: 8px; 
       margin-bottom: 15px; 
   }

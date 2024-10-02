@@ -17,19 +17,19 @@ const About = () => {
                 <div className="w-full flex justify-center mt-10 pb-20">
                       <div className="card-about-container w-[100vk]">
                         <div className="card-about" data-aos="">
-                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed"><span className="glitch">Kinera</span> is a socio-economic decentralised autonomous organisation <span className="glitch">(📈DAO)</span>. The relationship between creators, curators, moderators, and viewers is central and they are connected by active participation in the ecosystem which includes a set of predictable token rewards. </p>
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed"><span className="glitch">Kinera</span> is a scalable network of media communities, an entry point to a portal for transformative ideas and social progress. We provide an open and resilient curation ecosystem that unites consumers with communities of innovative media creators. </p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">We aim to combine video creation tools, collective wisdom, and user token incentives to create media narratives that reflect the complexity of human interaction.</p>
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">We aim to stimulate dialogue among participants and offer a space for collaborative work between content creators capable of addressing complex challenges and communicating them to vast audiences. </p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">Through ranking and curation processes Kinera builds public lists with relevant content. Groups and individuals can remix, organise and distribute content for free or through different subscription models. </p>
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed"><span className="glitch">Kinera </span> aims to give users tools to dispute the dominant narratives and challenge the existing institutions and their interpretation of the world. With these tools, we can determine what is true and false, what is beautiful and what is sublime, and what practices help them grow as social beings and empower their collectives. </p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed"> At <span className="glitch">Kinera's </span> moderation is made by the community and reinforced by the platform design. Here an organic process allows users to access different features and functionalities according to their level of engagement.</p>
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed"> Our services have no fees, do not aim for profit and are free from advertising. <span className="glitch">Kinera</span> doesn't employ algorithms to manipulate your experience. We are not in a battle for human attention.</p>
                         </div>
                         <div className="card-about" data-aos="">
-                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">Our services have no fees, do not aim for profit and are free from advertising. Kinera doesn't employ algorithms to manipulate your experience. We are not in a battle for human attention.</p>
+                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">We want to contribute to ending the illusion that civil societies are powerless. In our community, we co-create shared futures and promote a safe environment where voices and visions for the future can arise.</p>
                         </div>
                     </div>
                 </div>

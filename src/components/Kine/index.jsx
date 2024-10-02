@@ -6,7 +6,7 @@ import './kine.css';
 const Kine = () => {
     return (
         <div
-            className="background-overlay4 w-full min-h-[60vh] bg-center bg-cover bg-no-repeat text-black bg-scroll md:bg-fixed py-20"
+            className="background-overlay4 w-full min-h-[60vh] bg-center bg-no-repeat text-black bg-scroll md:bg-fixed py-20"
             id="kinex"
             style={{
                 backgroundImage: `url(${kinexBack})`
@@ -18,25 +18,27 @@ const Kine = () => {
                 <div className="card-funding-container w-[100vk]">
                     <div className="card-kine" data-aos="">
                         <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            <b style={{ fontWeight: '600' }}>Kinex</b>, the platform token, was developed using the Substrate language, from which Kusama and Polkadot were built. This way, we gain the power of network interoperability and the ability to outsource task resolution in a shared security environment.
+                            The <b style={{ fontWeight: '600' }}>Kinex token </b> and <b style={{ fontWeight: '600' }}> curation markets </b> create a gamified environment for classifying information at scale, with practical implications for our social lives. This mechanism highlights the value of trusted information. As technology advances, the demand for reliable information continues to grow.
                         </p>
                     </div>
                     <div className="card-kine" data-aos="">
                         <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            <b style={{ fontWeight: '600' }}>Kinex</b> has multiple purposes: stake while signalling the best content in ranking lists, curate constellations, support and moderate streaming channels, and propose and vote governance proposals.
+                            <b style={{ fontWeight: '600' }}>Kinex</b> is the driving force behind the Kinera ecosystem. It was developed using the Substrate framework - the foundation that powers Kusama and Polkadot. This approach provides Kinex with robust network interoperability, which enables outsourced task resolution in a shared security environment
                         </p>
                     </div>
                     <div className="card-kine" data-aos="">
-                        <p className="text-center text-[18px] text-[#3c1e11] font-light leading-relaxed">
-                            <strong><b style={{ fontWeight: '600' }}>Kinex - Functions of the token:</b></strong>
+                        <p className="text-justify text-[18px] text-[#3c1e11] font-light leading-relaxed">
+                            <strong><b style={{ fontWeight: '600' }}>In our platform has multiple purposes, such as:</b></strong>
                             <ul className="list-disc list-inside text-justify ">
-                                <li>Stake while signalling the best content in ranking lists.</li>
-                                <li>Create and curate content games to find the best videos in a list of categories.</li>
-                                <li>Vote on the new SEE channels staking.</li>
-                                <li>Propose and vote on governance proposals.</li>
-                                <li>Be used as a collateral deposit within the moderation system.</li>
-                                <li>Be a security deposit to ensure published content adheres to community norms and guidelines.</li>
-                                <li>Validate the transactions in the network.</li>
+                                <li>Create and enter in a new Community;</li>
+                                <li>Propose and curate Rankings;</li>
+                                <li>Create and curate Constellations.;</li>
+                                <li>Propose and curate SEE Streaming channels;</li>
+                                <li>Be allocated as collateral deposit within the moderation system;</li>
+                                <li>Be allocated as a security deposit to prevent Spam;</li>
+                                <li>To vote for new media productions in Kine Makers;</li>
+                                <li>To Govern the Kinera Network;</li>
+                                <li>To Govern the Kinera Network.</li>
                             </ul>
                         </p>
                     </div>
